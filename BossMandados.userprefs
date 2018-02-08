@@ -1,0 +1,17 @@
+﻿<Properties StartupConfiguration="{C0F9050C-5547-4715-A15B-4A92151C1265}|Default">
+  <MonoDevelop.Ide.Workbench>
+    <Files>
+      <File FileName="BossMandados/BossMandadosPage.xaml" Line="5" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.BossMandados.Droid PreferredExecutionTarget="Android.Android_Accelerated_x86" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.BossMandados.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.FCF36459-FD75-4DD2-BE54-0A57C57083C2">
+    <MonoDevelop.MacDev.AppleDevelopmentTeam />
+  </MonoDevelop.Ide.ItemProperties.BossMandados.iOS>
+  <MultiItemStartupConfigurations />
+</Properties>
