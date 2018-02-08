@@ -32,3 +32,17 @@
 /Users/ricardo_espinosa/Projects/bossmandados_clientes_app/BossMandados/obj/Debug/BossMandados.BossMandadosPage.xaml.g.cs
 /Users/ricardo_espinosa/Projects/bossmandados_clientes_app/BossMandados/obj/Debug/BossMandados.dll
 /Users/ricardo_espinosa/Projects/bossmandados_clientes_app/BossMandados/obj/Debug/BossMandados.pdb
+C:\bossmandados_clientes_app\BossMandados\bin\Debug\BossMandados.dll
+C:\bossmandados_clientes_app\BossMandados\bin\Debug\BossMandados.pdb
+C:\bossmandados_clientes_app\BossMandados\bin\Debug\Xamarin.Forms.Core.dll
+C:\bossmandados_clientes_app\BossMandados\bin\Debug\Xamarin.Forms.Platform.dll
+C:\bossmandados_clientes_app\BossMandados\bin\Debug\Xamarin.Forms.Xaml.dll
+C:\bossmandados_clientes_app\BossMandados\bin\Debug\Xamarin.Forms.Core.pdb
+C:\bossmandados_clientes_app\BossMandados\bin\Debug\Xamarin.Forms.Core.xml
+C:\bossmandados_clientes_app\BossMandados\bin\Debug\Xamarin.Forms.Xaml.pdb
+C:\bossmandados_clientes_app\BossMandados\bin\Debug\Xamarin.Forms.Xaml.xml
+C:\bossmandados_clientes_app\BossMandados\obj\Debug\BossMandados.csproj.CoreCompileInputs.cache
+C:\bossmandados_clientes_app\BossMandados\obj\Debug\BossMandados.App.xaml.g.cs
+C:\bossmandados_clientes_app\BossMandados\obj\Debug\BossMandados.BossMandadosPage.xaml.g.cs
+C:\bossmandados_clientes_app\BossMandados\obj\Debug\BossMandados.dll
+C:\bossmandados_clientes_app\BossMandados\obj\Debug\BossMandados.pdb

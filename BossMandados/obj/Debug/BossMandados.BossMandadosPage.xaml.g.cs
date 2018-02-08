@@ -11,7 +11,7 @@
 namespace BossMandados {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("/Users/ricardo_espinosa/Projects/BossMandados/BossMandados/BossMandadosPage.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\bossmandados_clientes_app\\BossMandados\\BossMandadosPage.xaml")]
     public partial class BossMandadosPage : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
