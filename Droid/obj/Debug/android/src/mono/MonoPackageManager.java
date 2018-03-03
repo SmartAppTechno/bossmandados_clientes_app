@@ -109,6 +109,7 @@ class MonoPackageManager_Resources {
 		"BossMandados.Droid.dll",
 		"Bolts.AppLinks.dll",
 		"Bolts.Tasks.dll",
+		"BossMandados.Common.dll",
 		"BossMandados.dll",
 		"Google.ZXing.Core.dll",
 		"Xamarin.Android.Support.Animated.Vector.Drawable.dll",

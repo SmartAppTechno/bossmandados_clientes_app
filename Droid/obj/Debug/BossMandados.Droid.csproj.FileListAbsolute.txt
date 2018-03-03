@@ -95,12 +95,10 @@ C:\Projects\BossMandados\bossmandados_clientes_app\Droid\bin\Debug\BossMandados.
 C:\Projects\BossMandados\bossmandados_clientes_app\Droid\bin\Debug\BossMandados.Droid.dll.mdb
 C:\Projects\BossMandados\bossmandados_clientes_app\Droid\obj\Debug\android\assets\BossMandados.dll.mdb
 C:\Projects\BossMandados\bossmandados_clientes_app\Droid\obj\Debug\android\assets\BossMandados.Droid.dll.mdb
-C:\Projects\BossMandados\bossmandados_clientes_app\Droid\obj\Debug\XbdMerge\proguard\dc663e480.txt
-C:\Projects\BossMandados\bossmandados_clientes_app\Droid\obj\Debug\XbdMerge\dc663e48.proguard.stamp
-C:\Projects\BossMandados\bossmandados_clientes_app\Droid\obj\Debug\XbdMerge\0757626b.proguard.stamp
-C:\Projects\BossMandados\bossmandados_clientes_app\Droid\obj\Debug\XbdMerge\2f4d086a.proguard.stamp
-C:\Projects\BossMandados\bossmandados_clientes_app\Droid\obj\Debug\XbdMerge\32fc87cc.proguard.stamp
+C:\Projects\BossMandados\bossmandados_clientes_app\Droid\bin\Debug\BossMandados.Common.dll
+C:\Projects\BossMandados\bossmandados_clientes_app\Droid\bin\Debug\BossMandados.Common.pdb
 C:\Projects\BossMandados\bossmandados_clientes_app\Droid\bin\Debug\BossMandados.Droid.dll
+C:\Projects\BossMandados\bossmandados_clientes_app\BossMandados\bin\Debug\BossMandados.dll
 bin\Debug\BossMandados.dll.mdb
 bin\Debug\Mono.Android.pdb
 bin\Debug\mscorlib.pdb
@@ -114,6 +112,7 @@ bin\Debug\Mono.Security.pdb
 bin\Debug\System.ComponentModel.Composition.pdb
 obj\Debug\linksrc\BossMandados.Droid.dll.mdb
 obj\Debug\linksrc\BossMandados.dll.mdb
+obj\Debug\linksrc\BossMandados.Common.pdb
 obj\Debug\linksrc\Mono.Android.pdb
 obj\Debug\linksrc\mscorlib.pdb
 obj\Debug\linksrc\System.Core.pdb

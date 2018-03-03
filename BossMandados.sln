@@ -8,6 +8,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BossMandados.Droid", "Droid
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BossMandados.iOS", "iOS\BossMandados.iOS.csproj", "{3728509F-C509-4B42-9E9D-72FB54A4CA8B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BossMandados.Common", "BossMandados.Common\BossMandados.Common.csproj", "{38147148-ECD9-4BA0-A196-3EAA8921D7FD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -55,6 +57,18 @@ Global
 		{3728509F-C509-4B42-9E9D-72FB54A4CA8B}.Release|iPhone.Build.0 = Release|iPhone
 		{3728509F-C509-4B42-9E9D-72FB54A4CA8B}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
 		{3728509F-C509-4B42-9E9D-72FB54A4CA8B}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+		{38147148-ECD9-4BA0-A196-3EAA8921D7FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38147148-ECD9-4BA0-A196-3EAA8921D7FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38147148-ECD9-4BA0-A196-3EAA8921D7FD}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{38147148-ECD9-4BA0-A196-3EAA8921D7FD}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{38147148-ECD9-4BA0-A196-3EAA8921D7FD}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{38147148-ECD9-4BA0-A196-3EAA8921D7FD}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{38147148-ECD9-4BA0-A196-3EAA8921D7FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38147148-ECD9-4BA0-A196-3EAA8921D7FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38147148-ECD9-4BA0-A196-3EAA8921D7FD}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{38147148-ECD9-4BA0-A196-3EAA8921D7FD}.Release|iPhone.Build.0 = Release|Any CPU
+		{38147148-ECD9-4BA0-A196-3EAA8921D7FD}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{38147148-ECD9-4BA0-A196-3EAA8921D7FD}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

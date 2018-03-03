@@ -1,6 +1,7 @@
 C:\Projects\BossMandados\bossmandados_clientes_app\Droid\obj\Debug\android\assets\BossMandados.Droid.dll
 C:\Projects\BossMandados\bossmandados_clientes_app\Droid\obj\Debug\android\assets\Bolts.AppLinks.dll
 C:\Projects\BossMandados\bossmandados_clientes_app\Droid\obj\Debug\android\assets\Bolts.Tasks.dll
+C:\Projects\BossMandados\bossmandados_clientes_app\Droid\obj\Debug\android\assets\BossMandados.Common.dll
 C:\Projects\BossMandados\bossmandados_clientes_app\Droid\obj\Debug\android\assets\BossMandados.dll
 C:\Projects\BossMandados\bossmandados_clientes_app\Droid\obj\Debug\android\assets\Google.ZXing.Core.dll
 C:\Projects\BossMandados\bossmandados_clientes_app\Droid\obj\Debug\android\assets\Java.Interop.dll

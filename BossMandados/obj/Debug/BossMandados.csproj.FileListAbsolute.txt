@@ -8,3 +8,6 @@ C:\Projects\BossMandados\bossmandados_clientes_app\BossMandados\bin\Debug\BossMa
 C:\Projects\BossMandados\bossmandados_clientes_app\BossMandados\obj\Debug\BossMandados.csproj.CoreCompileInputs.cache
 C:\Projects\BossMandados\bossmandados_clientes_app\BossMandados\obj\Debug\BossMandados.dll
 C:\Projects\BossMandados\bossmandados_clientes_app\BossMandados\obj\Debug\BossMandados.pdb
+C:\Projects\BossMandados\bossmandados_clientes_app\BossMandados\obj\Debug\BossMandados.csprojResolveAssemblyReference.cache
+C:\Projects\BossMandados\bossmandados_clientes_app\BossMandados\bin\Debug\BossMandados.Common.dll
+C:\Projects\BossMandados\bossmandados_clientes_app\BossMandados\bin\Debug\BossMandados.Common.pdb
