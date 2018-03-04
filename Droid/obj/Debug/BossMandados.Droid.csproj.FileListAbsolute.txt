@@ -47,7 +47,3 @@
 /Users/ricardo_espinosa/Documents/BossMandados/Droid/obj/Debug/res/mipmap-xxxhdpi/icon.png
 /Users/ricardo_espinosa/Documents/BossMandados/Droid/obj/Debug/R.cs.flag
 /Users/ricardo_espinosa/Documents/BossMandados/Droid/obj/Debug/uploadflags.txt
-bin/Debug/Mono.Android.pdb
-obj/Debug/linksrc/BossMandados.Droid.pdb
-obj/Debug/linksrc/BossMandados.pdb
-obj/Debug/linksrc/Mono.Android.pdb

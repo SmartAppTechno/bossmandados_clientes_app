@@ -32,7 +32,7 @@ namespace BossMandados.Droid
             mFBCallManager = CallbackManagerFactory.Create();  
             BtnFBLogin.RegisterCallback(mFBCallManager, this);
             //Google
-            Googlebutton = findViewById(R.id.googlelogin).setOnClickListener(this);
+            //Googlebutton = findViewById(R.id.googlelogin).setOnClickListener(this);
         } 
 
 

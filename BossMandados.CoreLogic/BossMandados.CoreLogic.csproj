@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard1.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BossMandados.Common\BossMandados.Common.csproj" />
+    <ProjectReference Include="..\BossMandados.DataAccess\BossMandados.DataAccess.csproj" />
+  </ItemGroup>
+
+</Project>
