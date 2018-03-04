@@ -1,9 +1,9 @@
 ﻿using System;
 using Newtonsoft.Json;
 
-namespace Common.DBItems
-{
+namespace BossMandados.Common.Model {
     public class Manboss_cliente {
+
         [JsonProperty(PropertyName = "id")]
         public int Id { get; set; }
 
