@@ -497,6 +497,34 @@
         "compile": {
           "ref/netstandard1.0/System.Xml.XDocument.dll": {}
         }
+      },
+      "BossMandados.Common/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v1.1",
+        "dependencies": {
+          "NETStandard.Library": "1.6.1",
+          "Newtonsoft.Json": "11.0.1"
+        },
+        "compile": {
+          "bin/placeholder/BossMandados.Common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BossMandados.Common.dll": {}
+        }
+      },
+      "BossMandados.DataAccess/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v1.1",
+        "dependencies": {
+          "BossMandados.Common": "1.0.0",
+          "NETStandard.Library": "1.6.1"
+        },
+        "compile": {
+          "bin/placeholder/BossMandados.DataAccess.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BossMandados.DataAccess.dll": {}
+        }
       }
     }
   },
@@ -2930,12 +2958,23 @@
         "system.xml.xdocument.4.3.0.nupkg.sha512",
         "system.xml.xdocument.nuspec"
       ]
+    },
+    "BossMandados.Common/1.0.0": {
+      "type": "project",
+      "path": "../BossMandados.Common/BossMandados.Common.csproj",
+      "msbuildProject": "../BossMandados.Common/BossMandados.Common.csproj"
+    },
+    "BossMandados.DataAccess/1.0.0": {
+      "type": "project",
+      "path": "../BossMandados.DataAccess/BossMandados.DataAccess.csproj",
+      "msbuildProject": "../BossMandados.DataAccess/BossMandados.DataAccess.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v1.1": [
-      "NETStandard.Library >= 1.6.1",
-      "Newtonsoft.Json >= 11.0.1"
+      "BossMandados.Common >= 1.0.0",
+      "BossMandados.DataAccess >= 1.0.0",
+      "NETStandard.Library >= 1.6.1"
     ]
   },
   "packageFolders": {
@@ -2948,11 +2987,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Projects\\BossMandados\\bossmandados_clientes_app\\BossMandados.Common\\BossMandados.Common.csproj",
-      "projectName": "BossMandados.Common",
-      "projectPath": "C:\\Projects\\BossMandados\\bossmandados_clientes_app\\BossMandados.Common\\BossMandados.Common.csproj",
+      "projectUniqueName": "C:\\Projects\\BossMandados\\bossmandados_clientes_app\\BossMandados.CoreLogic\\BossMandados.CoreLogic.csproj",
+      "projectName": "BossMandados.CoreLogic",
+      "projectPath": "C:\\Projects\\BossMandados\\bossmandados_clientes_app\\BossMandados.CoreLogic\\BossMandados.CoreLogic.csproj",
       "packagesPath": "C:\\Users\\RodrigoQuirozdeLuna\\.nuget\\packages\\",
-      "outputPath": "C:\\Projects\\BossMandados\\bossmandados_clientes_app\\BossMandados.Common\\obj\\",
+      "outputPath": "C:\\Projects\\BossMandados\\bossmandados_clientes_app\\BossMandados.CoreLogic\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -2970,7 +3009,14 @@
       },
       "frameworks": {
         "netstandard1.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Projects\\BossMandados\\bossmandados_clientes_app\\BossMandados.DataAccess\\BossMandados.DataAccess.csproj": {
+              "projectPath": "C:\\Projects\\BossMandados\\bossmandados_clientes_app\\BossMandados.DataAccess\\BossMandados.DataAccess.csproj"
+            },
+            "C:\\Projects\\BossMandados\\bossmandados_clientes_app\\BossMandados.Common\\BossMandados.Common.csproj": {
+              "projectPath": "C:\\Projects\\BossMandados\\bossmandados_clientes_app\\BossMandados.Common\\BossMandados.Common.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -2986,10 +3032,6 @@
             "target": "Package",
             "version": "[1.6.1, )",
             "autoReferenced": true
-          },
-          "Newtonsoft.Json": {
-            "target": "Package",
-            "version": "[11.0.1, )"
           }
         }
       }

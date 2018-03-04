@@ -36,6 +36,10 @@
       <Project>{38147148-ecd9-4ba0-a196-3eaa8921d7fd}</Project>
       <Name>BossMandados.Common</Name>
     </ProjectReference>
+    <ProjectReference Include="..\BossMandados.CoreLogic\BossMandados.CoreLogic.csproj">
+      <Project>{eca36c3c-df27-4ef5-bbca-8b7a7e7a65bf}</Project>
+      <Name>BossMandados.CoreLogic</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
 </Project>

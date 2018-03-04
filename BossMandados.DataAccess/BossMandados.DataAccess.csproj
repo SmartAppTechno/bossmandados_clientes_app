@@ -2,11 +2,10 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard1.1</TargetFramework>
-    
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Newtonsoft.Json" Version="11.0.1" />
+    <ProjectReference Include="..\BossMandados.Common\BossMandados.Common.csproj" />
   </ItemGroup>
 
 </Project>

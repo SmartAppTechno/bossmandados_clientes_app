@@ -87,6 +87,10 @@
       <Project>{38147148-ecd9-4ba0-a196-3eaa8921d7fd}</Project>
       <Name>BossMandados.Common</Name>
     </ProjectReference>
+    <ProjectReference Include="..\BossMandados.CoreLogic\BossMandados.CoreLogic.csproj">
+      <Project>{eca36c3c-df27-4ef5-bbca-8b7a7e7a65bf}</Project>
+      <Name>BossMandados.CoreLogic</Name>
+    </ProjectReference>
     <ProjectReference Include="..\BossMandados\BossMandados.csproj">
       <Project>{0A10562C-CEF5-4C1E-8C18-FFF68425FE12}</Project>
       <Name>BossMandados</Name>
