@@ -3,11 +3,3 @@
 /Users/ricardo_espinosa/Documents/BossMandados/BossMandados/obj/Debug/BossMandados.csproj.CoreCompileInputs.cache
 /Users/ricardo_espinosa/Documents/BossMandados/BossMandados/obj/Debug/BossMandados.dll
 /Users/ricardo_espinosa/Documents/BossMandados/BossMandados/obj/Debug/BossMandados.pdb
-C:\Projects\BossMandados\bossmandados_clientes_app\BossMandados\bin\Debug\BossMandados.dll
-C:\Projects\BossMandados\bossmandados_clientes_app\BossMandados\bin\Debug\BossMandados.pdb
-C:\Projects\BossMandados\bossmandados_clientes_app\BossMandados\obj\Debug\BossMandados.csproj.CoreCompileInputs.cache
-C:\Projects\BossMandados\bossmandados_clientes_app\BossMandados\obj\Debug\BossMandados.dll
-C:\Projects\BossMandados\bossmandados_clientes_app\BossMandados\obj\Debug\BossMandados.pdb
-C:\Projects\BossMandados\bossmandados_clientes_app\BossMandados\obj\Debug\BossMandados.csprojResolveAssemblyReference.cache
-C:\Projects\BossMandados\bossmandados_clientes_app\BossMandados\bin\Debug\BossMandados.Common.dll
-C:\Projects\BossMandados\bossmandados_clientes_app\BossMandados\bin\Debug\BossMandados.Common.pdb
