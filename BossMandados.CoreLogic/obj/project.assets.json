@@ -502,7 +502,6 @@
         "type": "project",
         "framework": ".NETStandard,Version=v1.1",
         "dependencies": {
-          "NETStandard.Library": "1.6.1",
           "Newtonsoft.Json": "11.0.1"
         },
         "compile": {
@@ -516,8 +515,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v1.1",
         "dependencies": {
-          "BossMandados.Common": "1.0.0",
-          "NETStandard.Library": "1.6.1"
+          "BossMandados.Common": "1.0.0"
         },
         "compile": {
           "bin/placeholder/BossMandados.DataAccess.dll": {}
@@ -2978,43 +2976,38 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\RodrigoQuirozdeLuna\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "/Users/ricardo_espinosa/.nuget/packages/": {},
+    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
-    "restoreSettings": {
-      "hideWarningsAndErrors": true
-    },
     "restore": {
-      "projectUniqueName": "C:\\Projects\\BossMandados\\bossmandados_clientes_app\\BossMandados.CoreLogic\\BossMandados.CoreLogic.csproj",
+      "projectUniqueName": "/Users/ricardo_espinosa/Projects/bossmandados_clientes_app/BossMandados.CoreLogic/BossMandados.CoreLogic.csproj",
       "projectName": "BossMandados.CoreLogic",
-      "projectPath": "C:\\Projects\\BossMandados\\bossmandados_clientes_app\\BossMandados.CoreLogic\\BossMandados.CoreLogic.csproj",
-      "packagesPath": "C:\\Users\\RodrigoQuirozdeLuna\\.nuget\\packages\\",
-      "outputPath": "C:\\Projects\\BossMandados\\bossmandados_clientes_app\\BossMandados.CoreLogic\\obj\\",
+      "projectPath": "/Users/ricardo_espinosa/Projects/bossmandados_clientes_app/BossMandados.CoreLogic/BossMandados.CoreLogic.csproj",
+      "packagesPath": "/Users/ricardo_espinosa/.nuget/packages/",
+      "outputPath": "/Users/ricardo_espinosa/Projects/bossmandados_clientes_app/BossMandados.CoreLogic/obj",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\RodrigoQuirozdeLuna\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/ricardo_espinosa/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netstandard1.1"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netstandard1.1": {
           "projectReferences": {
-            "C:\\Projects\\BossMandados\\bossmandados_clientes_app\\BossMandados.DataAccess\\BossMandados.DataAccess.csproj": {
-              "projectPath": "C:\\Projects\\BossMandados\\bossmandados_clientes_app\\BossMandados.DataAccess\\BossMandados.DataAccess.csproj"
+            "/Users/ricardo_espinosa/Projects/bossmandados_clientes_app/BossMandados.Common/BossMandados.Common.csproj": {
+              "projectPath": "/Users/ricardo_espinosa/Projects/bossmandados_clientes_app/BossMandados.Common/BossMandados.Common.csproj"
             },
-            "C:\\Projects\\BossMandados\\bossmandados_clientes_app\\BossMandados.Common\\BossMandados.Common.csproj": {
-              "projectPath": "C:\\Projects\\BossMandados\\bossmandados_clientes_app\\BossMandados.Common\\BossMandados.Common.csproj"
+            "/Users/ricardo_espinosa/Projects/bossmandados_clientes_app/BossMandados.DataAccess/BossMandados.DataAccess.csproj": {
+              "projectPath": "/Users/ricardo_espinosa/Projects/bossmandados_clientes_app/BossMandados.DataAccess/BossMandados.DataAccess.csproj"
             }
           }
         }
@@ -3029,8 +3022,9 @@
       "netstandard1.1": {
         "dependencies": {
           "NETStandard.Library": {
+            "suppressParent": "All",
             "target": "Package",
-            "version": "[1.6.1, )",
+            "version": "1.6.1",
             "autoReferenced": true
           }
         }
