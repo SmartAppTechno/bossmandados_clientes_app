@@ -1,0 +1,81 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETPortable,Version=v4.6,Profile=Profile44": {
+      "BossMandados.Common/1.0.0": {
+        "type": "project"
+      },
+      "BossMandados.CoreLogic/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "BossMandados.Common": "1.0.0",
+          "BossMandados.DataAccess": "1.0.0"
+        }
+      },
+      "BossMandados.DataAccess/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "BossMandados.Common": "1.0.0"
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BossMandados.Common/1.0.0": {
+      "type": "project",
+      "path": "../BossMandados.Common/BossMandados.Common.csproj",
+      "msbuildProject": "../BossMandados.Common/BossMandados.Common.csproj"
+    },
+    "BossMandados.CoreLogic/1.0.0": {
+      "type": "project",
+      "path": "../BossMandados.CoreLogic/BossMandados.CoreLogic.csproj",
+      "msbuildProject": "../BossMandados.CoreLogic/BossMandados.CoreLogic.csproj"
+    },
+    "BossMandados.DataAccess/1.0.0": {
+      "type": "project",
+      "path": "../BossMandados.DataAccess/BossMandados.DataAccess.csproj",
+      "msbuildProject": "../BossMandados.DataAccess/BossMandados.DataAccess.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "": [],
+    ".NETPortable,Version=v4.6,Profile=Profile44": []
+  },
+  "packageFolders": {
+    "C:\\Users\\RodrigoQuirozdeLuna\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "restore": {
+      "projectUniqueName": "C:\\Projects\\BossMandados\\bossmandados_clientes_app\\BossMandados\\BossMandados.csproj",
+      "projectName": "BossMandados",
+      "projectPath": "C:\\Projects\\BossMandados\\bossmandados_clientes_app\\BossMandados\\BossMandados.csproj",
+      "projectJsonPath": "C:\\Projects\\BossMandados\\bossmandados_clientes_app\\BossMandados\\project.json",
+      "packagesPath": "C:\\Users\\RodrigoQuirozdeLuna\\.nuget\\packages\\",
+      "outputPath": "C:\\Projects\\BossMandados\\bossmandados_clientes_app\\BossMandados\\obj\\",
+      "projectStyle": "ProjectJson",
+      "configFilePaths": [
+        "C:\\Users\\RodrigoQuirozdeLuna\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "portable46-net451+win81": {
+          "projectReferences": {
+            "C:\\Projects\\BossMandados\\bossmandados_clientes_app\\BossMandados.Common\\BossMandados.Common.csproj": {
+              "projectPath": "C:\\Projects\\BossMandados\\bossmandados_clientes_app\\BossMandados.Common\\BossMandados.Common.csproj"
+            },
+            "C:\\Projects\\BossMandados\\bossmandados_clientes_app\\BossMandados.CoreLogic\\BossMandados.CoreLogic.csproj": {
+              "projectPath": "C:\\Projects\\BossMandados\\bossmandados_clientes_app\\BossMandados.CoreLogic\\BossMandados.CoreLogic.csproj"
+            }
+          }
+        }
+      }
+    },
+    "frameworks": {
+      "portable46-net451+win81": {}
+    }
+  }
+}
