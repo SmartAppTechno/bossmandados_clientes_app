@@ -116,10 +116,6 @@
       <Project>{5ea14fa6-43f3-4b48-819d-3367ed367b99}</Project>
       <Name>BossMandados.CoreLogic</Name>
     </ProjectReference>
-    <ProjectReference Include="..\BossMandados\BossMandados.csproj">
-      <Project>{0A10562C-CEF5-4C1E-8C18-FFF68425FE12}</Project>
-      <Name>BossMandados</Name>
-    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="MainActivity.cs" />
