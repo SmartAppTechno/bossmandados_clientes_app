@@ -6,6 +6,7 @@ using System.Collections.Generic;
 using Xamarin.Facebook;
 using System;
 using Android.Gms.Common;
+using BossMandados.Common.Model;
 
 namespace BossMandados.Droid
 {
@@ -33,6 +34,11 @@ namespace BossMandados.Droid
             BtnFBLogin.RegisterCallback(mFBCallManager, this);
             //Google
             //Googlebutton = findViewById(R.id.googlelogin).setOnClickListener(this);
+
+            // PRUEBA PARA LA REFERENCIA A CLASES
+            Manboss_usuario userTest = new Manboss_usuario();
+            userTest.Correo = "Hello@world.com";
+
         } 
 
 

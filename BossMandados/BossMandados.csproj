@@ -8,7 +8,9 @@
     <OutputType>Library</OutputType>
     <RootNamespace>BossMandados</RootNamespace>
     <AssemblyName>BossMandados</AssemblyName>
-    <TargetFrameworkVersion>v5.0</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <MinimumVisualStudioVersion>10.0</MinimumVisualStudioVersion>
+    <TargetFrameworkProfile>Profile44</TargetFrameworkProfile>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -30,12 +32,15 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="project.json" />
+  </ItemGroup>
+  <ItemGroup>
     <ProjectReference Include="..\BossMandados.Common\BossMandados.Common.csproj">
-      <Project>{38147148-ecd9-4ba0-a196-3eaa8921d7fd}</Project>
+      <Project>{4a4f5eef-e989-441f-9fb1-c6d50eb7f1ac}</Project>
       <Name>BossMandados.Common</Name>
     </ProjectReference>
     <ProjectReference Include="..\BossMandados.CoreLogic\BossMandados.CoreLogic.csproj">
-      <Project>{eca36c3c-df27-4ef5-bbca-8b7a7e7a65bf}</Project>
+      <Project>{5ea14fa6-43f3-4b48-819d-3367ed367b99}</Project>
       <Name>BossMandados.CoreLogic</Name>
     </ProjectReference>
   </ItemGroup>
