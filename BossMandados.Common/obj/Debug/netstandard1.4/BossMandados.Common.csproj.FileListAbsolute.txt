@@ -1,8 +1,0 @@
-C:\Projects\BossMandados\bossmandados_clientes_app\BossMandados.Common\bin\Debug\netstandard1.4\BossMandados.Common.deps.json
-C:\Projects\BossMandados\bossmandados_clientes_app\BossMandados.Common\bin\Debug\netstandard1.4\BossMandados.Common.dll
-C:\Projects\BossMandados\bossmandados_clientes_app\BossMandados.Common\bin\Debug\netstandard1.4\BossMandados.Common.pdb
-C:\Projects\BossMandados\bossmandados_clientes_app\BossMandados.Common\obj\Debug\netstandard1.4\BossMandados.Common.csproj.CoreCompileInputs.cache
-C:\Projects\BossMandados\bossmandados_clientes_app\BossMandados.Common\obj\Debug\netstandard1.4\BossMandados.Common.AssemblyInfoInputs.cache
-C:\Projects\BossMandados\bossmandados_clientes_app\BossMandados.Common\obj\Debug\netstandard1.4\BossMandados.Common.AssemblyInfo.cs
-C:\Projects\BossMandados\bossmandados_clientes_app\BossMandados.Common\obj\Debug\netstandard1.4\BossMandados.Common.dll
-C:\Projects\BossMandados\bossmandados_clientes_app\BossMandados.Common\obj\Debug\netstandard1.4\BossMandados.Common.pdb

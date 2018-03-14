@@ -47,3 +47,6 @@
 /Users/ricardo_espinosa/Documents/BossMandados/Droid/obj/Debug/res/mipmap-xxxhdpi/icon.png
 /Users/ricardo_espinosa/Documents/BossMandados/Droid/obj/Debug/R.cs.flag
 /Users/ricardo_espinosa/Documents/BossMandados/Droid/obj/Debug/uploadflags.txt
+C:\Projects\BossMandados\bossmandados_clientes_app\BossMandados\bin\Debug\BossMandados.dll
+C:\Projects\BossMandados\bossmandados_clientes_app\BossMandados.Common\bin\Debug\BossMandados.Common.dll
+C:\Projects\BossMandados\bossmandados_clientes_app\BossMandados.CoreLogic\bin\Debug\BossMandados.CoreLogic.dll
