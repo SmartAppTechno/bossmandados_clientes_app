@@ -1,0 +1,18 @@
+﻿<Properties StartupConfiguration="{F3F0A2B4-BB01-47BD-AB2B-E7D79793E5FE}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="BossMandados/Properties/AssemblyInfo.cs">
+    <Files>
+      <File FileName="Droid/MainActivity.cs" Line="35" Column="35" />
+      <File FileName="BossMandados/Properties/AssemblyInfo.cs" Line="7" Column="12" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.BossMandados.Droid AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.Android_Accelerated_x86" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.BossMandados.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.FCF36459-FD75-4DD2-BE54-0A57C57083C2">
+    <MonoDevelop.MacDev.AppleDevelopmentTeam />
+  </MonoDevelop.Ide.ItemProperties.BossMandados.iOS>
+  <MultiItemStartupConfigurations />
+</Properties>

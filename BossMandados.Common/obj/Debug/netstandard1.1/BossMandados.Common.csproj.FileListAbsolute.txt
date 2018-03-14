@@ -1,0 +1,8 @@
+/Users/ricardo_espinosa/Projects/bossmandados_clientes_app/BossMandados.Common/bin/Debug/netstandard1.1/BossMandados.Common.deps.json
+/Users/ricardo_espinosa/Projects/bossmandados_clientes_app/BossMandados.Common/bin/Debug/netstandard1.1/BossMandados.Common.dll
+/Users/ricardo_espinosa/Projects/bossmandados_clientes_app/BossMandados.Common/bin/Debug/netstandard1.1/BossMandados.Common.pdb
+/Users/ricardo_espinosa/Projects/bossmandados_clientes_app/BossMandados.Common/obj/Debug/netstandard1.1/BossMandados.Common.csproj.CoreCompileInputs.cache
+/Users/ricardo_espinosa/Projects/bossmandados_clientes_app/BossMandados.Common/obj/Debug/netstandard1.1/BossMandados.Common.AssemblyInfoInputs.cache
+/Users/ricardo_espinosa/Projects/bossmandados_clientes_app/BossMandados.Common/obj/Debug/netstandard1.1/BossMandados.Common.AssemblyInfo.cs
+/Users/ricardo_espinosa/Projects/bossmandados_clientes_app/BossMandados.Common/obj/Debug/netstandard1.1/BossMandados.Common.dll
+/Users/ricardo_espinosa/Projects/bossmandados_clientes_app/BossMandados.Common/obj/Debug/netstandard1.1/BossMandados.Common.pdb

@@ -1,0 +1,11 @@
+/Users/ricardo_espinosa/Projects/bossmandados_clientes_app/BossMandados.DataAccess/bin/Debug/netstandard1.1/BossMandados.DataAccess.deps.json
+/Users/ricardo_espinosa/Projects/bossmandados_clientes_app/BossMandados.DataAccess/bin/Debug/netstandard1.1/BossMandados.DataAccess.dll
+/Users/ricardo_espinosa/Projects/bossmandados_clientes_app/BossMandados.DataAccess/bin/Debug/netstandard1.1/BossMandados.DataAccess.pdb
+/Users/ricardo_espinosa/Projects/bossmandados_clientes_app/BossMandados.DataAccess/bin/Debug/netstandard1.1/BossMandados.Common.dll
+/Users/ricardo_espinosa/Projects/bossmandados_clientes_app/BossMandados.DataAccess/bin/Debug/netstandard1.1/BossMandados.Common.pdb
+/Users/ricardo_espinosa/Projects/bossmandados_clientes_app/BossMandados.DataAccess/obj/Debug/netstandard1.1/BossMandados.DataAccess.csprojResolveAssemblyReference.cache
+/Users/ricardo_espinosa/Projects/bossmandados_clientes_app/BossMandados.DataAccess/obj/Debug/netstandard1.1/BossMandados.DataAccess.csproj.CoreCompileInputs.cache
+/Users/ricardo_espinosa/Projects/bossmandados_clientes_app/BossMandados.DataAccess/obj/Debug/netstandard1.1/BossMandados.DataAccess.AssemblyInfoInputs.cache
+/Users/ricardo_espinosa/Projects/bossmandados_clientes_app/BossMandados.DataAccess/obj/Debug/netstandard1.1/BossMandados.DataAccess.AssemblyInfo.cs
+/Users/ricardo_espinosa/Projects/bossmandados_clientes_app/BossMandados.DataAccess/obj/Debug/netstandard1.1/BossMandados.DataAccess.dll
+/Users/ricardo_espinosa/Projects/bossmandados_clientes_app/BossMandados.DataAccess/obj/Debug/netstandard1.1/BossMandados.DataAccess.pdb
