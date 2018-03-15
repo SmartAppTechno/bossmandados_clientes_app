@@ -16,12 +16,12 @@ namespace BossMandados.DataAccess.ActivityData {
             client = new MobileServiceClient(GlobalValues.AppURL);
         }
 
-        public async Task<Manboss_cliente> Login(string mail) {
+        public async Task<Manboss_cliente> Login(string email) {
             Manboss_cliente userReturn = null;
             try {
                 Dictionary<string, string> param = new Dictionary<string, string>
                 {
-                    { "correo", mail }
+                    { "correo", email }
                 };
                 userReturn = await client.InvokeApiAsync<Manboss_cliente>("Cliente", HttpMethod.Post, param);
             }
