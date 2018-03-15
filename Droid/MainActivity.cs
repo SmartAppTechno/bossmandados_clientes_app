@@ -7,6 +7,7 @@ using Xamarin.Facebook;
 using System;
 using Android.Gms.Common;
 using BossMandados.Common.Model;
+using BossMandados.CoreLogic.ActivityCore;
 
 namespace BossMandados.Droid
 {
@@ -17,6 +18,8 @@ namespace BossMandados.Droid
         private MyProfileTracker mprofileTracker;  
         LoginButton BtnFBLogin;
         SignInButton Googlebutton;
+
+        private LoginCore core;
         protected override void OnCreate(Bundle bundle) {  
             base.OnCreate(bundle);
             //Facebook
@@ -36,12 +39,16 @@ namespace BossMandados.Droid
             //Googlebutton = findViewById(R.id.googlelogin).setOnClickListener(this);
 
             // PRUEBA PARA LA REFERENCIA A CLASES
-            Manboss_usuario userTest = new Manboss_usuario();
-            userTest.Correo = "Hello@world.com";
+            core = new LoginCore();
+            TestLogin("isaac95mendez@gmail.com");
+            TestLogin("FALSEMAIL@gmail.com");
 
         } 
 
-
+        private async void TestLogin(string email) {
+            Manboss_cliente client = await core.Login(email);
+            //DO STUFF
+        }
         public void OnCancel() {}  
         public void OnError(FacebookException p0) {}  
         public void OnSuccess(Java.Lang.Object p0) {}  

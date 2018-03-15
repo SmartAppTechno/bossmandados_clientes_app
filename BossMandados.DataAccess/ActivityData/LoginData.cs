@@ -11,7 +11,6 @@ using System.Threading.Tasks;
 namespace BossMandados.DataAccess.ActivityData {
     public class LoginData {
         private MobileServiceClient client;
-        private IMobileServiceTable<Manboss_usuario> userTable;
         public LoginData() {
             client = new MobileServiceClient(GlobalValues.AppURL);
         }
