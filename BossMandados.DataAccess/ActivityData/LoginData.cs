@@ -21,14 +21,31 @@ namespace BossMandados.DataAccess.ActivityData {
             try {
                 Dictionary<string, string> param = new Dictionary<string, string>
                 {
-                    { "correo", mail },
+                    { "correo", mail }
                 };
-                var current = await client.InvokeApiAsync<Manboss_cliente>("Cliente", HttpMethod.Post, param);
-                userReturn = current;
+                userReturn = await client.InvokeApiAsync<Manboss_cliente>("Cliente", HttpMethod.Post, param);
             }
             catch {
             }
             return userReturn;
         }
+        public async Task<Manboss_cliente> CreateUser(Manboss_cliente user) {
+            Manboss_cliente userReturn = null;
+            try {
+                Dictionary<string, string> param = new Dictionary<string, string>
+                {
+                    { "correo", user.Correo },
+                    { "nombre", user.Nombre },
+                    { "telefono", user.Telefono },
+                    { "direccion", user.Direccion },
+                    { "red_social", user.Red_social }
+                };
+                userReturn = await client.InvokeApiAsync<Manboss_cliente>("Cliente", HttpMethod.Post, param);
+            }
+            catch {
+            }
+            return userReturn;
+        }
+
     }
 }
