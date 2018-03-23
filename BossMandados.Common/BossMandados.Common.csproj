@@ -33,6 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="GlobalValues.cs" />
     <Compile Include="Model\Manboss_chat_mensaje.cs" />
     <Compile Include="Model\Manboss_cliente.cs" />
     <Compile Include="Model\Manboss_clientes_direccion.cs" />

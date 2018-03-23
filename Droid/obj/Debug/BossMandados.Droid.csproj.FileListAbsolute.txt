@@ -47,6 +47,7 @@
 /Users/ricardo_espinosa/Documents/BossMandados/Droid/obj/Debug/res/mipmap-xxxhdpi/icon.png
 /Users/ricardo_espinosa/Documents/BossMandados/Droid/obj/Debug/R.cs.flag
 /Users/ricardo_espinosa/Documents/BossMandados/Droid/obj/Debug/uploadflags.txt
+<<<<<<< HEAD
 C:/Projects/BossMandados/bossmandados_clientes_app/BossMandados/bin/Debug/BossMandados.dll
 C:/Projects/BossMandados/bossmandados_clientes_app/BossMandados.Common/bin/Debug/BossMandados.Common.dll
 C:/Projects/BossMandados/bossmandados_clientes_app/BossMandados.CoreLogic/bin/Debug/BossMandados.CoreLogic.dll
@@ -58,6 +59,7 @@ C:/Projects/BossMandados/bossmandados_clientes_app/BossMandados.CoreLogic/bin/De
 /Users/ricardo_espinosa/Projects/bossmandados_clientes_app/Droid/obj/Debug/XbdMerge/Xamarin.GooglePlayServices.Auth.Base.dll.stamp
 /Users/ricardo_espinosa/Projects/bossmandados_clientes_app/Droid/obj/Debug/XbdMerge/Xamarin.GooglePlayServices.Auth.dll.stamp
 /Users/ricardo_espinosa/Projects/bossmandados_clientes_app/Droid/obj/Debug/XbdMerge/Xamarin.GooglePlayServices.Identity.dll.stamp
+<<<<<<< HEAD
 /Users/ricardo_espinosa/Projects/bossmandados_clientes_app/Droid/obj/Debug/XbdMerge/proguard/dc663e480.txt
 /Users/ricardo_espinosa/Projects/bossmandados_clientes_app/Droid/obj/Debug/XbdMerge/dc663e48.proguard.stamp
 /Users/ricardo_espinosa/Projects/bossmandados_clientes_app/Droid/obj/Debug/XbdMerge/0757626b.proguard.stamp
@@ -66,3 +68,26 @@ C:/Projects/BossMandados/bossmandados_clientes_app/BossMandados.CoreLogic/bin/De
 /Users/ricardo_espinosa/Projects/bossmandados_clientes_app/Droid/obj/Debug/XbdMerge/42561b21.proguard.stamp
 /Users/ricardo_espinosa/Projects/bossmandados_clientes_app/Droid/obj/Debug/XbdMerge/f3cea06a.proguard.stamp
 /Users/ricardo_espinosa/Projects/bossmandados_clientes_app/Droid/obj/Debug/XbdMerge/32fc87cc.proguard.stamp
+=======
+/Users/ricardo_espinosa/Projects/bossmandados_clientes_app/Droid/obj/Debug/BossMandados.Droid.csproj.CoreCompileInputs.cache
+/Users/ricardo_espinosa/Projects/bossmandados_clientes_app/Droid/obj/Debug/BossMandados.Droid.dll
+/Users/ricardo_espinosa/Projects/bossmandados_clientes_app/Droid/obj/Debug/BossMandados.Droid.pdb
+/Users/ricardo_espinosa/Projects/bossmandados_clientes_app/Droid/obj/Debug/android/bin/com.smartapptech.Boss_Mandados.apk
+/Users/ricardo_espinosa/Projects/bossmandados_clientes_app/Droid/obj/Debug/res/layout/main.xml
+/Users/ricardo_espinosa/Projects/bossmandados_clientes_app/Droid/obj/Debug/res/values/strings.xml
+/Users/ricardo_espinosa/Projects/bossmandados_clientes_app/Droid/obj/Debug/res/mipmap-hdpi/icon.png
+/Users/ricardo_espinosa/Projects/bossmandados_clientes_app/Droid/obj/Debug/res/mipmap-mdpi/icon.png
+/Users/ricardo_espinosa/Projects/bossmandados_clientes_app/Droid/obj/Debug/res/mipmap-xhdpi/icon.png
+/Users/ricardo_espinosa/Projects/bossmandados_clientes_app/Droid/obj/Debug/res/mipmap-xxhdpi/icon.png
+/Users/ricardo_espinosa/Projects/bossmandados_clientes_app/Droid/obj/Debug/res/mipmap-xxxhdpi/icon.png
+/Users/ricardo_espinosa/Projects/bossmandados_clientes_app/Droid/obj/Debug/R.cs.flag
+/Users/ricardo_espinosa/Projects/bossmandados_clientes_app/Droid/obj/Debug/uploadflags.txt
+/Users/ricardo_espinosa/Projects/bossmandados_clientes_app/Droid/bin/Debug/Mono.Android.pdb
+/Users/ricardo_espinosa/Projects/bossmandados_clientes_app/Droid/obj/Debug/linksrc/BossMandados.Droid.pdb
+/Users/ricardo_espinosa/Projects/bossmandados_clientes_app/Droid/obj/Debug/linksrc/BossMandados.Common.pdb
+/Users/ricardo_espinosa/Projects/bossmandados_clientes_app/Droid/obj/Debug/linksrc/BossMandados.CoreLogic.pdb
+/Users/ricardo_espinosa/Projects/bossmandados_clientes_app/Droid/obj/Debug/linksrc/Mono.Android.pdb
+=======
+C:\Projects\BossMandados\bossmandados_clientes_app\BossMandados\bin\Debug\BossMandados.dll
+>>>>>>> Rodrigo
+>>>>>>> 3432b6fcd38ba2c6ab61ff7767fc8e172d08da2f
