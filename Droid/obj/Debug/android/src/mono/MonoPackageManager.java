@@ -106,7 +106,6 @@ public class MonoPackageManager {
 class MonoPackageManager_Resources {
 	public static final String[] Assemblies = new String[]{
 		/* We need to ensure that "BossMandados.Droid.dll" comes first in this list. */
-		"BossMandados.Droid.dll",
 		"Bolts.AppLinks.dll",
 		"Bolts.Tasks.dll",
 		"BossMandados.Common.dll",
@@ -126,6 +125,9 @@ class MonoPackageManager_Resources {
 		"Xamarin.Android.Support.v7.CardView.dll",
 		"Xamarin.Android.Support.Vector.Drawable.dll",
 		"Xamarin.Facebook.dll",
+		"Xamarin.GooglePlayServices.Auth.Api.Phone.dll",
+		"Xamarin.GooglePlayServices.Auth.Base.dll",
+		"Xamarin.GooglePlayServices.Auth.dll",
 		"Xamarin.GooglePlayServices.Base.dll",
 		"Xamarin.GooglePlayServices.Basement.dll",
 		"Xamarin.GooglePlayServices.Identity.dll",

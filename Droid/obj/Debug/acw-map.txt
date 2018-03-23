@@ -1,11 +1,3 @@
-BossMandados.Droid.MainActivity, BossMandados.Droid;md545fb77e16b18efe0b1f454f91132ac14.MainActivity
-BossMandados.Droid.MainActivity, BossMandados.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md545fb77e16b18efe0b1f454f91132ac14.MainActivity
-BossMandados.Droid.MainActivity;md545fb77e16b18efe0b1f454f91132ac14.MainActivity
-bossmandados.droid.MainActivity;md545fb77e16b18efe0b1f454f91132ac14.MainActivity
-BossMandados.Droid.MyProfileTracker, BossMandados.Droid;md545fb77e16b18efe0b1f454f91132ac14.MyProfileTracker
-BossMandados.Droid.MyProfileTracker, BossMandados.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md545fb77e16b18efe0b1f454f91132ac14.MyProfileTracker
-BossMandados.Droid.MyProfileTracker;md545fb77e16b18efe0b1f454f91132ac14.MyProfileTracker
-bossmandados.droid.MyProfileTracker;md545fb77e16b18efe0b1f454f91132ac14.MyProfileTracker
 Android.Support.V4.Widget.SearchViewCompat/IOnCloseListenerImplementor, Xamarin.Android.Support.Compat;mono.android.support.v4.widget.SearchViewCompat_OnCloseListenerImplementor
 Android.Support.V4.Widget.SearchViewCompat+IOnCloseListenerImplementor, Xamarin.Android.Support.Compat, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;mono.android.support.v4.widget.SearchViewCompat_OnCloseListenerImplementor
 Android.Support.V4.Widget.SearchViewCompat.IOnCloseListenerImplementor;mono.android.support.v4.widget.SearchViewCompat_OnCloseListenerImplementor

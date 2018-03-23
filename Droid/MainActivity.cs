@@ -33,11 +33,8 @@ namespace BossMandados.Droid
             mFBCallManager = CallbackManagerFactory.Create();  
             BtnFBLogin.RegisterCallback(mFBCallManager, this);
             //Google
+            //GoogleSignInOptions gso = new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN).requestEmail().build();
             //Googlebutton = findViewById(R.id.googlelogin).setOnClickListener(this);
-
-            // PRUEBA PARA LA REFERENCIA A CLASES
-            Manboss_usuario userTest = new Manboss_usuario();
-            userTest.Correo = "Hello@world.com";
 
         } 
 
