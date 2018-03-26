@@ -39,14 +39,10 @@ namespace BossMandados.Droid
             //GoogleSignInOptions gso = new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN).requestEmail().build();
             //Googlebutton = findViewById(R.id.googlelogin).setOnClickListener(this);
 
-<<<<<<< HEAD
-=======
             // PRUEBA PARA LA REFERENCIA A CLASES
             core = new LoginCore();
             TestLogin("isaac95mendez@gmail.com");
             TestLogin("FALSEMAIL@gmail.com");
-
->>>>>>> 3432b6fcd38ba2c6ab61ff7767fc8e172d08da2f
         } 
 
         private async void TestLogin(string email) {
