@@ -35,9 +35,6 @@ namespace BossMandados.Droid
             });  
             mFBCallManager = CallbackManagerFactory.Create();  
             BtnFBLogin.RegisterCallback(mFBCallManager, this);
-            //Google
-            //GoogleSignInOptions gso = new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN).requestEmail().build();
-            //Googlebutton = findViewById(R.id.googlelogin).setOnClickListener(this);
 
             // PRUEBA PARA LA REFERENCIA A CLASES
             core = new LoginCore();
@@ -63,7 +60,10 @@ namespace BossMandados.Droid
         }  
         protected override void OnActivityResult(int requestCode, Result resultCode, Android.Content.Intent data) {  
             base.OnActivityResult(requestCode, resultCode, data);  
-            mFBCallManager.OnActivityResult(requestCode, (int) resultCode, data);  
+            mFBCallManager.OnActivityResult(requestCode, (int) resultCode, data); 
+            if(requestCode == 1){
+                
+            }
         } 
     }
     public class MyProfileTracker : ProfileTracker
