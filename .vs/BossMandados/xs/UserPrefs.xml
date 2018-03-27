@@ -1,8 +1,8 @@
 ﻿<Properties StartupConfiguration="{F3F0A2B4-BB01-47BD-AB2B-E7D79793E5FE}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Droid/MainActivity.cs">
+  <MonoDevelop.Ide.Workbench>
     <Files>
       <File FileName="Droid/Resources/values/Strings.xml" Line="5" Column="61" />
-      <File FileName="Droid/MainActivity.cs" Line="36" Column="15" />
+      <File FileName="Droid/MainActivity.cs" Line="72" Column="37" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.BossMandados.Droid AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.Android_Accelerated_x86" />

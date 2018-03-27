@@ -106,12 +106,20 @@ public class MonoPackageManager {
 class MonoPackageManager_Resources {
 	public static final String[] Assemblies = new String[]{
 		/* We need to ensure that "BossMandados.Droid.dll" comes first in this list. */
+		"BossMandados.Droid.dll",
 		"Bolts.AppLinks.dll",
 		"Bolts.Tasks.dll",
 		"BossMandados.Common.dll",
 		"BossMandados.CoreLogic.dll",
 		"Google.ZXing.Core.dll",
+		"Microsoft.Azure.Mobile.Client.dll",
 		"Newtonsoft.Json.dll",
+		"PCLCrypto.dll",
+		"PInvoke.BCrypt.dll",
+		"PInvoke.Kernel32.dll",
+		"PInvoke.NCrypt.dll",
+		"PInvoke.Windows.Core.dll",
+		"Validation.dll",
 		"Xamarin.Android.Support.Animated.Vector.Drawable.dll",
 		"Xamarin.Android.Support.Annotations.dll",
 		"Xamarin.Android.Support.Compat.dll",
@@ -132,8 +140,9 @@ class MonoPackageManager_Resources {
 		"Xamarin.GooglePlayServices.Basement.dll",
 		"Xamarin.GooglePlayServices.Identity.dll",
 		"Xamarin.GooglePlayServices.Tasks.dll",
+		"BossMandados.DataAccess.dll",
 	};
 	public static final String[] Dependencies = new String[]{
 	};
-	public static final String ApiPackageName = "Mono.Android.Platform.ApiLevel_26";
+	public static final String ApiPackageName = null;
 }

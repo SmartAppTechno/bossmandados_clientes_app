@@ -3,8 +3,15 @@ Bolts.Tasks
 BossMandados.Common
 BossMandados.CoreLogic
 Google.ZXing.Core
+Microsoft.Azure.Mobile.Client
 Newtonsoft.Json
+PCLCrypto
+PInvoke.BCrypt
+PInvoke.Kernel32
+PInvoke.NCrypt
+PInvoke.Windows.Core
 System.Runtime
+Validation
 Xamarin.Android.Support.Animated.Vector.Drawable
 Xamarin.Android.Support.Annotations
 Xamarin.Android.Support.Compat
@@ -25,4 +32,4 @@ Xamarin.GooglePlayServices.Base
 Xamarin.GooglePlayServices.Basement
 Xamarin.GooglePlayServices.Identity
 Xamarin.GooglePlayServices.Tasks
-System.Resources.ResourceManager
+BossMandados.DataAccess
