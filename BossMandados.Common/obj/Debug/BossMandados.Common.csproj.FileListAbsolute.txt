@@ -5,4 +5,3 @@
 /Users/ricardo_espinosa/Projects/bossmandados_clientes_app/BossMandados.Common/obj/Debug/BossMandados.Common.csproj.CoreCompileInputs.cache
 /Users/ricardo_espinosa/Projects/bossmandados_clientes_app/BossMandados.Common/obj/Debug/BossMandados.Common.dll
 /Users/ricardo_espinosa/Projects/bossmandados_clientes_app/BossMandados.Common/obj/Debug/BossMandados.Common.pdb
-/Users/ricardo_espinosa/Projects/bossmandados_clientes_app/BossMandados.Common/obj/Debug/BossMandados.Common.csprojResolveAssemblyReference.cache

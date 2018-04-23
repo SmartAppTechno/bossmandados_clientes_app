@@ -1,0 +1,3 @@
+/Users/ricardo_espinosa/Projects/bossmandados_clientes_app/iOS/bin/iPhoneSimulator/Debug/BossMandados.iOS.app:/Users/ricardo_espinosa/Projects/bossmandados_clientes_app/iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/BossMandados.iOS.exe
+/Users/ricardo_espinosa/Projects/bossmandados_clientes_app/iOS/bin/iPhoneSimulator/Debug/BossMandados.iOS.app:/Users/ricardo_espinosa/Projects/bossmandados_clientes_app/iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/mscorlib.dll
+/Users/ricardo_espinosa/Projects/bossmandados_clientes_app/iOS/bin/iPhoneSimulator/Debug/BossMandados.iOS.app:/Users/ricardo_espinosa/Projects/bossmandados_clientes_app/iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll

@@ -1,23 +1,22 @@
 ﻿using Android.App;
-using Android.Widget;
 using Android.OS;
 using Xamarin.Facebook.Login.Widget;
 using System.Collections.Generic;
 using Xamarin.Facebook;
 using System;
-using Android.Gms.Common;
 using BossMandados.Common.Model;
 using BossMandados.CoreLogic.ActivityCore;
+using Xamarin.Facebook.Login;
 
 namespace BossMandados.Droid
 {
     [Activity(Label = "Boss Mandados", MainLauncher = true, Icon = "@mipmap/icon")]
-    public class MainActivity : Activity,IFacebookCallback
+    public class MainActivity : Activity,IFacebookCallback,GraphRequest.IGraphJSONObjectCallback
     {
         private ICallbackManager mFBCallManager;  
         private MyProfileTracker mprofileTracker;  
         LoginButton BtnFBLogin;
-        SignInButton Googlebutton;
+        //SignInButton Googlebutton;
 
         private LoginCore core;
         protected override void OnCreate(Bundle bundle) {  
@@ -32,41 +31,67 @@ namespace BossMandados.Droid
             BtnFBLogin = FindViewById < LoginButton > (Resource.Id.fblogin);   
             BtnFBLogin.SetReadPermissions(new List < string > {  
                 "user_friends",  
-                "public_profile"  
+                "public_profile",
+                "email"
             });  
-            mFBCallManager = CallbackManagerFactory.Create();  
+            mFBCallManager = CallbackManagerFactory.Create();
             BtnFBLogin.RegisterCallback(mFBCallManager, this);
-
-            // PRUEBA PARA LA REFERENCIA A CLASES
-            //TestLogin("isaac95mendez@gmail.com");
-            //TestLogin("FALSEMAIL@gmail.com");
         } 
 
-        private async void TestLogin(string email) {
+        private async void TestLogin(string email,string name,string red_social) {
             Manboss_cliente client = await core.Login(email);
-            if(client != null){
-                client = await core.CreateUser(Profile.CurrentProfile.Name,email,"facebook");
+            if(client == null){
+                client = await core.CreateUser(name,email,red_social);
+            }
+        } 
+          
+        protected override void OnActivityResult(int requestCode, Result resultCode, Android.Content.Intent data) {  
+            base.OnActivityResult(requestCode, resultCode, data);
+            mFBCallManager.OnActivityResult(requestCode, (int) resultCode, data);
+        }
+
+        void mProfileTracker_mOnProfileChanged(object sender, OnProfileChangedEventArgs e)
+        {
+            if (e.mProfile != null)
+            {
+                try
+                {
+                }
+                catch (Java.Lang.Exception ex)
+                {
+                    Console.Write(ex);
+                }
+            }
+            else
+            {
             }
         }
-        public void OnCancel() {}  
-        public void OnError(FacebookException p0) {}  
-        public void OnSuccess(Java.Lang.Object p0) {}  
-        void mProfileTracker_mOnProfileChanged(object sender, OnProfileChangedEventArgs e) {  
-            if (e.mProfile != null) {  
-                try {   
-                } catch (Java.Lang.Exception ex) {
-                    Console.Write(ex);
-                }  
-            } else {   
-            }  
-        }  
-        protected override void OnActivityResult(int requestCode, Result resultCode, Android.Content.Intent data) {  
-            base.OnActivityResult(requestCode, resultCode, data);  
-            mFBCallManager.OnActivityResult(requestCode, (int) resultCode, data); 
-            if(requestCode == 1){
-                
-            }
-        } 
+
+        public void OnCancel()
+        {
+            throw new NotImplementedException();
+        }
+
+        public void OnError(FacebookException error)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void OnSuccess(Java.Lang.Object result)
+        {
+            GraphRequest request = GraphRequest.NewMeRequest(AccessToken.CurrentAccessToken, this);
+            Bundle parameters = new Bundle();
+            parameters.PutString("fields", "name,email");
+            request.Parameters = parameters;
+            request.ExecuteAsync();
+        }
+
+        public void OnCompleted(Org.Json.JSONObject json, GraphResponse response)
+        {
+            String correo = json.GetString("email");
+            String nombre = json.GetString("name");
+            TestLogin(correo, nombre, "facebook");
+        }
     }
     public class MyProfileTracker : ProfileTracker
     {

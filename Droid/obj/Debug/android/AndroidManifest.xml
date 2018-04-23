@@ -24,7 +24,6 @@
         <category android:name="mono.android.intent.category.SEPPUKU.com.smartapptech.Boss_Mandados" />
       </intent-filter>
     </receiver>
-    <meta-data android:name="android.support.VERSION" android:value="26.0.2" />
     <activity android:name="com.facebook.FacebookActivity" android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation" android:theme="@style/com_facebook_activity_theme" />
     <activity android:name="com.facebook.CustomTabMainActivity" />
     <!--

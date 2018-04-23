@@ -18,6 +18,9 @@
 /Users/ricardo_espinosa/Projects/bossmandados_clientes_app/Droid/obj/Debug/android/assets/System.dll
 /Users/ricardo_espinosa/Projects/bossmandados_clientes_app/Droid/obj/Debug/android/assets/System.Xml.dll
 /Users/ricardo_espinosa/Projects/bossmandados_clientes_app/Droid/obj/Debug/android/assets/Validation.dll
+/Users/ricardo_espinosa/Projects/bossmandados_clientes_app/Droid/obj/Debug/android/assets/Xamarin.Android.Arch.Core.Common.dll
+/Users/ricardo_espinosa/Projects/bossmandados_clientes_app/Droid/obj/Debug/android/assets/Xamarin.Android.Arch.Lifecycle.Common.dll
+/Users/ricardo_espinosa/Projects/bossmandados_clientes_app/Droid/obj/Debug/android/assets/Xamarin.Android.Arch.Lifecycle.Runtime.dll
 /Users/ricardo_espinosa/Projects/bossmandados_clientes_app/Droid/obj/Debug/android/assets/Xamarin.Android.Support.Animated.Vector.Drawable.dll
 /Users/ricardo_espinosa/Projects/bossmandados_clientes_app/Droid/obj/Debug/android/assets/Xamarin.Android.Support.Annotations.dll
 /Users/ricardo_espinosa/Projects/bossmandados_clientes_app/Droid/obj/Debug/android/assets/Xamarin.Android.Support.Compat.dll
