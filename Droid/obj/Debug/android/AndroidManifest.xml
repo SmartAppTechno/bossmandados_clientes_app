@@ -37,22 +37,10 @@
          a completely different provider.
         -->
     <provider android:name="com.facebook.internal.FacebookInitProvider" android:authorities="com.smartapptech.Boss_Mandados.FacebookInitProvider" android:exported="false" />
-    <!--
-         The initialization ContentProvider will call FacebookSdk.sdkInitialize automatically
-         with the application context. This config is merged in with the host app's manifest,
-         but there can only be one provider with the same authority activated at any given
-         point; so if the end user has two or more different apps that use Facebook SDK, only the
-         first one will be able to use the provider. To work around this problem, we use the
-         following placeholder in the authority to identify each host application as if it was
-         a completely different provider.
-        -->
-    <provider android:name="com.facebook.internal.FacebookInitProvider" android:authorities="com.smartapptech.Boss_Mandados.FacebookInitProvider" android:exported="false" />
     <activity android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar" android:excludeFromRecents="true" android:exported="false" />
     <!--Service handling Google Sign-In user revocation. For apps that do not integrate with
             Google Sign-In, this service will never be started.-->
     <service android:name="com.google.android.gms.auth.api.signin.RevocationBoundService" android:exported="true" android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
-    <!--Service handling Google Sign-In user revocation. For apps that do not integrate with
-            Google Sign-In, this service will never be started.-->
     <activity android:name="com.google.android.gms.common.api.GoogleApiActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar" android:exported="false" />
     <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version" />
   </application>
