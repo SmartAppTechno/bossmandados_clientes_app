@@ -34,8 +34,7 @@ namespace BossMandados.DataAccess.ActivityData {
                 {
                     { "correo", user.Correo },
                     { "nombre", user.Nombre },
-                    { "red_social", user.Red_social },
-                    { "id_externo", user.Id_externo }
+                    { "red_social", user.Red_social }
                 };
                 userReturn = await client.InvokeApiAsync<Manboss_cliente>("Cliente", HttpMethod.Post, param);
             }

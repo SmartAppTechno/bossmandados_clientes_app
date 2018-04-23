@@ -22,6 +22,7 @@ namespace BossMandados.Droid
         private LoginCore core;
         protected override void OnCreate(Bundle bundle) {  
             base.OnCreate(bundle);
+            core = new LoginCore();
             //Facebook
             mprofileTracker = new MyProfileTracker();  
             mprofileTracker.mOnProfileChanged += mProfileTracker_mOnProfileChanged;  
@@ -37,14 +38,15 @@ namespace BossMandados.Droid
             BtnFBLogin.RegisterCallback(mFBCallManager, this);
 
             // PRUEBA PARA LA REFERENCIA A CLASES
-            core = new LoginCore();
-            TestLogin("isaac95mendez@gmail.com");
-            TestLogin("FALSEMAIL@gmail.com");
+            //TestLogin("isaac95mendez@gmail.com");
+            //TestLogin("FALSEMAIL@gmail.com");
         } 
 
         private async void TestLogin(string email) {
             Manboss_cliente client = await core.Login(email);
-            //DO STUFF
+            if(client != null){
+                client = await core.CreateUser(Profile.CurrentProfile.Name,email,"facebook");
+            }
         }
         public void OnCancel() {}  
         public void OnError(FacebookException p0) {}  
