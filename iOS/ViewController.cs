@@ -1,5 +1,4 @@
 ﻿using System;
-
 using UIKit;
 
 namespace BossMandados.iOS
@@ -17,7 +16,7 @@ namespace BossMandados.iOS
             base.ViewDidLoad();
 
             // Perform any additional setup after loading the view, typically from a nib.
-            Button.AccessibilityIdentifier = "myButton";
+            Button.AccessibilityIdentifier = "boton";
             Button.TouchUpInside += delegate
             {
                 var title = string.Format("{0} clicks!", count++);

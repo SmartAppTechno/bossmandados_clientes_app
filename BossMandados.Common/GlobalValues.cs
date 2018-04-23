@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace BossMandados.Common {
     public class GlobalValues {
-        public const string AppURL = @"https://bossmandadosapi.azurewebsites.net";
+        //public const string AppURL = @"https://bossmandadosapi.azurewebsites.net";
+        public const string AppURL = @"http://backend.bossmandados.com";
     }
 }

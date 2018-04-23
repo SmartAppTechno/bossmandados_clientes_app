@@ -18,6 +18,10 @@ namespace BossMandados.iOS
 
         void ReleaseDesignerOutlets ()
         {
+            if (Button != null) {
+                Button.Dispose ();
+                Button = null;
+            }
         }
     }
 }
