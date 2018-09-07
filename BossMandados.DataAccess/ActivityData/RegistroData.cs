@@ -4,6 +4,7 @@ using BossMandados.Common.Model;
 using System.Threading.Tasks;
 using System.Collections.Generic;
 using System.Net.Http;
+using System;
 
 namespace BossMandados.DataAccess.ActivityData
 {
@@ -22,15 +23,36 @@ namespace BossMandados.DataAccess.ActivityData
             {
                 Dictionary<string, string> param = new Dictionary<string, string>
                 {
+                    {"id",user.Id.ToString()},
                     { "telefono", user.Telefono },
                     { "direccion", user.Direccion },
                     { "latitud", user.Latitud.ToString()},
                     { "longitud", user.Longitud.ToString() }
                 };
-                userReturn = await client.InvokeApiAsync<Manboss_cliente>("Cliente", HttpMethod.Post, param);
+                userReturn = await client.InvokeApiAsync<Manboss_cliente>("Cliente/Registrar_cliente", HttpMethod.Post, param);
             }
-            catch
+            catch (Exception ex)
             {
+                String error = ex.ToString();
+                return null;
+            }
+            return userReturn;
+        }
+
+        public async Task<Manboss_cliente> Obtener_cliente(int id)
+        {
+            Manboss_cliente userReturn = null;
+            try
+            {
+                Dictionary<string, string> param = new Dictionary<string, string>
+                {
+                    { "id", id.ToString() }
+                };
+                userReturn = await client.InvokeApiAsync<Manboss_cliente>("Cliente/Get_cliente", HttpMethod.Post, param);
+            }
+            catch (Exception ex)
+            {
+                String error = ex.ToString();
                 return null;
             }
             return userReturn;

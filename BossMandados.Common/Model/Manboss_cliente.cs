@@ -27,5 +27,11 @@ namespace BossMandados.Common.Model {
 
         [JsonProperty(PropertyName = "longitud")]
         public double? Longitud { get; set; }
+
+        [JsonProperty(PropertyName = "contrasenia")]
+        public string Contrasenia { get; set; }
+
+        [JsonProperty(PropertyName = "hash")]
+        public string Hash { get; set; }
     }
 }

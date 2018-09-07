@@ -1,21 +1,16 @@
 ﻿<Properties StartupConfiguration="{F3F0A2B4-BB01-47BD-AB2B-E7D79793E5FE}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="BossMandados.DataAccess/ActivityData/LoginData.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Droid/MainActivity.cs">
     <Files>
-      <File FileName="Droid/MainActivity.cs" Line="48" Column="33" />
-      <File FileName="packages/Microsoft.Bcl.Build.1.0.14/tools/Microsoft.Bcl.Build.targets" Line="225" Column="5" />
-      <File FileName="BossMandados.Common/Model/Manboss_chat_mensaje.cs" Line="2" Column="7" />
-      <File FileName="BossMandados.CoreLogic/ActivityCore/LoginCore.cs" Line="12" Column="1" />
-      <File FileName="BossMandados.DataAccess/ActivityData/LoginData.cs" Line="27" Column="1" />
+      <File FileName="Droid/MainActivity.cs" Line="46" Column="77" />
+      <File FileName="iOS/Main.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.BossMandados.Droid PreferredExecutionTarget="Android.ZY223BKC23" />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.BossMandados.Droid AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.Android_Accelerated_x86" AndroidDesignerPreferredTheme="Theme.DeviceDefault" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <Breakpoint file="/Users/ricardo_espinosa/Projects/bossmandados_clientes_app/Droid/MainActivity.cs" relfile="Droid/MainActivity.cs" line="43" column="1" />
-      <Breakpoint file="/Users/ricardo_espinosa/Projects/bossmandados_clientes_app/BossMandados.CoreLogic/ActivityCore/LoginCore.cs" relfile="BossMandados.CoreLogic/ActivityCore/LoginCore.cs" line="12" column="1" />
-    </BreakpointStore>
+    <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.BossMandados.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.6AD1C1A1-AAF8-4666-BB11-8016A9129524" automaticSigning="False" />
   <MultiItemStartupConfigurations />
 </Properties>

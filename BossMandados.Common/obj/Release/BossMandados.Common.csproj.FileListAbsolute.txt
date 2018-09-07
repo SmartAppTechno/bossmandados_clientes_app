@@ -1,0 +1,8 @@
+/Users/ricardo_espinosa/Projects/bossmandados_clientes_app/BossMandados.Common/bin/Release/BossMandados.Common.dll
+/Users/ricardo_espinosa/Projects/bossmandados_clientes_app/BossMandados.Common/bin/Release/BossMandados.Common.pdb
+/Users/ricardo_espinosa/Projects/bossmandados_clientes_app/BossMandados.Common/bin/Release/Newtonsoft.Json.dll
+/Users/ricardo_espinosa/Projects/bossmandados_clientes_app/BossMandados.Common/bin/Release/Newtonsoft.Json.xml
+/Users/ricardo_espinosa/Projects/bossmandados_clientes_app/BossMandados.Common/obj/Release/BossMandados.Common.csprojResolveAssemblyReference.cache
+/Users/ricardo_espinosa/Projects/bossmandados_clientes_app/BossMandados.Common/obj/Release/BossMandados.Common.csproj.CoreCompileInputs.cache
+/Users/ricardo_espinosa/Projects/bossmandados_clientes_app/BossMandados.Common/obj/Release/BossMandados.Common.dll
+/Users/ricardo_espinosa/Projects/bossmandados_clientes_app/BossMandados.Common/obj/Release/BossMandados.Common.pdb

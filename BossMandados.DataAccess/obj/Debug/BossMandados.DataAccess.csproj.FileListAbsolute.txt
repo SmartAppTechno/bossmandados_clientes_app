@@ -28,3 +28,5 @@
 /Users/ricardo_espinosa/Projects/bossmandados_clientes_app/BossMandados.DataAccess/obj/Debug/BossMandados.DataAccess.csproj.CoreCompileInputs.cache
 /Users/ricardo_espinosa/Projects/bossmandados_clientes_app/BossMandados.DataAccess/obj/Debug/BossMandados.DataAccess.dll
 /Users/ricardo_espinosa/Projects/bossmandados_clientes_app/BossMandados.DataAccess/obj/Debug/BossMandados.DataAccess.pdb
+/Users/ricardo_espinosa/Projects/bossmandados_clientes_app/BossMandados.DataAccess/bin/Debug/Mono.Android.dll
+/Users/ricardo_espinosa/Projects/bossmandados_clientes_app/BossMandados.DataAccess/bin/Debug/Mono.Android.pdb

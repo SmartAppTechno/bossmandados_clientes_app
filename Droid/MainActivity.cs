@@ -6,7 +6,6 @@ using Xamarin.Facebook;
 using System;
 using BossMandados.Common.Model;
 using BossMandados.CoreLogic.ActivityCore;
-using Xamarin.Facebook.Login;
 
 namespace BossMandados.Droid
 {
@@ -16,9 +15,8 @@ namespace BossMandados.Droid
         private ICallbackManager mFBCallManager;  
         private MyProfileTracker mprofileTracker;  
         LoginButton BtnFBLogin;
-        //SignInButton Googlebutton;
-
         private LoginCore core;
+
         protected override void OnCreate(Bundle bundle) {  
             base.OnCreate(bundle);
             core = new LoginCore();

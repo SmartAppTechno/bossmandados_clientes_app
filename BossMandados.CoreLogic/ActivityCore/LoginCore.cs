@@ -22,5 +22,19 @@ namespace BossMandados.CoreLogic.ActivityCore {
             UserValues.SetUser(user);
             return user;
         }
+        public async Task<Manboss_cliente> CreateUserPass(string name, string email, string red_social,string contrasenia,string hash)
+        {
+            Manboss_cliente user = new Manboss_cliente
+            {
+                Nombre = name,
+                Correo = email,
+                Red_social = red_social,
+                Contrasenia = contrasenia,
+                Hash = hash
+            };
+            user = await data.RegistroCorreo(user);
+            UserValues.SetUser(user);
+            return user;
+        }
     }
 }
