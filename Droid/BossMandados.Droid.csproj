@@ -179,8 +179,7 @@
     <Compile Include="Activities\CrearCuentaActivity.cs" />
     <Compile Include="Activities\SplashActivity.cs" />
     <Compile Include="Classes\Drawer.cs" />
-    <Compile Include="Fragments\DireccionesFragment.cs" />
-    <Compile Include="Fragments\NuevoMandadoFragment.cs" />
+    <Compile Include="Activities\MisDireccionesActivity.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
@@ -263,7 +262,6 @@
     <AndroidResource Include="Resources\mipmap-xhdpi\icono_promociones.png" />
     <AndroidResource Include="Resources\mipmap-xxhdpi\icono_promociones.png" />
     <AndroidResource Include="Resources\mipmap-xxxhdpi\icono_promociones.png" />
-    <AndroidResource Include="Resources\layout\NuevoMandado.axml" />
     <AndroidResource Include="Resources\layout\MisDirecciones.axml" />
     <AndroidResource Include="Resources\layout\Splash.axml" />
     <AndroidResource Include="Resources\mipmap-hdpi\moto_login.png" />
@@ -280,7 +278,6 @@
     <Folder Include="Resources\menu\" />
     <Folder Include="Classes\" />
     <Folder Include="Activities\" />
-    <Folder Include="Fragments\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\BossMandados.Common\BossMandados.Common.csproj">

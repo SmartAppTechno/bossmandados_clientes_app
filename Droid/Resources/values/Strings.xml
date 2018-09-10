@@ -11,8 +11,8 @@
     <string name="menuItem6">Pago</string> 
     <string name="menuItem7">Promociones</string>
 
-    <string name="login_email">Correo electrónico</string>
-    <string name="login_password">Contraseña</string>
+    <string name="abrir_menu">Menú</string>
+    <string name="cerrar_menu">Menú</string>
     <string name="profile_hello">¡Hola!</string>
     <string name="profile_noname">NoName,</string>
 </resources>

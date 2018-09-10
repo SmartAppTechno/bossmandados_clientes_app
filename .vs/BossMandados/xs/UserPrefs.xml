@@ -1,8 +1,7 @@
 ﻿<Properties StartupConfiguration="{D9C3D6FE-0CBD-4DC5-8700-C6C1C42F07C4}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="Droid/Classes/Drawer.cs">
     <Files>
-      <File FileName="Droid/Activities/InicioActivity.cs" Line="15" Column="36" />
-      <File FileName="Droid/Classes/Drawer.cs" Line="38" Column="13" />
+      <File FileName="Droid/Classes/Drawer.cs" Line="30" Column="13" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.BossMandados.Droid AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.ZY223BKC23" AndroidDesignerPreferredTheme="Theme.DeviceDefault" />

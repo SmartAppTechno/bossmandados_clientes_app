@@ -10,6 +10,7 @@ using Android.Content;
 using Android.App;
 using Android.Preferences;
 using System;
+using BossMandados.Droid.Activities;
 
 namespace BossMandados.Droid
 {
@@ -28,10 +29,11 @@ namespace BossMandados.Droid
             this.activity = activity;
 
             mToolbar = activity.FindViewById<SupportToolbar>(Resource.Id.toolbar);
+            mToolbar.SetTitleTextColor(Resource.Color.titulo);
             mDrawerLayout = (DrawerLayout)activity.FindViewById(Resource.Id.drawer_layout);
             activity.SetSupportActionBar(mToolbar);
             activity.SupportActionBar.SetDisplayHomeAsUpEnabled(true);
-            mDrawerToggle = new ActionBarDrawerToggle(activity, mDrawerLayout, mToolbar, Resource.String.login_password, Resource.String.login_email);
+            mDrawerToggle = new ActionBarDrawerToggle(activity, mDrawerLayout, mToolbar, Resource.String.abrir_menu, Resource.String.cerrar_menu);
             mDrawerToggle.SyncState();
 
             drawer = activity.FindViewById<ListView>(Resource.Id.drawer);
@@ -74,25 +76,19 @@ namespace BossMandados.Droid
             switch (position)
             {
                 case DrawerPosition.NuevoMandado:
-                    swapContentFragment(new NuevoMandadoFragment()); 
+                    Intent nuevo_mandado = new Intent(activity, typeof(InicioActivity));
+                    activity.StartActivity(nuevo_mandado);
                     break;
                 case DrawerPosition.MandadosEnProceso:
                     break;
                 case DrawerPosition.HistorialDeMandados:
                     break;
                 case DrawerPosition.MisDirecciones:
-                    swapContentFragment(new DireccionesFragment());
+                    Intent direcciones = new Intent(activity, typeof(MisDireccionesActivity));
+                    activity.StartActivity(direcciones);
                     break;
             }
 
-        }
-
-        public void swapContentFragment(Fragment fragment)
-        {
-            FragmentTransaction transaction = activity.FragmentManager.BeginTransaction();
-            transaction.Replace(Resource.Id.main_fragment, fragment);
-            transaction.AddToBackStack(fragment.ToString());
-            transaction.Commit();
         }
 
         public View GetView(int position, View convertView, ViewGroup parent)

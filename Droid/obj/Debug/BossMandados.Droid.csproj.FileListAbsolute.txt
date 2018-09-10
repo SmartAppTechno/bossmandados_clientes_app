@@ -147,7 +147,6 @@
 /Users/ricardo_espinosa/Documents/BossMandados/Droid/obj/Debug/res/mipmap-xhdpi/icono_promociones.png
 /Users/ricardo_espinosa/Documents/BossMandados/Droid/obj/Debug/res/mipmap-xxhdpi/icono_promociones.png
 /Users/ricardo_espinosa/Documents/BossMandados/Droid/obj/Debug/res/mipmap-xxxhdpi/icono_promociones.png
-/Users/ricardo_espinosa/Documents/BossMandados/Droid/obj/Debug/res/layout/nuevomandado.xml
 /Users/ricardo_espinosa/Documents/BossMandados/Droid/obj/Debug/res/layout/misdirecciones.xml
 /Users/ricardo_espinosa/Documents/BossMandados/Droid/obj/Debug/res/layout/splash.xml
 /Users/ricardo_espinosa/Documents/BossMandados/Droid/obj/Debug/res/mipmap-hdpi/moto_login.png

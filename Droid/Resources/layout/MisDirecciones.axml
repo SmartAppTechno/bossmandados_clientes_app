@@ -3,16 +3,26 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     android:layout_width="match_parent"
-    android:fitsSystemWindows="true"
-    android:layout_height="match_parent"
-    android:background="@mipmap/fondo_inicio"
-    android:minWidth="25px"
-    android:minHeight="25px">
-    <TextView
-        android:text="Mis Direcciones"
-        android:textAppearance="?android:attr/textAppearanceMedium"
+    android:layout_height="match_parent">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textColor="@android:color/black"
-        android:id="@+id/textView1" />
+        android:minHeight="?android:attr/actionBarSize"
+        app:titleTextColor="#FFFFFF" />
+    <android.support.v4.widget.DrawerLayout
+        android:id="@+id/drawer_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <!-- Contenido -->
+        <TextView
+            android:text="Mis direcciones"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView1" />
+    <!-- Contenido -->
+        <include
+            layout="@layout/Drawer" />
+    </android.support.v4.widget.DrawerLayout>
 </LinearLayout>

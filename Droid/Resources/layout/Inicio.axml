@@ -14,13 +14,14 @@
         android:id="@+id/drawer_layout"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
-    <!-- fragment -->
-        <fragment
-            class="BossMandados.Droid.NuevoMandadoFragment"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:id="@+id/main_fragment" />
-    <!-- fragment -->
+    <!-- Contenido -->
+        <TextView
+            android:text="Inicio"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView1" />
+    <!-- Contenido -->
         <include
             layout="@layout/Drawer" />
     </android.support.v4.widget.DrawerLayout>

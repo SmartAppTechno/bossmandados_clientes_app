@@ -1359,44 +1359,44 @@ namespace BossMandados.Droid
 		public partial class Color
 		{
 			
-			// aapt resource value: 0x7f09007c
-			public const int abc_background_cache_hint_selector_material_dark = 2131296380;
-			
 			// aapt resource value: 0x7f09007d
-			public const int abc_background_cache_hint_selector_material_light = 2131296381;
+			public const int abc_background_cache_hint_selector_material_dark = 2131296381;
 			
 			// aapt resource value: 0x7f09007e
-			public const int abc_btn_colored_borderless_text_material = 2131296382;
+			public const int abc_background_cache_hint_selector_material_light = 2131296382;
 			
 			// aapt resource value: 0x7f09007f
-			public const int abc_btn_colored_text_material = 2131296383;
+			public const int abc_btn_colored_borderless_text_material = 2131296383;
 			
 			// aapt resource value: 0x7f090080
-			public const int abc_color_highlight_material = 2131296384;
+			public const int abc_btn_colored_text_material = 2131296384;
 			
 			// aapt resource value: 0x7f090081
-			public const int abc_hint_foreground_material_dark = 2131296385;
+			public const int abc_color_highlight_material = 2131296385;
 			
 			// aapt resource value: 0x7f090082
-			public const int abc_hint_foreground_material_light = 2131296386;
+			public const int abc_hint_foreground_material_dark = 2131296386;
+			
+			// aapt resource value: 0x7f090083
+			public const int abc_hint_foreground_material_light = 2131296387;
 			
 			// aapt resource value: 0x7f09001f
 			public const int abc_input_method_navigation_guard = 2131296287;
 			
-			// aapt resource value: 0x7f090083
-			public const int abc_primary_text_disable_only_material_dark = 2131296387;
-			
 			// aapt resource value: 0x7f090084
-			public const int abc_primary_text_disable_only_material_light = 2131296388;
+			public const int abc_primary_text_disable_only_material_dark = 2131296388;
 			
 			// aapt resource value: 0x7f090085
-			public const int abc_primary_text_material_dark = 2131296389;
+			public const int abc_primary_text_disable_only_material_light = 2131296389;
 			
 			// aapt resource value: 0x7f090086
-			public const int abc_primary_text_material_light = 2131296390;
+			public const int abc_primary_text_material_dark = 2131296390;
 			
 			// aapt resource value: 0x7f090087
-			public const int abc_search_url_text = 2131296391;
+			public const int abc_primary_text_material_light = 2131296391;
+			
+			// aapt resource value: 0x7f090088
+			public const int abc_search_url_text = 2131296392;
 			
 			// aapt resource value: 0x7f090020
 			public const int abc_search_url_text_normal = 2131296288;
@@ -1407,29 +1407,29 @@ namespace BossMandados.Droid
 			// aapt resource value: 0x7f090022
 			public const int abc_search_url_text_selected = 2131296290;
 			
-			// aapt resource value: 0x7f090088
-			public const int abc_secondary_text_material_dark = 2131296392;
-			
 			// aapt resource value: 0x7f090089
-			public const int abc_secondary_text_material_light = 2131296393;
+			public const int abc_secondary_text_material_dark = 2131296393;
 			
 			// aapt resource value: 0x7f09008a
-			public const int abc_tint_btn_checkable = 2131296394;
+			public const int abc_secondary_text_material_light = 2131296394;
 			
 			// aapt resource value: 0x7f09008b
-			public const int abc_tint_default = 2131296395;
+			public const int abc_tint_btn_checkable = 2131296395;
 			
 			// aapt resource value: 0x7f09008c
-			public const int abc_tint_edittext = 2131296396;
+			public const int abc_tint_default = 2131296396;
 			
 			// aapt resource value: 0x7f09008d
-			public const int abc_tint_seek_thumb = 2131296397;
+			public const int abc_tint_edittext = 2131296397;
 			
 			// aapt resource value: 0x7f09008e
-			public const int abc_tint_spinner = 2131296398;
+			public const int abc_tint_seek_thumb = 2131296398;
 			
 			// aapt resource value: 0x7f09008f
-			public const int abc_tint_switch_track = 2131296399;
+			public const int abc_tint_spinner = 2131296399;
+			
+			// aapt resource value: 0x7f090090
+			public const int abc_tint_switch_track = 2131296400;
 			
 			// aapt resource value: 0x7f090023
 			public const int accent_material_dark = 2131296291;
@@ -1449,8 +1449,8 @@ namespace BossMandados.Droid
 			// aapt resource value: 0x7f090028
 			public const int background_material_light = 2131296296;
 			
-			// aapt resource value: 0x7f090066
-			public const int black = 2131296358;
+			// aapt resource value: 0x7f090067
+			public const int black = 2131296359;
 			
 			// aapt resource value: 0x7f090029
 			public const int bright_foreground_disabled_material_dark = 2131296297;
@@ -1488,14 +1488,14 @@ namespace BossMandados.Droid
 			// aapt resource value: 0x7f09001e
 			public const int cardview_shadow_start_color = 2131296286;
 			
-			// aapt resource value: 0x7f090078
-			public const int chat_cliente = 2131296376;
+			// aapt resource value: 0x7f090079
+			public const int chat_cliente = 2131296377;
+			
+			// aapt resource value: 0x7f09007b
+			public const int chat_message = 2131296379;
 			
 			// aapt resource value: 0x7f09007a
-			public const int chat_message = 2131296378;
-			
-			// aapt resource value: 0x7f090079
-			public const int chat_repartidor = 2131296377;
+			public const int chat_repartidor = 2131296378;
 			
 			// aapt resource value: 0x7f09000e
 			public const int com_facebook_blue = 2131296270;
@@ -1536,8 +1536,8 @@ namespace BossMandados.Droid
 			// aapt resource value: 0x7f090009
 			public const int com_facebook_button_send_background_color_pressed = 2131296265;
 			
-			// aapt resource value: 0x7f090090
-			public const int com_facebook_button_text_color = 2131296400;
+			// aapt resource value: 0x7f090091
+			public const int com_facebook_button_text_color = 2131296401;
 			
 			// aapt resource value: 0x7f090016
 			public const int com_facebook_device_auth_text = 2131296278;
@@ -1554,14 +1554,14 @@ namespace BossMandados.Droid
 			// aapt resource value: 0x7f09000a
 			public const int com_facebook_messenger_blue = 2131296266;
 			
-			// aapt resource value: 0x7f090091
-			public const int com_facebook_send_button_text_color = 2131296401;
+			// aapt resource value: 0x7f090092
+			public const int com_facebook_send_button_text_color = 2131296402;
 			
 			// aapt resource value: 0x7f09001a
 			public const int com_smart_login_code = 2131296282;
 			
-			// aapt resource value: 0x7f090092
-			public const int common_google_signin_btn_text_dark = 2131296402;
+			// aapt resource value: 0x7f090093
+			public const int common_google_signin_btn_text_dark = 2131296403;
 			
 			// aapt resource value: 0x7f090000
 			public const int common_google_signin_btn_text_dark_default = 2131296256;
@@ -1575,8 +1575,8 @@ namespace BossMandados.Droid
 			// aapt resource value: 0x7f090003
 			public const int common_google_signin_btn_text_dark_pressed = 2131296259;
 			
-			// aapt resource value: 0x7f090093
-			public const int common_google_signin_btn_text_light = 2131296403;
+			// aapt resource value: 0x7f090094
+			public const int common_google_signin_btn_text_light = 2131296404;
 			
 			// aapt resource value: 0x7f090004
 			public const int common_google_signin_btn_text_light_default = 2131296260;
@@ -1590,14 +1590,14 @@ namespace BossMandados.Droid
 			// aapt resource value: 0x7f090007
 			public const int common_google_signin_btn_text_light_pressed = 2131296263;
 			
-			// aapt resource value: 0x7f090094
-			public const int common_google_signin_btn_tint = 2131296404;
+			// aapt resource value: 0x7f090095
+			public const int common_google_signin_btn_tint = 2131296405;
 			
 			// aapt resource value: 0x7f09005b
 			public const int design_bottom_navigation_shadow_color = 2131296347;
 			
-			// aapt resource value: 0x7f090095
-			public const int design_error = 2131296405;
+			// aapt resource value: 0x7f090096
+			public const int design_error = 2131296406;
 			
 			// aapt resource value: 0x7f09005c
 			public const int design_fab_shadow_end_color = 2131296348;
@@ -1623,8 +1623,8 @@ namespace BossMandados.Droid
 			// aapt resource value: 0x7f090063
 			public const int design_snackbar_background_color = 2131296355;
 			
-			// aapt resource value: 0x7f090096
-			public const int design_tint_password_toggle = 2131296406;
+			// aapt resource value: 0x7f090097
+			public const int design_tint_password_toggle = 2131296407;
 			
 			// aapt resource value: 0x7f090031
 			public const int dim_foreground_disabled_material_dark = 2131296305;
@@ -1638,8 +1638,8 @@ namespace BossMandados.Droid
 			// aapt resource value: 0x7f090034
 			public const int dim_foreground_material_light = 2131296308;
 			
-			// aapt resource value: 0x7f09006f
-			public const int drawer = 2131296367;
+			// aapt resource value: 0x7f090070
+			public const int drawer = 2131296368;
 			
 			// aapt resource value: 0x7f090035
 			public const int error_color_material = 2131296309;
@@ -1650,17 +1650,17 @@ namespace BossMandados.Droid
 			// aapt resource value: 0x7f090037
 			public const int foreground_material_light = 2131296311;
 			
-			// aapt resource value: 0x7f09006b
-			public const int gray1 = 2131296363;
-			
-			// aapt resource value: 0x7f090068
-			public const int green1 = 2131296360;
+			// aapt resource value: 0x7f09006c
+			public const int gray1 = 2131296364;
 			
 			// aapt resource value: 0x7f090069
-			public const int green2 = 2131296361;
+			public const int green1 = 2131296361;
 			
 			// aapt resource value: 0x7f09006a
-			public const int green3 = 2131296362;
+			public const int green2 = 2131296362;
+			
+			// aapt resource value: 0x7f09006b
+			public const int green3 = 2131296363;
 			
 			// aapt resource value: 0x7f090038
 			public const int highlighted_text_material_dark = 2131296312;
@@ -1713,35 +1713,35 @@ namespace BossMandados.Droid
 			// aapt resource value: 0x7f09005a
 			public const int notification_material_background_media_default_color = 2131296346;
 			
-			// aapt resource value: 0x7f09006d
-			public const int orange = 2131296365;
-			
-			// aapt resource value: 0x7f090072
-			public const int orders_divisor = 2131296370;
+			// aapt resource value: 0x7f09006e
+			public const int orange = 2131296366;
 			
 			// aapt resource value: 0x7f090073
-			public const int orders_progress1 = 2131296371;
+			public const int orders_divisor = 2131296371;
 			
 			// aapt resource value: 0x7f090074
-			public const int orders_progress2 = 2131296372;
+			public const int orders_progress1 = 2131296372;
 			
 			// aapt resource value: 0x7f090075
-			public const int orders_tab1 = 2131296373;
+			public const int orders_progress2 = 2131296373;
 			
 			// aapt resource value: 0x7f090076
-			public const int orders_tab2 = 2131296374;
-			
-			// aapt resource value: 0x7f090070
-			public const int orders_text = 2131296368;
-			
-			// aapt resource value: 0x7f090071
-			public const int orders_text2 = 2131296369;
+			public const int orders_tab1 = 2131296374;
 			
 			// aapt resource value: 0x7f090077
-			public const int orders_text3 = 2131296375;
+			public const int orders_tab2 = 2131296375;
 			
-			// aapt resource value: 0x7f09006c
-			public const int pink = 2131296364;
+			// aapt resource value: 0x7f090071
+			public const int orders_text = 2131296369;
+			
+			// aapt resource value: 0x7f090072
+			public const int orders_text2 = 2131296370;
+			
+			// aapt resource value: 0x7f090078
+			public const int orders_text3 = 2131296376;
+			
+			// aapt resource value: 0x7f09006d
+			public const int pink = 2131296365;
 			
 			// aapt resource value: 0x7f090046
 			public const int primary_dark_material_dark = 2131296326;
@@ -1767,8 +1767,8 @@ namespace BossMandados.Droid
 			// aapt resource value: 0x7f09004d
 			public const int primary_text_disabled_material_light = 2131296333;
 			
-			// aapt resource value: 0x7f09006e
-			public const int red = 2131296366;
+			// aapt resource value: 0x7f09006f
+			public const int red = 2131296367;
 			
 			// aapt resource value: 0x7f09004e
 			public const int ripple_material_dark = 2131296334;
@@ -1794,11 +1794,11 @@ namespace BossMandados.Droid
 			// aapt resource value: 0x7f090055
 			public const int switch_thumb_disabled_material_light = 2131296341;
 			
-			// aapt resource value: 0x7f090097
-			public const int switch_thumb_material_dark = 2131296407;
-			
 			// aapt resource value: 0x7f090098
-			public const int switch_thumb_material_light = 2131296408;
+			public const int switch_thumb_material_dark = 2131296408;
+			
+			// aapt resource value: 0x7f090099
+			public const int switch_thumb_material_light = 2131296409;
 			
 			// aapt resource value: 0x7f090056
 			public const int switch_thumb_normal_material_dark = 2131296342;
@@ -1806,17 +1806,20 @@ namespace BossMandados.Droid
 			// aapt resource value: 0x7f090057
 			public const int switch_thumb_normal_material_light = 2131296343;
 			
+			// aapt resource value: 0x7f090066
+			public const int titulo = 2131296358;
+			
 			// aapt resource value: 0x7f090058
 			public const int tooltip_background_dark = 2131296344;
 			
 			// aapt resource value: 0x7f090059
 			public const int tooltip_background_light = 2131296345;
 			
-			// aapt resource value: 0x7f09007b
-			public const int transparent = 2131296379;
+			// aapt resource value: 0x7f09007c
+			public const int transparent = 2131296380;
 			
-			// aapt resource value: 0x7f090067
-			public const int white = 2131296359;
+			// aapt resource value: 0x7f090068
+			public const int white = 2131296360;
 			
 			static Color()
 			{
@@ -2916,8 +2919,8 @@ namespace BossMandados.Droid
 			// aapt resource value: 0x7f0c0052
 			public const int SYM = 2131492946;
 			
-			// aapt resource value: 0x7f0c00db
-			public const int action0 = 2131493083;
+			// aapt resource value: 0x7f0c00da
+			public const int action0 = 2131493082;
 			
 			// aapt resource value: 0x7f0c0091
 			public const int action_bar = 2131493009;
@@ -2940,17 +2943,17 @@ namespace BossMandados.Droid
 			// aapt resource value: 0x7f0c006f
 			public const int action_bar_title = 2131492975;
 			
-			// aapt resource value: 0x7f0c00d8
-			public const int action_container = 2131493080;
+			// aapt resource value: 0x7f0c00d7
+			public const int action_container = 2131493079;
 			
 			// aapt resource value: 0x7f0c0092
 			public const int action_context_bar = 2131493010;
 			
-			// aapt resource value: 0x7f0c00df
-			public const int action_divider = 2131493087;
+			// aapt resource value: 0x7f0c00de
+			public const int action_divider = 2131493086;
 			
-			// aapt resource value: 0x7f0c00d9
-			public const int action_image = 2131493081;
+			// aapt resource value: 0x7f0c00d8
+			public const int action_image = 2131493080;
 			
 			// aapt resource value: 0x7f0c0003
 			public const int action_menu_divider = 2131492867;
@@ -2967,11 +2970,11 @@ namespace BossMandados.Droid
 			// aapt resource value: 0x7f0c0071
 			public const int action_mode_close_button = 2131492977;
 			
-			// aapt resource value: 0x7f0c00da
-			public const int action_text = 2131493082;
+			// aapt resource value: 0x7f0c00d9
+			public const int action_text = 2131493081;
 			
-			// aapt resource value: 0x7f0c00e8
-			public const int actions = 2131493096;
+			// aapt resource value: 0x7f0c00e7
+			public const int actions = 2131493095;
 			
 			// aapt resource value: 0x7f0c0072
 			public const int activity_chooser_view_content = 2131492978;
@@ -3021,8 +3024,8 @@ namespace BossMandados.Droid
 			// aapt resource value: 0x7f0c0078
 			public const int buttonPanel = 2131492984;
 			
-			// aapt resource value: 0x7f0c00dc
-			public const int cancel_action = 2131493084;
+			// aapt resource value: 0x7f0c00db
+			public const int cancel_action = 2131493083;
 			
 			// aapt resource value: 0x7f0c00a5
 			public const int cancel_button = 2131493029;
@@ -3039,8 +3042,8 @@ namespace BossMandados.Droid
 			// aapt resource value: 0x7f0c0088
 			public const int checkbox = 2131493000;
 			
-			// aapt resource value: 0x7f0c00e4
-			public const int chronometer = 2131493092;
+			// aapt resource value: 0x7f0c00e3
+			public const int chronometer = 2131493091;
 			
 			// aapt resource value: 0x7f0c0063
 			public const int clip_horizontal = 2131492963;
@@ -3090,20 +3093,20 @@ namespace BossMandados.Droid
 			// aapt resource value: 0x7f0c007b
 			public const int contentPanel = 2131492987;
 			
-			// aapt resource value: 0x7f0c00d3
-			public const int contrasenia_login = 2131493075;
+			// aapt resource value: 0x7f0c00d2
+			public const int contrasenia_login = 2131493074;
 			
 			// aapt resource value: 0x7f0c00ba
 			public const int coordinator = 2131493050;
 			
-			// aapt resource value: 0x7f0c00d2
-			public const int correo_login = 2131493074;
+			// aapt resource value: 0x7f0c00d1
+			public const int correo_login = 2131493073;
 			
-			// aapt resource value: 0x7f0c00d6
-			public const int crear_cuenta = 2131493078;
+			// aapt resource value: 0x7f0c00d5
+			public const int crear_cuenta = 2131493077;
 			
-			// aapt resource value: 0x7f0c00f8
-			public const int cuenta = 2131493112;
+			// aapt resource value: 0x7f0c00f7
+			public const int cuenta = 2131493111;
 			
 			// aapt resource value: 0x7f0c0082
 			public const int custom = 2131492994;
@@ -3135,8 +3138,8 @@ namespace BossMandados.Droid
 			// aapt resource value: 0x7f0c00c0
 			public const int design_navigation_view = 2131493056;
 			
-			// aapt resource value: 0x7f0c00f7
-			public const int direcciones = 2131493111;
+			// aapt resource value: 0x7f0c00f6
+			public const int direcciones = 2131493110;
 			
 			// aapt resource value: 0x7f0c003c
 			public const int disableHome = 2131492924;
@@ -3159,8 +3162,8 @@ namespace BossMandados.Droid
 			// aapt resource value: 0x7f0c004b
 			public const int end = 2131492939;
 			
-			// aapt resource value: 0x7f0c00ea
-			public const int end_padder = 2131493098;
+			// aapt resource value: 0x7f0c00e9
+			public const int end_padder = 2131493097;
 			
 			// aapt resource value: 0x7f0c0058
 			public const int enterAlways = 2131492952;
@@ -3177,8 +3180,8 @@ namespace BossMandados.Droid
 			// aapt resource value: 0x7f0c0087
 			public const int expanded_menu = 2131492999;
 			
-			// aapt resource value: 0x7f0c00d5
-			public const int fblogin = 2131493077;
+			// aapt resource value: 0x7f0c00d4
+			public const int fblogin = 2131493076;
 			
 			// aapt resource value: 0x7f0c0065
 			public const int fill = 2131492965;
@@ -3198,8 +3201,8 @@ namespace BossMandados.Droid
 			// aapt resource value: 0x7f0c000a
 			public const int ghost_view = 2131492874;
 			
-			// aapt resource value: 0x7f0c00f6
-			public const int historial_mandados = 2131493110;
+			// aapt resource value: 0x7f0c00f5
+			public const int historial_mandados = 2131493109;
 			
 			// aapt resource value: 0x7f0c0005
 			public const int home = 2131492869;
@@ -3213,8 +3216,8 @@ namespace BossMandados.Droid
 			// aapt resource value: 0x7f0c0077
 			public const int icon = 2131492983;
 			
-			// aapt resource value: 0x7f0c00e9
-			public const int icon_group = 2131493097;
+			// aapt resource value: 0x7f0c00e8
+			public const int icon_group = 2131493096;
 			
 			// aapt resource value: 0x7f0c0024
 			public const int icon_only = 2131492900;
@@ -3228,11 +3231,11 @@ namespace BossMandados.Droid
 			// aapt resource value: 0x7f0c00c6
 			public const int imageView1 = 2131493062;
 			
-			// aapt resource value: 0x7f0c00e5
-			public const int info = 2131493093;
+			// aapt resource value: 0x7f0c00e4
+			public const int info = 2131493092;
 			
-			// aapt resource value: 0x7f0c00d4
-			public const int iniciar_sesion = 2131493076;
+			// aapt resource value: 0x7f0c00d3
+			public const int iniciar_sesion = 2131493075;
 			
 			// aapt resource value: 0x7f0c0035
 			public const int inline = 2131492917;
@@ -3273,41 +3276,38 @@ namespace BossMandados.Droid
 			// aapt resource value: 0x7f0c0076
 			public const int list_item = 2131492982;
 			
-			// aapt resource value: 0x7f0c00d0
-			public const int logo_login = 2131493072;
-			
 			// aapt resource value: 0x7f0c00cf
-			public const int main_fragment = 2131493071;
+			public const int logo_login = 2131493071;
 			
-			// aapt resource value: 0x7f0c00f5
-			public const int mandados_proceso = 2131493109;
+			// aapt resource value: 0x7f0c00f4
+			public const int mandados_proceso = 2131493108;
 			
 			// aapt resource value: 0x7f0c00b4
 			public const int mapa_crear = 2131493044;
 			
-			// aapt resource value: 0x7f0c00ee
-			public const int mapa_registro = 2131493102;
+			// aapt resource value: 0x7f0c00ed
+			public const int mapa_registro = 2131493101;
 			
-			// aapt resource value: 0x7f0c00f3
-			public const int masked = 2131493107;
+			// aapt resource value: 0x7f0c00f2
+			public const int masked = 2131493106;
 			
-			// aapt resource value: 0x7f0c00de
-			public const int media_actions = 2131493086;
+			// aapt resource value: 0x7f0c00dd
+			public const int media_actions = 2131493085;
 			
-			// aapt resource value: 0x7f0c00d1
-			public const int mensaje_contrasenia = 2131493073;
+			// aapt resource value: 0x7f0c00d0
+			public const int mensaje_contrasenia = 2131493072;
 			
 			// aapt resource value: 0x7f0c00b6
 			public const int mensaje_crear = 2131493046;
 			
-			// aapt resource value: 0x7f0c00ef
-			public const int mensaje_registro = 2131493103;
+			// aapt resource value: 0x7f0c00ee
+			public const int mensaje_registro = 2131493102;
 			
-			// aapt resource value: 0x7f0c00f1
-			public const int message = 2131493105;
+			// aapt resource value: 0x7f0c00f0
+			public const int message = 2131493104;
 			
-			// aapt resource value: 0x7f0c00d7
-			public const int messenger_send_button = 2131493079;
+			// aapt resource value: 0x7f0c00d6
+			public const int messenger_send_button = 2131493078;
 			
 			// aapt resource value: 0x7f0c004c
 			public const int middle = 2131492940;
@@ -3315,8 +3315,8 @@ namespace BossMandados.Droid
 			// aapt resource value: 0x7f0c0068
 			public const int mini = 2131492968;
 			
-			// aapt resource value: 0x7f0c00f0
-			public const int moto_login = 2131493104;
+			// aapt resource value: 0x7f0c00ef
+			public const int moto_login = 2131493103;
 			
 			// aapt resource value: 0x7f0c0043
 			public const int multiply = 2131492931;
@@ -3336,17 +3336,17 @@ namespace BossMandados.Droid
 			// aapt resource value: 0x7f0c001f
 			public const int normal = 2131492895;
 			
-			// aapt resource value: 0x7f0c00e7
-			public const int notification_background = 2131493095;
-			
-			// aapt resource value: 0x7f0c00e1
-			public const int notification_main_column = 2131493089;
+			// aapt resource value: 0x7f0c00e6
+			public const int notification_background = 2131493094;
 			
 			// aapt resource value: 0x7f0c00e0
-			public const int notification_main_column_container = 2131493088;
+			public const int notification_main_column = 2131493088;
 			
-			// aapt resource value: 0x7f0c00f4
-			public const int nuevo_mandado = 2131493108;
+			// aapt resource value: 0x7f0c00df
+			public const int notification_main_column_container = 2131493087;
+			
+			// aapt resource value: 0x7f0c00f3
+			public const int nuevo_mandado = 2131493107;
 			
 			// aapt resource value: 0x7f0c002f
 			public const int open_graph = 2131492911;
@@ -3354,8 +3354,8 @@ namespace BossMandados.Droid
 			// aapt resource value: 0x7f0c0030
 			public const int page = 2131492912;
 			
-			// aapt resource value: 0x7f0c00f9
-			public const int pago = 2131493113;
+			// aapt resource value: 0x7f0c00f8
+			public const int pago = 2131493112;
 			
 			// aapt resource value: 0x7f0c0061
 			public const int parallax = 2131492961;
@@ -3378,17 +3378,17 @@ namespace BossMandados.Droid
 			// aapt resource value: 0x7f0c0007
 			public const int progress_horizontal = 2131492871;
 			
-			// aapt resource value: 0x7f0c00fa
-			public const int promociones = 2131493114;
+			// aapt resource value: 0x7f0c00f9
+			public const int promociones = 2131493113;
 			
 			// aapt resource value: 0x7f0c008a
 			public const int radio = 2131493002;
 			
-			// aapt resource value: 0x7f0c00ed
-			public const int register_direccion = 2131493101;
-			
 			// aapt resource value: 0x7f0c00ec
-			public const int register_telefono = 2131493100;
+			public const int register_direccion = 2131493100;
+			
+			// aapt resource value: 0x7f0c00eb
+			public const int register_telefono = 2131493099;
 			
 			// aapt resource value: 0x7f0c00b5
 			public const int registro = 2131493045;
@@ -3411,11 +3411,11 @@ namespace BossMandados.Droid
 			// aapt resource value: 0x7f0c0039
 			public const int right = 2131492921;
 			
-			// aapt resource value: 0x7f0c00e6
-			public const int right_icon = 2131493094;
+			// aapt resource value: 0x7f0c00e5
+			public const int right_icon = 2131493093;
 			
-			// aapt resource value: 0x7f0c00e2
-			public const int right_side = 2131493090;
+			// aapt resource value: 0x7f0c00e1
+			public const int right_side = 2131493089;
 			
 			// aapt resource value: 0x7f0c0020
 			public const int satellite = 2131492896;
@@ -3528,8 +3528,8 @@ namespace BossMandados.Droid
 			// aapt resource value: 0x7f0c0060
 			public const int start = 2131492960;
 			
-			// aapt resource value: 0x7f0c00dd
-			public const int status_bar_latest_event_content = 2131493085;
+			// aapt resource value: 0x7f0c00dc
+			public const int status_bar_latest_event_content = 2131493084;
 			
 			// aapt resource value: 0x7f0c008b
 			public const int submenuarrow = 2131493003;
@@ -3570,8 +3570,8 @@ namespace BossMandados.Droid
 			// aapt resource value: 0x7f0c0015
 			public const int textinput_error = 2131492885;
 			
-			// aapt resource value: 0x7f0c00e3
-			public const int time = 2131493091;
+			// aapt resource value: 0x7f0c00e2
+			public const int time = 2131493090;
 			
 			// aapt resource value: 0x7f0c001c
 			public const int title = 2131492892;
@@ -3585,8 +3585,8 @@ namespace BossMandados.Droid
 			// aapt resource value: 0x7f0c00ae
 			public const int titulo_crear = 2131493038;
 			
-			// aapt resource value: 0x7f0c00eb
-			public const int titulo_registro = 2131493099;
+			// aapt resource value: 0x7f0c00ea
+			public const int titulo_registro = 2131493098;
 			
 			// aapt resource value: 0x7f0c00cd
 			public const int toolbar = 2131493069;
@@ -3636,8 +3636,8 @@ namespace BossMandados.Droid
 			// aapt resource value: 0x7f0c0016
 			public const int view_offset_helper = 2131492886;
 			
-			// aapt resource value: 0x7f0c00f2
-			public const int visible = 2131493106;
+			// aapt resource value: 0x7f0c00f1
+			public const int visible = 2131493105;
 			
 			// aapt resource value: 0x7f0c00a0
 			public const int webview = 2131493024;
@@ -3933,28 +3933,25 @@ namespace BossMandados.Droid
 			public const int notification_template_part_time = 2130968649;
 			
 			// aapt resource value: 0x7f04004a
-			public const int NuevoMandado = 2130968650;
+			public const int Registro = 2130968650;
 			
 			// aapt resource value: 0x7f04004b
-			public const int Registro = 2130968651;
+			public const int select_dialog_item_material = 2130968651;
 			
 			// aapt resource value: 0x7f04004c
-			public const int select_dialog_item_material = 2130968652;
+			public const int select_dialog_multichoice_material = 2130968652;
 			
 			// aapt resource value: 0x7f04004d
-			public const int select_dialog_multichoice_material = 2130968653;
+			public const int select_dialog_singlechoice_material = 2130968653;
 			
 			// aapt resource value: 0x7f04004e
-			public const int select_dialog_singlechoice_material = 2130968654;
+			public const int Splash = 2130968654;
 			
 			// aapt resource value: 0x7f04004f
-			public const int Splash = 2130968655;
+			public const int support_simple_spinner_dropdown_item = 2130968655;
 			
 			// aapt resource value: 0x7f040050
-			public const int support_simple_spinner_dropdown_item = 2130968656;
-			
-			// aapt resource value: 0x7f040051
-			public const int tooltip = 2130968657;
+			public const int tooltip = 2130968656;
 			
 			static Layout()
 			{
@@ -4133,6 +4130,9 @@ namespace BossMandados.Droid
 			// aapt resource value: 0x7f080039
 			public const int abc_toolbar_collapse_description = 2131230777;
 			
+			// aapt resource value: 0x7f08005d
+			public const int abrir_menu = 2131230813;
+			
 			// aapt resource value: 0x7f080053
 			public const int app_name = 2131230803;
 			
@@ -4141,6 +4141,9 @@ namespace BossMandados.Droid
 			
 			// aapt resource value: 0x7f080048
 			public const int bottom_sheet_behavior = 2131230792;
+			
+			// aapt resource value: 0x7f08005e
+			public const int cerrar_menu = 2131230814;
 			
 			// aapt resource value: 0x7f080049
 			public const int character_counter_pattern = 2131230793;
@@ -4270,12 +4273,6 @@ namespace BossMandados.Droid
 			
 			// aapt resource value: 0x7f080055
 			public const int google_maps = 2131230805;
-			
-			// aapt resource value: 0x7f08005d
-			public const int login_email = 2131230813;
-			
-			// aapt resource value: 0x7f08005e
-			public const int login_password = 2131230814;
 			
 			// aapt resource value: 0x7f080056
 			public const int menuItem1 = 2131230806;
