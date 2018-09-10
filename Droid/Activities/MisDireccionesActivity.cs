@@ -11,6 +11,7 @@ using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 using Android.Support.V7.App;
+using Android.Preferences;
 
 namespace BossMandados.Droid.Activities
 {
@@ -24,6 +25,16 @@ namespace BossMandados.Droid.Activities
             base.OnCreate(savedInstanceState);
             SetContentView(Resource.Layout.MisDirecciones);
             drawer = new Drawer(this);
+        }
+
+        public void obtener_direcciones(){
+            //obtener id del usuario logueado
+            Context mContext = Application.Context;
+            ISharedPreferences prefs = PreferenceManager.GetDefaultSharedPreferences(mContext);
+            int sesion_id = prefs.GetInt("id", 0);
+            //obtener las direcciones
+            //cargar las direcciones en la vista
+
         }
     }
 }

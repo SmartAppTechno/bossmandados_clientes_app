@@ -3,7 +3,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@mipmap/fondo_inicio">
     <android.support.v7.widget.Toolbar
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
@@ -15,12 +16,6 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
     <!-- Contenido -->
-        <TextView
-            android:text="Mis direcciones"
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/textView1" />
     <!-- Contenido -->
         <include
             layout="@layout/Drawer" />
