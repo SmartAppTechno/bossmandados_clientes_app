@@ -11,9 +11,9 @@ public class LocationPackageManager_ListenerImplementor
 	public static final String __md_methods;
 	static {
 		__md_methods = 
-			"n_onLocationPackage:(Lcom/facebook/places/internal/LocationPackage;)V:GetOnLocationPackage_Lcom_facebook_places_internal_LocationPackage_Handler:Xamarin.Facebook.Places.Internal.LocationPackageManager/IListenerInvoker, Xamarin.Facebook\n" +
+			"n_onLocationPackage:(Lcom/facebook/places/internal/LocationPackage;)V:GetOnLocationPackage_Lcom_facebook_places_internal_LocationPackage_Handler:Xamarin.Facebook.Places.Internal.LocationPackageManager/IListenerInvoker, Xamarin.Facebook.Places.Android\n" +
 			"";
-		mono.android.Runtime.register ("Xamarin.Facebook.Places.Internal.LocationPackageManager+IListenerImplementor, Xamarin.Facebook, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", LocationPackageManager_ListenerImplementor.class, __md_methods);
+		mono.android.Runtime.register ("Xamarin.Facebook.Places.Internal.LocationPackageManager+IListenerImplementor, Xamarin.Facebook.Places.Android", LocationPackageManager_ListenerImplementor.class, __md_methods);
 	}
 
 
@@ -21,7 +21,7 @@ public class LocationPackageManager_ListenerImplementor
 	{
 		super ();
 		if (getClass () == LocationPackageManager_ListenerImplementor.class)
-			mono.android.TypeManager.Activate ("Xamarin.Facebook.Places.Internal.LocationPackageManager+IListenerImplementor, Xamarin.Facebook, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "", this, new java.lang.Object[] {  });
+			mono.android.TypeManager.Activate ("Xamarin.Facebook.Places.Internal.LocationPackageManager+IListenerImplementor, Xamarin.Facebook.Places.Android", "", this, new java.lang.Object[] {  });
 	}
 
 

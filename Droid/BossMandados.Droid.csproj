@@ -1,10 +1,10 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="..\packages\Xamarin.Build.Download.0.4.11\build\Xamarin.Build.Download.props" Condition="Exists('..\packages\Xamarin.Build.Download.0.4.11\build\Xamarin.Build.Download.props')" />
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{F3F0A2B4-BB01-47BD-AB2B-E7D79793E5FE}</ProjectGuid>
+    <ProjectGuid>{D9C3D6FE-0CBD-4DC5-8700-C6C1C42F07C4}</ProjectGuid>
     <ProjectTypeGuids>{EFBA0AD7-5A72-4C68-AF49-83D382785DCF};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <RootNamespace>BossMandados.Droid</RootNamespace>
@@ -17,8 +17,7 @@
     <MonoAndroidResourcePrefix>Resources</MonoAndroidResourcePrefix>
     <MonoAndroidAssetsPrefix>Assets</MonoAndroidAssetsPrefix>
     <AndroidUseLatestPlatformSdk>true</AndroidUseLatestPlatformSdk>
-    <AndroidUseSharedRuntime>false</AndroidUseSharedRuntime>
-    <AndroidKeyStore>false</AndroidKeyStore>
+	<AndroidUseManagedDesignTimeResourceGenerator>False</AndroidUseManagedDesignTimeResourceGenerator>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -28,7 +27,7 @@
     <DefineConstants>DEBUG;</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <EmbedAssembliesIntoApk>true</EmbedAssembliesIntoApk>
+    <AndroidLinkMode>None</AndroidLinkMode>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -38,44 +37,49 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <AndroidManagedSymbols>true</AndroidManagedSymbols>
+    <AndroidUseSharedRuntime>false</AndroidUseSharedRuntime>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="PCLCrypto, Version=2.0.0.0, Culture=neutral, PublicKeyToken=d4421c8a4786956c, processorArchitecture=MSIL">
-      <HintPath>..\packages\PCLCrypto.2.0.147\lib\MonoAndroid23\PCLCrypto.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Core" />
     <Reference Include="Mono.Android" />
+    <Reference Include="Java.Interop" />
     <Reference Include="Bolts.AppLinks">
       <HintPath>..\packages\Bolts.1.4.0.1\lib\MonoAndroid403\Bolts.AppLinks.dll</HintPath>
     </Reference>
     <Reference Include="Bolts.Tasks">
       <HintPath>..\packages\Bolts.1.4.0.1\lib\MonoAndroid403\Bolts.Tasks.dll</HintPath>
     </Reference>
+    <Reference Include="Xamarin.Facebook.Core.Android">
+      <HintPath>..\packages\Xamarin.Facebook.Core.Android.4.34.0\lib\monoandroid81\Xamarin.Facebook.Core.Android.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Facebook.AppLinks.Android">
+      <HintPath>..\packages\Xamarin.Facebook.AppLinks.Android.4.34.0\lib\monoandroid81\Xamarin.Facebook.AppLinks.Android.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Facebook.Messenger.Android">
+      <HintPath>..\packages\Xamarin.Facebook.Messenger.Android.4.34.0\lib\monoandroid81\Xamarin.Facebook.Messenger.Android.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Facebook.Places.Android">
+      <HintPath>..\packages\Xamarin.Facebook.Places.Android.4.34.0\lib\monoandroid81\Xamarin.Facebook.Places.Android.dll</HintPath>
+    </Reference>
     <Reference Include="Google.ZXing.Core">
       <HintPath>..\packages\Xamarin.Google.ZXing.Core.3.3.0\lib\MonoAndroid\Google.ZXing.Core.dll</HintPath>
     </Reference>
-    <Reference Include="Microsoft.Azure.Mobile.Client">
-      <HintPath>..\packages\Microsoft.Azure.Mobile.Client.4.0.2\lib\monoandroid70\Microsoft.Azure.Mobile.Client.dll</HintPath>
+    <Reference Include="Xamarin.Facebook.Common.Android">
+      <HintPath>..\packages\Xamarin.Facebook.Common.Android.4.34.0\lib\monoandroid81\Xamarin.Facebook.Common.Android.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Facebook.Login.Android">
+      <HintPath>..\packages\Xamarin.Facebook.Login.Android.4.34.0\lib\monoandroid81\Xamarin.Facebook.Login.Android.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Facebook.Share.Android">
+      <HintPath>..\packages\Xamarin.Facebook.Share.Android.4.34.0\lib\monoandroid81\Xamarin.Facebook.Share.Android.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Facebook.Android">
+      <HintPath>..\packages\Xamarin.Facebook.Android.4.34.0\lib\monoandroid81\Xamarin.Facebook.Android.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json">
       <HintPath>..\packages\Newtonsoft.Json.11.0.2\lib\netstandard2.0\Newtonsoft.Json.dll</HintPath>
-    </Reference>
-    <Reference Include="Validation">
-      <HintPath>..\packages\Validation.2.4.18\lib\netstandard1.3\Validation.dll</HintPath>
-    </Reference>
-    <Reference Include="PInvoke.Windows.Core">
-      <HintPath>..\packages\PInvoke.Windows.Core.0.5.155\lib\portable-net45+win8+wpa81\PInvoke.Windows.Core.dll</HintPath>
-    </Reference>
-    <Reference Include="PInvoke.Kernel32">
-      <HintPath>..\packages\PInvoke.Kernel32.0.5.155\lib\portable-net45+win8+wpa81\PInvoke.Kernel32.dll</HintPath>
-    </Reference>
-    <Reference Include="PInvoke.BCrypt">
-      <HintPath>..\packages\PInvoke.BCrypt.0.5.155\lib\portable-net45+win8+wpa81\PInvoke.BCrypt.dll</HintPath>
-    </Reference>
-    <Reference Include="PInvoke.NCrypt">
-      <HintPath>..\packages\PInvoke.NCrypt.0.5.155\lib\portable-net45+win8+wpa81\PInvoke.NCrypt.dll</HintPath>
     </Reference>
     <Reference Include="Xamarin.Android.Support.Annotations">
       <HintPath>..\packages\Xamarin.Android.Support.Annotations.27.0.2.1\lib\MonoAndroid81\Xamarin.Android.Support.Annotations.dll</HintPath>
@@ -122,47 +126,67 @@
     <Reference Include="Xamarin.Android.Support.v7.AppCompat">
       <HintPath>..\packages\Xamarin.Android.Support.v7.AppCompat.27.0.2.1\lib\MonoAndroid81\Xamarin.Android.Support.v7.AppCompat.dll</HintPath>
     </Reference>
-    <Reference Include="Xamarin.Facebook.Core.Android">
-      <HintPath>..\packages\Xamarin.Facebook.Core.Android.4.34.0\lib\monoandroid81\Xamarin.Facebook.Core.Android.dll</HintPath>
+    <Reference Include="PCLCrypto">
+      <HintPath>..\packages\PCLCrypto.2.0.147\lib\MonoAndroid23\PCLCrypto.dll</HintPath>
     </Reference>
-    <Reference Include="Java.Interop" />
-    <Reference Include="Xamarin.Facebook.AppLinks.Android">
-      <HintPath>..\packages\Xamarin.Facebook.AppLinks.Android.4.34.0\lib\monoandroid81\Xamarin.Facebook.AppLinks.Android.dll</HintPath>
+    <Reference Include="Microsoft.Azure.Mobile.Client">
+      <HintPath>..\packages\Microsoft.Azure.Mobile.Client.4.0.2\lib\monoandroid70\Microsoft.Azure.Mobile.Client.dll</HintPath>
     </Reference>
-    <Reference Include="Xamarin.Facebook.Messenger.Android">
-      <HintPath>..\packages\Xamarin.Facebook.Messenger.Android.4.34.0\lib\monoandroid81\Xamarin.Facebook.Messenger.Android.dll</HintPath>
+    <Reference Include="PInvoke.Windows.Core">
+      <HintPath>..\packages\PInvoke.Windows.Core.0.5.155\lib\portable-net45+win8+wpa81\PInvoke.Windows.Core.dll</HintPath>
     </Reference>
-    <Reference Include="Xamarin.Facebook.Places.Android">
-      <HintPath>..\packages\Xamarin.Facebook.Places.Android.4.34.0\lib\monoandroid81\Xamarin.Facebook.Places.Android.dll</HintPath>
+    <Reference Include="PInvoke.Kernel32">
+      <HintPath>..\packages\PInvoke.Kernel32.0.5.155\lib\portable-net45+win8+wpa81\PInvoke.Kernel32.dll</HintPath>
     </Reference>
-    <Reference Include="Xamarin.Facebook.Common.Android">
-      <HintPath>..\packages\Xamarin.Facebook.Common.Android.4.34.0\lib\monoandroid81\Xamarin.Facebook.Common.Android.dll</HintPath>
+    <Reference Include="PInvoke.BCrypt">
+      <HintPath>..\packages\PInvoke.BCrypt.0.5.155\lib\portable-net45+win8+wpa81\PInvoke.BCrypt.dll</HintPath>
     </Reference>
-    <Reference Include="Xamarin.Facebook.Login.Android">
-      <HintPath>..\packages\Xamarin.Facebook.Login.Android.4.34.0\lib\monoandroid81\Xamarin.Facebook.Login.Android.dll</HintPath>
+    <Reference Include="PInvoke.NCrypt">
+      <HintPath>..\packages\PInvoke.NCrypt.0.5.155\lib\portable-net45+win8+wpa81\PInvoke.NCrypt.dll</HintPath>
     </Reference>
-    <Reference Include="Xamarin.Facebook.Share.Android">
-      <HintPath>..\packages\Xamarin.Facebook.Share.Android.4.34.0\lib\monoandroid81\Xamarin.Facebook.Share.Android.dll</HintPath>
+    <Reference Include="Validation">
+      <HintPath>..\packages\Validation.2.4.18\lib\netstandard1.3\Validation.dll</HintPath>
     </Reference>
-    <Reference Include="Xamarin.Facebook.Android">
-      <HintPath>..\packages\Xamarin.Facebook.Android.4.34.0\lib\monoandroid81\Xamarin.Facebook.Android.dll</HintPath>
+    <Reference Include="Xamarin.GooglePlayServices.Basement">
+      <HintPath>..\packages\Xamarin.GooglePlayServices.Basement.60.1142.1\lib\MonoAndroid80\Xamarin.GooglePlayServices.Basement.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.GooglePlayServices.Tasks">
+      <HintPath>..\packages\Xamarin.GooglePlayServices.Tasks.60.1142.1\lib\MonoAndroid80\Xamarin.GooglePlayServices.Tasks.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.GooglePlayServices.Base">
+      <HintPath>..\packages\Xamarin.GooglePlayServices.Base.60.1142.1\lib\MonoAndroid80\Xamarin.GooglePlayServices.Base.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.GooglePlayServices.Maps">
+      <HintPath>..\packages\Xamarin.GooglePlayServices.Maps.60.1142.1\lib\MonoAndroid80\Xamarin.GooglePlayServices.Maps.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Android.Support.Transition">
+      <HintPath>..\packages\Xamarin.Android.Support.Transition.27.0.2.1\lib\MonoAndroid81\Xamarin.Android.Support.Transition.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Android.Support.v7.RecyclerView">
+      <HintPath>..\packages\Xamarin.Android.Support.v7.RecyclerView.27.0.2.1\lib\MonoAndroid81\Xamarin.Android.Support.v7.RecyclerView.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Android.Support.Design">
+      <HintPath>..\packages\Xamarin.Android.Support.Design.27.0.2.1\lib\MonoAndroid81\Xamarin.Android.Support.Design.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="MainActivity.cs" />
     <Compile Include="Resources\Resource.designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Classes\DrawerAdapter.cs" />
+    <Compile Include="Activities\MainActivity.cs" />
+    <Compile Include="Activities\RegistroActivity.cs" />
+    <Compile Include="Activities\InicioActivity.cs" />
+    <Compile Include="Activities\CrearCuentaActivity.cs" />
+    <Compile Include="Activities\SplashActivity.cs" />
+    <Compile Include="Classes\Drawer.cs" />
+    <Compile Include="Fragments\DireccionesFragment.cs" />
+    <Compile Include="Fragments\NuevoMandadoFragment.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="app.config" />
     <None Include="Resources\AboutResources.txt" />
-    <None Include="Properties\AndroidManifest.xml">
-      <SubType>Designer</SubType>
-    </None>
+    <None Include="Properties\AndroidManifest.xml" />
     <None Include="Assets\AboutAssets.txt" />
-    <None Include="packages.config">
-      <SubType>Designer</SubType>
-    </None>
+    <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\layout\Main.axml" />
@@ -172,19 +196,108 @@
     <AndroidResource Include="Resources\mipmap-xhdpi\Icon.png" />
     <AndroidResource Include="Resources\mipmap-xxhdpi\Icon.png" />
     <AndroidResource Include="Resources\mipmap-xxxhdpi\Icon.png" />
+    <AndroidResource Include="Resources\mipmap-hdpi\fondo_login.jpg" />
+    <AndroidResource Include="Resources\mipmap-hdpi\logo_login.png" />
+    <AndroidResource Include="Resources\mipmap-mdpi\fondo_login.jpg" />
+    <AndroidResource Include="Resources\mipmap-mdpi\logo_login.png" />
+    <AndroidResource Include="Resources\mipmap-xhdpi\fondo_login.jpg" />
+    <AndroidResource Include="Resources\mipmap-xhdpi\logo_login.png" />
+    <AndroidResource Include="Resources\mipmap-xxhdpi\fondo_login.jpg" />
+    <AndroidResource Include="Resources\mipmap-xxhdpi\logo_login.png" />
+    <AndroidResource Include="Resources\mipmap-xxxhdpi\fondo_login.jpg" />
+    <AndroidResource Include="Resources\mipmap-xxxhdpi\logo_login.png" />
+    <AndroidResource Include="Resources\layout\Registro.axml" />
+    <AndroidResource Include="Resources\layout\CrearCuenta.axml" />
+    <AndroidResource Include="Resources\layout\Inicio.axml" />
+    <AndroidResource Include="Resources\drawable\border_bottom.xml" />
+    <AndroidResource Include="Resources\menu\Main.xml" />
+    <AndroidResource Include="Resources\values\Styles.xml" />
+    <AndroidResource Include="Resources\mipmap-hdpi\menu.png" />
+    <AndroidResource Include="Resources\mipmap-mdpi\menu.png" />
+    <AndroidResource Include="Resources\mipmap-xhdpi\menu.png" />
+    <AndroidResource Include="Resources\mipmap-xxhdpi\menu.png" />
+    <AndroidResource Include="Resources\mipmap-xxxhdpi\menu.png" />
+    <AndroidResource Include="Resources\mipmap-hdpi\fondo_inicio.jpg" />
+    <AndroidResource Include="Resources\mipmap-hdpi\icono_cuenta.png" />
+    <AndroidResource Include="Resources\mipmap-hdpi\icono_direcciones.png" />
+    <AndroidResource Include="Resources\mipmap-hdpi\icono_historial.png" />
+    <AndroidResource Include="Resources\mipmap-hdpi\icono_mandados.png" />
+    <AndroidResource Include="Resources\mipmap-hdpi\icono_pago.png" />
+    <AndroidResource Include="Resources\mipmap-hdpi\moto.png" />
+    <AndroidResource Include="Resources\mipmap-mdpi\fondo_inicio.jpg" />
+    <AndroidResource Include="Resources\mipmap-mdpi\icono_cuenta.png" />
+    <AndroidResource Include="Resources\mipmap-mdpi\icono_direcciones.png" />
+    <AndroidResource Include="Resources\mipmap-mdpi\icono_historial.png" />
+    <AndroidResource Include="Resources\mipmap-mdpi\icono_mandados.png" />
+    <AndroidResource Include="Resources\mipmap-mdpi\icono_pago.png" />
+    <AndroidResource Include="Resources\mipmap-mdpi\moto.png" />
+    <AndroidResource Include="Resources\mipmap-xhdpi\fondo_inicio.jpg" />
+    <AndroidResource Include="Resources\mipmap-xhdpi\icono_cuenta.png" />
+    <AndroidResource Include="Resources\mipmap-xhdpi\icono_direcciones.png" />
+    <AndroidResource Include="Resources\mipmap-xhdpi\icono_historial.png" />
+    <AndroidResource Include="Resources\mipmap-xhdpi\icono_mandados.png" />
+    <AndroidResource Include="Resources\mipmap-xhdpi\icono_pago.png" />
+    <AndroidResource Include="Resources\mipmap-xhdpi\moto.png" />
+    <AndroidResource Include="Resources\mipmap-xxhdpi\fondo_inicio.jpg" />
+    <AndroidResource Include="Resources\mipmap-xxhdpi\icono_cuenta.png" />
+    <AndroidResource Include="Resources\mipmap-xxhdpi\icono_direcciones.png" />
+    <AndroidResource Include="Resources\mipmap-xxhdpi\icono_historial.png" />
+    <AndroidResource Include="Resources\mipmap-xxhdpi\icono_mandados.png" />
+    <AndroidResource Include="Resources\mipmap-xxhdpi\icono_pago.png" />
+    <AndroidResource Include="Resources\mipmap-xxhdpi\moto.png" />
+    <AndroidResource Include="Resources\mipmap-xxxhdpi\fondo_inicio.jpg" />
+    <AndroidResource Include="Resources\mipmap-xxxhdpi\icono_cuenta.png" />
+    <AndroidResource Include="Resources\mipmap-xxxhdpi\icono_direcciones.png" />
+    <AndroidResource Include="Resources\mipmap-xxxhdpi\icono_historial.png" />
+    <AndroidResource Include="Resources\mipmap-xxxhdpi\icono_mandados.png" />
+    <AndroidResource Include="Resources\mipmap-xxxhdpi\icono_pago.png" />
+    <AndroidResource Include="Resources\mipmap-xxxhdpi\moto.png" />
+    <AndroidResource Include="Resources\mipmap-hdpi\icono_nuevo.png" />
+    <AndroidResource Include="Resources\mipmap-mdpi\icono_nuevo.png" />
+    <AndroidResource Include="Resources\mipmap-xhdpi\icono_nuevo.png" />
+    <AndroidResource Include="Resources\mipmap-xxhdpi\icono_nuevo.png" />
+    <AndroidResource Include="Resources\mipmap-xxxhdpi\icono_nuevo.png" />
+    <AndroidResource Include="Resources\drawable\border_header.xml" />
+    <AndroidResource Include="Resources\mipmap-hdpi\icono_promociones.png" />
+    <AndroidResource Include="Resources\mipmap-mdpi\icono_promociones.png" />
+    <AndroidResource Include="Resources\mipmap-xhdpi\icono_promociones.png" />
+    <AndroidResource Include="Resources\mipmap-xxhdpi\icono_promociones.png" />
+    <AndroidResource Include="Resources\mipmap-xxxhdpi\icono_promociones.png" />
+    <AndroidResource Include="Resources\layout\NuevoMandado.axml" />
+    <AndroidResource Include="Resources\layout\MisDirecciones.axml" />
+    <AndroidResource Include="Resources\layout\Splash.axml" />
+    <AndroidResource Include="Resources\mipmap-hdpi\moto_login.png" />
+    <AndroidResource Include="Resources\mipmap-xhdpi\moto_login.png" />
+    <AndroidResource Include="Resources\mipmap-xxhdpi\moto_login.png" />
+    <AndroidResource Include="Resources\mipmap-xxxhdpi\moto_login.png" />
+    <AndroidResource Include="Resources\layout\Drawer_item.axml" />
+    <AndroidResource Include="Resources\layout\Drawer.axml" />
+    <AndroidResource Include="Resources\layout\DrawerHeader.axml" />
+    <AndroidResource Include="Resources\values\Colors.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources\drawable\" />
+    <Folder Include="Resources\menu\" />
+    <Folder Include="Classes\" />
+    <Folder Include="Activities\" />
+    <Folder Include="Fragments\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\BossMandados.Common\BossMandados.Common.csproj">
-      <Project>{4a4f5eef-e989-441f-9fb1-c6d50eb7f1ac}</Project>
+      <Project>{4A4F5EEF-E989-441F-9FB1-C6D50EB7F1AC}</Project>
       <Name>BossMandados.Common</Name>
     </ProjectReference>
     <ProjectReference Include="..\BossMandados.CoreLogic\BossMandados.CoreLogic.csproj">
-      <Project>{5ea14fa6-43f3-4b48-819d-3367ed367b99}</Project>
+      <Project>{5EA14FA6-43F3-4B48-819D-3367ED367B99}</Project>
       <Name>BossMandados.CoreLogic</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Roboto-Bold.ttf" />
+    <AndroidAsset Include="Assets\Roboto-Light.ttf" />
+    <AndroidAsset Include="Assets\Roboto-Medium.ttf" />
+  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
-  <Import Project="..\packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets" Condition="Exists('..\packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets')" />
   <Import Project="..\packages\Xamarin.Android.Support.Annotations.27.0.2.1\build\MonoAndroid81\Xamarin.Android.Support.Annotations.targets" Condition="Exists('..\packages\Xamarin.Android.Support.Annotations.27.0.2.1\build\MonoAndroid81\Xamarin.Android.Support.Annotations.targets')" />
   <Import Project="..\packages\Xamarin.Android.Arch.Core.Common.1.0.0.1\build\MonoAndroid80\Xamarin.Android.Arch.Core.Common.targets" Condition="Exists('..\packages\Xamarin.Android.Arch.Core.Common.1.0.0.1\build\MonoAndroid80\Xamarin.Android.Arch.Core.Common.targets')" />
   <Import Project="..\packages\Xamarin.Android.Arch.Lifecycle.Common.1.0.3.1\build\MonoAndroid80\Xamarin.Android.Arch.Lifecycle.Common.targets" Condition="Exists('..\packages\Xamarin.Android.Arch.Lifecycle.Common.1.0.3.1\build\MonoAndroid80\Xamarin.Android.Arch.Lifecycle.Common.targets')" />
@@ -200,5 +313,13 @@
   <Import Project="..\packages\Xamarin.Android.Support.Vector.Drawable.27.0.2.1\build\MonoAndroid81\Xamarin.Android.Support.Vector.Drawable.targets" Condition="Exists('..\packages\Xamarin.Android.Support.Vector.Drawable.27.0.2.1\build\MonoAndroid81\Xamarin.Android.Support.Vector.Drawable.targets')" />
   <Import Project="..\packages\Xamarin.Android.Support.Animated.Vector.Drawable.27.0.2.1\build\MonoAndroid81\Xamarin.Android.Support.Animated.Vector.Drawable.targets" Condition="Exists('..\packages\Xamarin.Android.Support.Animated.Vector.Drawable.27.0.2.1\build\MonoAndroid81\Xamarin.Android.Support.Animated.Vector.Drawable.targets')" />
   <Import Project="..\packages\Xamarin.Android.Support.v7.AppCompat.27.0.2.1\build\MonoAndroid81\Xamarin.Android.Support.v7.AppCompat.targets" Condition="Exists('..\packages\Xamarin.Android.Support.v7.AppCompat.27.0.2.1\build\MonoAndroid81\Xamarin.Android.Support.v7.AppCompat.targets')" />
+  <Import Project="..\packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets" Condition="Exists('..\packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets')" />
+  <Import Project="..\packages\Xamarin.GooglePlayServices.Basement.60.1142.1\build\MonoAndroid80\Xamarin.GooglePlayServices.Basement.targets" Condition="Exists('..\packages\Xamarin.GooglePlayServices.Basement.60.1142.1\build\MonoAndroid80\Xamarin.GooglePlayServices.Basement.targets')" />
+  <Import Project="..\packages\Xamarin.GooglePlayServices.Tasks.60.1142.1\build\MonoAndroid80\Xamarin.GooglePlayServices.Tasks.targets" Condition="Exists('..\packages\Xamarin.GooglePlayServices.Tasks.60.1142.1\build\MonoAndroid80\Xamarin.GooglePlayServices.Tasks.targets')" />
+  <Import Project="..\packages\Xamarin.GooglePlayServices.Base.60.1142.1\build\MonoAndroid80\Xamarin.GooglePlayServices.Base.targets" Condition="Exists('..\packages\Xamarin.GooglePlayServices.Base.60.1142.1\build\MonoAndroid80\Xamarin.GooglePlayServices.Base.targets')" />
   <Import Project="..\packages\Xamarin.Build.Download.0.4.11\build\Xamarin.Build.Download.targets" Condition="Exists('..\packages\Xamarin.Build.Download.0.4.11\build\Xamarin.Build.Download.targets')" />
+  <Import Project="..\packages\Xamarin.GooglePlayServices.Maps.60.1142.1\build\MonoAndroid80\Xamarin.GooglePlayServices.Maps.targets" Condition="Exists('..\packages\Xamarin.GooglePlayServices.Maps.60.1142.1\build\MonoAndroid80\Xamarin.GooglePlayServices.Maps.targets')" />
+  <Import Project="..\packages\Xamarin.Android.Support.Transition.27.0.2.1\build\MonoAndroid81\Xamarin.Android.Support.Transition.targets" Condition="Exists('..\packages\Xamarin.Android.Support.Transition.27.0.2.1\build\MonoAndroid81\Xamarin.Android.Support.Transition.targets')" />
+  <Import Project="..\packages\Xamarin.Android.Support.v7.RecyclerView.27.0.2.1\build\MonoAndroid81\Xamarin.Android.Support.v7.RecyclerView.targets" Condition="Exists('..\packages\Xamarin.Android.Support.v7.RecyclerView.27.0.2.1\build\MonoAndroid81\Xamarin.Android.Support.v7.RecyclerView.targets')" />
+  <Import Project="..\packages\Xamarin.Android.Support.Design.27.0.2.1\build\MonoAndroid81\Xamarin.Android.Support.Design.targets" Condition="Exists('..\packages\Xamarin.Android.Support.Design.27.0.2.1\build\MonoAndroid81\Xamarin.Android.Support.Design.targets')" />
 </Project>

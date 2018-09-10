@@ -1,0 +1,1 @@
+<resources><style name="Theme.BossMandados" parent="Base.Theme.DesignDemo"></style><style name="Base.Theme.DesignDemo" parent="Theme.AppCompat.Light.NoActionBar"><item name="android:statusBarColor">@android:color/transparent</item></style></resources>

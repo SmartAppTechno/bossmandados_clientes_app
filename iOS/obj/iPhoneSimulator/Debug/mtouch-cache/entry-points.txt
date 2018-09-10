@@ -1,11 +1,3 @@
-Function=xamarin_timezone_get_data
-	/Users/ricardo_espinosa/Projects/bossmandados_clientes_app/iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/mscorlib.dll
-Function=xamarin_log
-	/Users/ricardo_espinosa/Projects/bossmandados_clientes_app/iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/mscorlib.dll
-Function=xamarin_get_block_descriptor
-	/Users/ricardo_espinosa/Projects/bossmandados_clientes_app/iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
-Function=UIApplicationMain
-	/Users/ricardo_espinosa/Projects/bossmandados_clientes_app/iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
 Function=mono_pmip
 Function=xamarin_dyn_objc_msgSend
 Function=xamarin_dyn_objc_msgSendSuper

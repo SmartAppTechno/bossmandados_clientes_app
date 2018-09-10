@@ -11,9 +11,9 @@ public class CollectionMapper_OnErrorListenerImplementor
 	public static final String __md_methods;
 	static {
 		__md_methods = 
-			"n_onError:(Lcom/facebook/FacebookException;)V:GetOnError_Lcom_facebook_FacebookException_Handler:Xamarin.Facebook.Internal.CollectionMapper/IOnErrorListenerInvoker, Xamarin.Facebook\n" +
+			"n_onError:(Lcom/facebook/FacebookException;)V:GetOnError_Lcom_facebook_FacebookException_Handler:Xamarin.Facebook.Internal.CollectionMapper/IOnErrorListenerInvoker, Xamarin.Facebook.Share.Android\n" +
 			"";
-		mono.android.Runtime.register ("Xamarin.Facebook.Internal.CollectionMapper+IOnErrorListenerImplementor, Xamarin.Facebook, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", CollectionMapper_OnErrorListenerImplementor.class, __md_methods);
+		mono.android.Runtime.register ("Xamarin.Facebook.Internal.CollectionMapper+IOnErrorListenerImplementor, Xamarin.Facebook.Share.Android", CollectionMapper_OnErrorListenerImplementor.class, __md_methods);
 	}
 
 
@@ -21,7 +21,7 @@ public class CollectionMapper_OnErrorListenerImplementor
 	{
 		super ();
 		if (getClass () == CollectionMapper_OnErrorListenerImplementor.class)
-			mono.android.TypeManager.Activate ("Xamarin.Facebook.Internal.CollectionMapper+IOnErrorListenerImplementor, Xamarin.Facebook, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "", this, new java.lang.Object[] {  });
+			mono.android.TypeManager.Activate ("Xamarin.Facebook.Internal.CollectionMapper+IOnErrorListenerImplementor, Xamarin.Facebook.Share.Android", "", this, new java.lang.Object[] {  });
 	}
 
 

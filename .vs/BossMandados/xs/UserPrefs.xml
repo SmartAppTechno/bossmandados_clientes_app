@@ -1,16 +1,18 @@
-﻿<Properties StartupConfiguration="{F3F0A2B4-BB01-47BD-AB2B-E7D79793E5FE}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Droid/MainActivity.cs">
+﻿<Properties StartupConfiguration="{D9C3D6FE-0CBD-4DC5-8700-C6C1C42F07C4}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Droid/Classes/Drawer.cs">
     <Files>
-      <File FileName="Droid/MainActivity.cs" Line="46" Column="77" />
-      <File FileName="iOS/Main.cs" Line="1" Column="1" />
+      <File FileName="Droid/Activities/InicioActivity.cs" Line="15" Column="36" />
+      <File FileName="Droid/Classes/Drawer.cs" Line="38" Column="13" />
     </Files>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.BossMandados.Droid AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.Android_Accelerated_x86" AndroidDesignerPreferredTheme="Theme.DeviceDefault" />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
+  <MonoDevelop.Ide.ItemProperties.BossMandados.Droid AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.ZY223BKC23" AndroidDesignerPreferredTheme="Theme.DeviceDefault" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.BossMandados.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.6AD1C1A1-AAF8-4666-BB11-8016A9129524" automaticSigning="False" />
+  <MonoDevelop.Ide.ItemProperties.BossMandados.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.3DEB21BC-035B-4994-81C0-1B3EB67EA869">
+    <MonoDevelop.MacDev.AppleDevelopmentTeam />
+  </MonoDevelop.Ide.ItemProperties.BossMandados.iOS>
   <MultiItemStartupConfigurations />
 </Properties>

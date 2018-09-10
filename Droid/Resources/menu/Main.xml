@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<menu  
+    xmlns:android="http://schemas.android.com/apk/res/android">  
+    <group>  
+        <item  
+android:id="@+id/nuevo_mandado" 
+android:icon="@mipmap/icono_nuevo"
+android:title="@string/menuItem1" />  
+        <item  
+android:id="@+id/mandados_proceso" 
+android:icon="@mipmap/icono_mandados"
+android:title="@string/menuItem2" />  
+        <item  
+android:id="@+id/historial_mandados"
+android:icon="@mipmap/icono_historial"
+android:title="@string/menuItem3" />
+        <item  
+android:id="@+id/direcciones"
+android:icon="@mipmap/icono_direcciones"
+android:title="@string/menuItem4" />    
+    <item  
+android:id="@+id/cuenta"
+android:icon="@mipmap/icono_cuenta"
+android:title="@string/menuItem5" />  
+    <item  
+android:id="@+id/pago"
+android:icon="@mipmap/icono_pago"
+android:title="@string/menuItem6" />
+    <item  
+android:id="@+id/promociones"
+android:icon="@mipmap/icono_promociones"
+android:title="@string/menuItem7" />  
+    </group>  
+</menu> 

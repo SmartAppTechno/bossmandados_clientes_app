@@ -143,6 +143,10 @@ class MonoPackageManager_Resources {
 		"Xamarin.Facebook.Messenger.Android.dll",
 		"Xamarin.Facebook.Places.Android.dll",
 		"Xamarin.Facebook.Share.Android.dll",
+		"Xamarin.GooglePlayServices.Base.dll",
+		"Xamarin.GooglePlayServices.Basement.dll",
+		"Xamarin.GooglePlayServices.Maps.dll",
+		"Xamarin.GooglePlayServices.Tasks.dll",
 		"BossMandados.DataAccess.dll",
 	};
 	public static final String[] Dependencies = new String[]{

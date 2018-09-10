@@ -46,6 +46,12 @@
     <Compile Include="ActivityData\MisMandados.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\BossMandados.Common\BossMandados.Common.csproj">
+      <Project>{4a4f5eef-e989-441f-9fb1-c6d50eb7f1ac}</Project>
+      <Name>BossMandados.Common</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
     <Reference Include="Microsoft.Azure.Mobile.Client, Version=4.0.2.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.Azure.Mobile.Client.4.0.2\lib\portable-net45+win8+wp8+wpa81\Microsoft.Azure.Mobile.Client.dll</HintPath>
     </Reference>

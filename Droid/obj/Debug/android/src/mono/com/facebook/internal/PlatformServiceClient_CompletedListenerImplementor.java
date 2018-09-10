@@ -11,9 +11,9 @@ public class PlatformServiceClient_CompletedListenerImplementor
 	public static final String __md_methods;
 	static {
 		__md_methods = 
-			"n_completed:(Landroid/os/Bundle;)V:GetCompleted_Landroid_os_Bundle_Handler:Xamarin.Facebook.Internal.PlatformServiceClient/ICompletedListenerInvoker, Xamarin.Facebook\n" +
+			"n_completed:(Landroid/os/Bundle;)V:GetCompleted_Landroid_os_Bundle_Handler:Xamarin.Facebook.Internal.PlatformServiceClient/ICompletedListenerInvoker, Xamarin.Facebook.Common.Android\n" +
 			"";
-		mono.android.Runtime.register ("Xamarin.Facebook.Internal.PlatformServiceClient+ICompletedListenerImplementor, Xamarin.Facebook, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", PlatformServiceClient_CompletedListenerImplementor.class, __md_methods);
+		mono.android.Runtime.register ("Xamarin.Facebook.Internal.PlatformServiceClient+ICompletedListenerImplementor, Xamarin.Facebook.Common.Android", PlatformServiceClient_CompletedListenerImplementor.class, __md_methods);
 	}
 
 
@@ -21,7 +21,7 @@ public class PlatformServiceClient_CompletedListenerImplementor
 	{
 		super ();
 		if (getClass () == PlatformServiceClient_CompletedListenerImplementor.class)
-			mono.android.TypeManager.Activate ("Xamarin.Facebook.Internal.PlatformServiceClient+ICompletedListenerImplementor, Xamarin.Facebook, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "", this, new java.lang.Object[] {  });
+			mono.android.TypeManager.Activate ("Xamarin.Facebook.Internal.PlatformServiceClient+ICompletedListenerImplementor, Xamarin.Facebook.Common.Android", "", this, new java.lang.Object[] {  });
 	}
 
 

@@ -3,19 +3,30 @@
   <!--suppress UsesMinSdkAttributes-->
   <uses-sdk android:minSdkVersion="15" />
   <uses-permission android:name="android.permission.INTERNET" />
-  <application android:label="Boss Mandados" android:name="android.app.Application" android:allowBackup="true" android:icon="@mipmap/icon" android:debuggable="true">
+  <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+  <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+  <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+  <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+  <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+  <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+  <application android:label="Boss Mandados" android:icon="@mipmap/icon" android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen" android:name="android.app.Application" android:allowBackup="true" android:debuggable="true">
     <meta-data android:name="com.facebook.sdk.ApplicationId" android:value="@string/facebook_app_id" />
-    <activity android:icon="@mipmap/icon" android:label="Boss Mandados" android:name="md545fb77e16b18efe0b1f454f91132ac14.MainActivity">
+    <meta-data android:name="com.google.android.geo.API_KEY" android:value="@string/google_maps" />
+    <activity android:icon="@mipmap/icon" android:label="Boss Mandados" android:name="md59fe8a11bb890692d3b0cdee1e6fd1f05.MainActivity" />
+    <activity android:label="RegistroActivity" android:name="md59fe8a11bb890692d3b0cdee1e6fd1f05.RegistroActivity" />
+    <activity android:label="Nuevo Mandado" android:theme="@style/Theme.BossMandados" android:name="md59fe8a11bb890692d3b0cdee1e6fd1f05.InicioActivity" />
+    <activity android:label="CrearCuentaActivity" android:name="md59fe8a11bb890692d3b0cdee1e6fd1f05.CrearCuentaActivity" />
+    <activity android:icon="@mipmap/icon" android:label="Boss Mandados" android:name="md59fe8a11bb890692d3b0cdee1e6fd1f05.SplashActivity">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />
         <category android:name="android.intent.category.LAUNCHER" />
       </intent-filter>
     </activity>
-    <activity android:label="Web Authenticator" android:name="md5ff7ab77db4f245bffa5244a84a5a1bca.FormAuthenticatorActivity" />
-    <activity android:label="Web Authenticator" android:name="md5ff7ab77db4f245bffa5244a84a5a1bca.WebAuthenticatorActivity" />
-    <activity android:label="Web Authenticator Native Broswer" android:launchMode="singleTop" android:name="md5ff7ab77db4f245bffa5244a84a5a1bca.WebAuthenticatorNativeBrowserActivity" />
+    <activity android:label="Web Authenticator" android:name="md5b35075ec980064f2973fda331128de90.FormAuthenticatorActivity" />
+    <activity android:label="Web Authenticator" android:name="md5b35075ec980064f2973fda331128de90.WebAuthenticatorActivity" />
+    <activity android:label="Web Authenticator Native Broswer" android:launchMode="singleTop" android:name="md5b35075ec980064f2973fda331128de90.WebAuthenticatorNativeBrowserActivity" />
     <activity android:name="com.microsoft.windowsazure.mobileservices.authentication.RedirectUrlActivity" />
-    <service android:name="md59f70a99687498e7ba187118950981d26.KeepAliveService" />
+    <service android:name="md5dcb6eccdc824e0677ffae8ccdde42930.KeepAliveService" />
     <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="2147483647" android:authorities="com.smartapptech.Boss_Mandados.mono.MonoRuntimeProvider.__mono_init__" />
     <!--suppress ExportedReceiver-->
     <receiver android:name="mono.android.Seppuku">
@@ -26,6 +37,7 @@
     </receiver>
     <activity android:name="com.facebook.FacebookActivity" android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation" android:theme="@style/com_facebook_activity_theme" />
     <activity android:name="com.facebook.CustomTabMainActivity" />
+    <activity android:name="com.facebook.CustomTabActivity" />
     <!--
          The initialization ContentProvider will call FacebookSdk.sdkInitialize automatically
          with the application context. This config is merged in with the host app's manifest,
@@ -36,11 +48,13 @@
          a completely different provider.
         -->
     <provider android:name="com.facebook.internal.FacebookInitProvider" android:authorities="com.smartapptech.Boss_Mandados.FacebookInitProvider" android:exported="false" />
-    <activity android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar" android:excludeFromRecents="true" android:exported="false" />
-    <!--Service handling Google Sign-In user revocation. For apps that do not integrate with
-            Google Sign-In, this service will never be started.-->
-    <service android:name="com.google.android.gms.auth.api.signin.RevocationBoundService" android:exported="true" android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
+    <receiver android:name="com.facebook.CurrentAccessTokenExpirationBroadcastReceiver" android:exported="false">
+      <intent-filter>
+        <action android:name="com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED" />
+      </intent-filter>
+    </receiver>
     <activity android:name="com.google.android.gms.common.api.GoogleApiActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar" android:exported="false" />
     <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version" />
   </application>
+  <uses-feature android:glEsVersion="0x00020000" android:required="true" />
 </manifest>

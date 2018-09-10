@@ -11,9 +11,9 @@ public class ProfilePictureView_OnErrorListenerImplementor
 	public static final String __md_methods;
 	static {
 		__md_methods = 
-			"n_onError:(Lcom/facebook/FacebookException;)V:GetOnError_Lcom_facebook_FacebookException_Handler:Xamarin.Facebook.Login.Widget.ProfilePictureView/IOnErrorListenerInvoker, Xamarin.Facebook\n" +
+			"n_onError:(Lcom/facebook/FacebookException;)V:GetOnError_Lcom_facebook_FacebookException_Handler:Xamarin.Facebook.Login.Widget.ProfilePictureView/IOnErrorListenerInvoker, Xamarin.Facebook.Login.Android\n" +
 			"";
-		mono.android.Runtime.register ("Xamarin.Facebook.Login.Widget.ProfilePictureView+IOnErrorListenerImplementor, Xamarin.Facebook, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", ProfilePictureView_OnErrorListenerImplementor.class, __md_methods);
+		mono.android.Runtime.register ("Xamarin.Facebook.Login.Widget.ProfilePictureView+IOnErrorListenerImplementor, Xamarin.Facebook.Login.Android", ProfilePictureView_OnErrorListenerImplementor.class, __md_methods);
 	}
 
 
@@ -21,7 +21,7 @@ public class ProfilePictureView_OnErrorListenerImplementor
 	{
 		super ();
 		if (getClass () == ProfilePictureView_OnErrorListenerImplementor.class)
-			mono.android.TypeManager.Activate ("Xamarin.Facebook.Login.Widget.ProfilePictureView+IOnErrorListenerImplementor, Xamarin.Facebook, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "", this, new java.lang.Object[] {  });
+			mono.android.TypeManager.Activate ("Xamarin.Facebook.Login.Widget.ProfilePictureView+IOnErrorListenerImplementor, Xamarin.Facebook.Login.Android", "", this, new java.lang.Object[] {  });
 	}
 
 

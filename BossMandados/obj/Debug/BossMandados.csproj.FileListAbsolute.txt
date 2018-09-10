@@ -1,7 +1,0 @@
-/Users/ricardo_espinosa/Documents/BossMandados/BossMandados/bin/Debug/BossMandados.dll
-/Users/ricardo_espinosa/Documents/BossMandados/BossMandados/bin/Debug/BossMandados.pdb
-/Users/ricardo_espinosa/Documents/BossMandados/BossMandados/obj/Debug/BossMandados.csproj.CoreCompileInputs.cache
-/Users/ricardo_espinosa/Documents/BossMandados/BossMandados/obj/Debug/BossMandados.dll
-/Users/ricardo_espinosa/Documents/BossMandados/BossMandados/obj/Debug/BossMandados.pdb
-/Users/ricardo_espinosa/Projects/bossmandados_clientes_app/BossMandados/obj/Debug/BossMandados.csprojResolveAssemblyReference.cache
-/Users/ricardo_espinosa/Projects/bossmandados_clientes_app/BossMandados/obj/Debug/BossMandados.csproj.CoreCompileInputs.cache

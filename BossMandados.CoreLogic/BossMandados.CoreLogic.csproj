@@ -34,6 +34,10 @@
   </PropertyGroup>
   <ItemGroup>
     <!-- A reference to the entire .NET Framework is automatically included -->
+    <ProjectReference Include="..\BossMandados.Common\BossMandados.Common.csproj">
+      <Project>{4a4f5eef-e989-441f-9fb1-c6d50eb7f1ac}</Project>
+      <Name>BossMandados.Common</Name>
+    </ProjectReference>
     <ProjectReference Include="..\BossMandados.DataAccess\BossMandados.DataAccess.csproj">
       <Project>{3949f392-4aa3-4b66-beec-eab47d10e17c}</Project>
       <Name>BossMandados.DataAccess</Name>

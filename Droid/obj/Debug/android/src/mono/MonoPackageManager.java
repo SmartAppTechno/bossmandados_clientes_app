@@ -129,23 +129,30 @@ class MonoPackageManager_Resources {
 		"Xamarin.Android.Support.Core.UI.dll",
 		"Xamarin.Android.Support.Core.Utils.dll",
 		"Xamarin.Android.Support.CustomTabs.dll",
+		"Xamarin.Android.Support.Design.dll",
 		"Xamarin.Android.Support.Fragment.dll",
 		"Xamarin.Android.Support.Media.Compat.dll",
+		"Xamarin.Android.Support.Transition.dll",
 		"Xamarin.Android.Support.v4.dll",
 		"Xamarin.Android.Support.v7.AppCompat.dll",
 		"Xamarin.Android.Support.v7.CardView.dll",
+		"Xamarin.Android.Support.v7.RecyclerView.dll",
 		"Xamarin.Android.Support.Vector.Drawable.dll",
-		"Xamarin.Facebook.dll",
-		"Xamarin.GooglePlayServices.Auth.Api.Phone.dll",
-		"Xamarin.GooglePlayServices.Auth.Base.dll",
-		"Xamarin.GooglePlayServices.Auth.dll",
+		"Xamarin.Facebook.Android.dll",
+		"Xamarin.Facebook.AppLinks.Android.dll",
+		"Xamarin.Facebook.Common.Android.dll",
+		"Xamarin.Facebook.Core.Android.dll",
+		"Xamarin.Facebook.Login.Android.dll",
+		"Xamarin.Facebook.Messenger.Android.dll",
+		"Xamarin.Facebook.Places.Android.dll",
+		"Xamarin.Facebook.Share.Android.dll",
 		"Xamarin.GooglePlayServices.Base.dll",
 		"Xamarin.GooglePlayServices.Basement.dll",
-		"Xamarin.GooglePlayServices.Identity.dll",
+		"Xamarin.GooglePlayServices.Maps.dll",
 		"Xamarin.GooglePlayServices.Tasks.dll",
 		"BossMandados.DataAccess.dll",
 	};
 	public static final String[] Dependencies = new String[]{
 	};
-	public static final String ApiPackageName = null;
+	public static final String ApiPackageName = "Mono.Android.Platform.ApiLevel_27";
 }
