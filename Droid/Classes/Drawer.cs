@@ -29,7 +29,6 @@ namespace BossMandados.Droid
             this.activity = activity;
 
             mToolbar = activity.FindViewById<SupportToolbar>(Resource.Id.toolbar);
-            mToolbar.SetTitleTextColor(Resource.Color.titulo);
             mDrawerLayout = (DrawerLayout)activity.FindViewById(Resource.Id.drawer_layout);
             activity.SetSupportActionBar(mToolbar);
             activity.SupportActionBar.SetDisplayHomeAsUpEnabled(true);
