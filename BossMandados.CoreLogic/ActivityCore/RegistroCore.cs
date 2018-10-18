@@ -22,7 +22,6 @@ namespace BossMandados.CoreLogic.ActivityCore
                 Longitud = longitud
             };
             user = await data.RegistroCliente(user);
-            UserValues.SetUser(user);
             return user;
         }
 

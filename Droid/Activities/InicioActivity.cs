@@ -5,7 +5,7 @@ using Android.Support.V7.App;
 
 namespace BossMandados.Droid
 {
-    [Activity(Label = "Nuevo Mandado", Theme = "@style/Theme.BossMandados")]
+    [Activity(Theme = "@style/Theme.BossMandados")]
     public class InicioActivity : AppCompatActivity
     {
         private Drawer drawer;

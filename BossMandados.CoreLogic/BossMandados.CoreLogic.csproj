@@ -46,8 +46,11 @@
   <ItemGroup>
     <Compile Include="ActivityCore\LoginCore.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="UserValues.cs" />
     <Compile Include="ActivityCore\RegistroCore.cs" />
+    <Compile Include="ActivityCore\DireccionesCore.cs" />
+    <Compile Include="ActivityCore\PromocionesCore.cs" />
+    <Compile Include="ActivityCore\MiCuentaCore.cs" />
+    <Compile Include="ActivityCore\HistorialMandadoCore.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />

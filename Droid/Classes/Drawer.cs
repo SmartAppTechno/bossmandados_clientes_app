@@ -32,6 +32,7 @@ namespace BossMandados.Droid
             mDrawerLayout = (DrawerLayout)activity.FindViewById(Resource.Id.drawer_layout);
             activity.SetSupportActionBar(mToolbar);
             activity.SupportActionBar.SetDisplayHomeAsUpEnabled(true);
+            activity.SupportActionBar.SetDisplayShowTitleEnabled(false);
             mDrawerToggle = new ActionBarDrawerToggle(activity, mDrawerLayout, mToolbar, Resource.String.abrir_menu, Resource.String.cerrar_menu);
             mDrawerToggle.SyncState();
 
@@ -78,13 +79,21 @@ namespace BossMandados.Droid
                     Intent nuevo_mandado = new Intent(activity, typeof(InicioActivity));
                     activity.StartActivity(nuevo_mandado);
                     break;
-                case DrawerPosition.MandadosEnProceso:
-                    break;
-                case DrawerPosition.HistorialDeMandados:
-                    break;
                 case DrawerPosition.MisDirecciones:
                     Intent direcciones = new Intent(activity, typeof(MisDireccionesActivity));
                     activity.StartActivity(direcciones);
+                    break;
+                case DrawerPosition.Promociones:
+                    Intent promociones = new Intent(activity, typeof(PromocionesActivity));
+                    activity.StartActivity(promociones);
+                    break;
+                case DrawerPosition.MiCuenta:
+                    Intent micuenta = new Intent(activity, typeof(MiCuentaActivity));
+                    activity.StartActivity(micuenta);
+                    break;
+                case DrawerPosition.HistorialDeMandados:
+                    Intent historial_mandados = new Intent(activity, typeof(HistorialMandadoActivity));
+                    activity.StartActivity(historial_mandados);
                     break;
             }
 

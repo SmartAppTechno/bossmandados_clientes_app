@@ -6,7 +6,6 @@
 /Users/ricardo_espinosa/Documents/BossMandados/iOS/obj/iPhoneSimulator/Debug/coremlc/_PartialAppManifest.items
 /Users/ricardo_espinosa/Documents/BossMandados/iOS/obj/iPhoneSimulator/Debug/coremlc/_BundleResourceWithLogicalName.items
 /Users/ricardo_espinosa/Documents/BossMandados/iOS/obj/iPhoneSimulator/Debug/optimized/
-/Users/ricardo_espinosa/Documents/BossMandados/iOS/obj/iPhoneSimulator/Debug/BossMandados.iOS.csprojResolveAssemblyReference.cache
 /Users/ricardo_espinosa/Documents/BossMandados/iOS/obj/iPhoneSimulator/Debug/BossMandados.iOS.csproj.CoreCompileInputs.cache
 /Users/ricardo_espinosa/Documents/BossMandados/iOS/obj/iPhoneSimulator/Debug/BossMandados.iOS.exe
 /Users/ricardo_espinosa/Documents/BossMandados/iOS/obj/iPhoneSimulator/Debug/BossMandados.iOS.pdb

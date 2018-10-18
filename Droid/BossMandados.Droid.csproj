@@ -180,6 +180,14 @@
     <Compile Include="Activities\SplashActivity.cs" />
     <Compile Include="Classes\Drawer.cs" />
     <Compile Include="Activities\MisDireccionesActivity.cs" />
+    <Compile Include="Adapters\DireccionesAdapter.cs" />
+    <Compile Include="Activities\PromocionesActivity.cs" />
+    <Compile Include="Adapters\PromocionesAdapter.cs" />
+    <Compile Include="Activities\MiCuentaActivity.cs" />
+    <Compile Include="Activities\NuevaDireccionActivity.cs" />
+    <Compile Include="Activities\DireccionActivity.cs" />
+    <Compile Include="Activities\HistorialMandadoActivity.cs" />
+    <Compile Include="Adapters\HistorialMandadosAdapter.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
@@ -272,12 +280,21 @@
     <AndroidResource Include="Resources\layout\Drawer.axml" />
     <AndroidResource Include="Resources\layout\DrawerHeader.axml" />
     <AndroidResource Include="Resources\values\Colors.xml" />
+    <AndroidResource Include="Resources\layout\Direcciones_item.axml" />
+    <AndroidResource Include="Resources\layout\Promociones_item.axml" />
+    <AndroidResource Include="Resources\layout\Promociones.axml" />
+    <AndroidResource Include="Resources\layout\MiCuenta.axml" />
+    <AndroidResource Include="Resources\layout\NuevaDireccion.axml" />
+    <AndroidResource Include="Resources\layout\Direccion.axml" />
+    <AndroidResource Include="Resources\layout\HistorialMandado.axml" />
+    <AndroidResource Include="Resources\layout\Mandado_item.axml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\drawable\" />
     <Folder Include="Resources\menu\" />
     <Folder Include="Classes\" />
     <Folder Include="Activities\" />
+    <Folder Include="Adapters\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\BossMandados.Common\BossMandados.Common.csproj">

@@ -10,11 +10,8 @@ namespace BossMandados.Droid
 {
     public class DrawerAdapter : ArrayAdapter<DrawerElement>
     {
-        private System.Collections.Generic.List<DrawerElement> dataSet;
+        private List<DrawerElement> dataSet;
         Context mContext;
-
-        private int lastPosition = -1;
-
 
         public DrawerAdapter(List<DrawerElement> data, Context context)
             : base(context, Resource.Layout.Drawer_item, data)

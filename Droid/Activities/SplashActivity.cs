@@ -15,7 +15,7 @@ using Android.Widget;
 using BossMandados.Common.Model;
 using BossMandados.CoreLogic.ActivityCore;
 
-namespace BossMandados.Droid
+namespace BossMandados.Droid.Activities
 {
     [Activity(Label = "Boss Mandados", MainLauncher = true, Icon = "@mipmap/icon")]
     public class SplashActivity : Activity

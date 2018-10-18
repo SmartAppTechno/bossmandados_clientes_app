@@ -16,6 +16,44 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
     <!-- Contenido -->
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:theme="@style/AppDrawerTheme">
+            <TextView
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txt_Name"
+                android:text="Mis Direcciones"
+                android:textAlignment="textStart"
+                android:textStyle="bold"
+                android:textColor="@color/green3"
+                android:textSize="35dp"
+                android:gravity="start"
+                android:layout_marginBottom="10dp"
+                android:layout_marginStart="5dp"
+                android:paddingStart="5dp" />
+            <Button
+                android:text="Nueva Dirección"
+                android:layout_width="160dp"
+                android:layout_height="50dp"
+                android:id="@+id/btn_nueva_direccion"
+                android:textSize="11dp"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:backgroundTint="@color/pink"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="5dp"
+                android:onClick="Nueva_Direccion" />
+            <ListView
+                android:id="@+id/DireccionesListView"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:divider="@color/green2"
+                android:dividerHeight="2px" />
+        </LinearLayout>
     <!-- Contenido -->
         <include
             layout="@layout/Drawer" />

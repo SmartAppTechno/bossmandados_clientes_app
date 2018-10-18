@@ -14,7 +14,7 @@ using System.Security.Cryptography;
 using System.Text;
 namespace BossMandados.Droid
 {
-    [Activity(Label = "Boss Mandados", Icon = "@mipmap/icon")]
+    [Activity(Icon = "@mipmap/icon")]
     public class MainActivity : Activity,IFacebookCallback, GraphRequest.IGraphJSONObjectCallback
     {
         private ICallbackManager mFBCallManager;
@@ -167,7 +167,7 @@ namespace BossMandados.Droid
             Manboss_cliente client = await core.Login(email);
             if (client == null)
             {
-                if(red_social.Equals("Facebook")){
+                if(red_social.Equals("facebook")){
                     client = await core.CreateUser(name, email, red_social);
                     Ir_registro(client);
                 }

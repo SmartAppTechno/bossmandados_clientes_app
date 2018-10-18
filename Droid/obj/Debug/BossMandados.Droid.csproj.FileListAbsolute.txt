@@ -157,9 +157,17 @@
 /Users/ricardo_espinosa/Documents/BossMandados/Droid/obj/Debug/res/layout/drawer.xml
 /Users/ricardo_espinosa/Documents/BossMandados/Droid/obj/Debug/res/layout/drawerheader.xml
 /Users/ricardo_espinosa/Documents/BossMandados/Droid/obj/Debug/res/values/colors.xml
+/Users/ricardo_espinosa/Documents/BossMandados/Droid/obj/Debug/res/layout/direcciones_item.xml
+/Users/ricardo_espinosa/Documents/BossMandados/Droid/obj/Debug/res/layout/promociones_item.xml
+/Users/ricardo_espinosa/Documents/BossMandados/Droid/obj/Debug/res/layout/promociones.xml
+/Users/ricardo_espinosa/Documents/BossMandados/Droid/obj/Debug/res/layout/micuenta.xml
 /Users/ricardo_espinosa/Documents/BossMandados/Droid/obj/Debug/R.cs.flag
 /Users/ricardo_espinosa/Documents/BossMandados/Droid/obj/Debug/R.txt
 /Users/ricardo_espinosa/Documents/BossMandados/Droid/obj/Debug/uploadflags.txt
+/Users/ricardo_espinosa/Documents/BossMandados/Droid/obj/Debug/res/layout/nuevadireccion.xml
+/Users/ricardo_espinosa/Documents/BossMandados/Droid/obj/Debug/res/layout/direccion.xml
+/Users/ricardo_espinosa/Documents/BossMandados/Droid/obj/Debug/res/layout/historialmandado.xml
+/Users/ricardo_espinosa/Documents/BossMandados/Droid/obj/Debug/res/layout/mandado_item.xml
 /Users/ricardo_espinosa/Documents/BossMandados/Droid/bin/Debug/Mono.Android.pdb
 /Users/ricardo_espinosa/Documents/BossMandados/Droid/obj/Debug/linksrc/BossMandados.Droid.pdb
 /Users/ricardo_espinosa/Documents/BossMandados/Droid/obj/Debug/linksrc/BossMandados.Common.pdb

@@ -21,6 +21,7 @@ namespace BossMandados.Droid
         private MarkerOptions markerOpt1;
         private float latitud = 0.0f;
         private float longitud = 0.0f;
+        private bool cambio_mapa = false;
 
         protected override void OnCreate(Bundle savedInstanceState)
         {
@@ -44,18 +45,16 @@ namespace BossMandados.Droid
         }
 
         private async void Registro_cliente(){
-            Intent intent = new Intent(this, typeof(InicioActivity));
-            StartActivity(intent);
             TextView telefono = FindViewById<TextView>(Resource.Id.register_telefono);
             TextView direccion = FindViewById<TextView>(Resource.Id.register_direccion);
             string telefono_cliente = telefono.Text;
             string direccion_cliente = direccion.Text;
-            if (telefono_cliente.Length > 0 && direccion_cliente.Length > 0 && latitud > 0.0f && longitud > 0.0f){
+            if (telefono_cliente.Length > 0 && direccion_cliente.Length > 0 && cambio_mapa){
                 //Obtener id del cliente
                 Context mContext = Application.Context;
                 ISharedPreferences prefs = PreferenceManager.GetDefaultSharedPreferences(mContext);
-                int id = Int32.Parse(prefs.GetString("id", ""));
-                Manboss_cliente cliente = await core_registro.Get_Cliente(id);
+                int sesion_id = prefs.GetInt("id", 0);
+                Manboss_cliente cliente = await core_registro.Get_Cliente(sesion_id);
                 //Actualizar cliente
                 await core_registro.RegisterUser(cliente.Id, telefono_cliente, direccion_cliente, latitud, longitud);
                 //Ir al inicio
@@ -106,6 +105,7 @@ namespace BossMandados.Droid
             //Obtener ubicación
             latitud = (float)e.Marker.Position.Latitude;
             longitud = (float)e.Marker.Position.Longitude;
+            cambio_mapa = true;
         }
     }
 }

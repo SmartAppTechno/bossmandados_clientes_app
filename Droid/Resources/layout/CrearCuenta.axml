@@ -44,7 +44,7 @@
         android:textColor="#ffffff"
         android:textColorHint="#ffffff"
         android:textSize="11dp"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="20dp"
         android:id="@+id/registro_correo" />
     <EditText
         android:hint="Contraseña"
@@ -57,7 +57,7 @@
         android:textColor="#ffffff"
         android:textColorHint="#ffffff"
         android:textSize="11dp"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="20dp"
         android:password="true"
         android:id="@+id/registro_contrasenia" />
     <EditText
@@ -71,7 +71,7 @@
         android:textColor="#ffffff"
         android:textColorHint="#ffffff"
         android:textSize="11dp"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="20dp"
         android:id="@+id/registro_telefono" />
     <EditText
         android:hint="Dirección"
@@ -80,7 +80,7 @@
         android:layout_height="50dp"
         android:gravity="center"
         android:layout_gravity="center"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="20dp"
         android:background="@drawable/border_bottom"
         android:textColor="#ffffff"
         android:textColorHint="#ffffff"
@@ -98,14 +98,14 @@
         android:id="@+id/registro"
         android:text="Registrarse"
         android:layout_width="320dp"
-        android:layout_height="25dp"
+        android:layout_height="50dp"
         android:layout_marginTop="10dp"
-        android:textColor="#ffffff"
-        android:background="#F64162"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:backgroundTint="@color/pink"
         android:gravity="center"
         android:layout_gravity="center"
         android:textSize="11dp"
-        android:textStyle="bold"
         android:onClick="Crear_cuenta" />
     <TextView
         android:text="Completa los campos porfavor"
@@ -119,6 +119,6 @@
         android:textSize="11dp"
         android:editable="false"
         android:layout_marginTop="10dp"
-        android:visibility="visible"
+        android:visibility="invisible"
         android:id="@+id/mensaje_crear" />
 </LinearLayout>

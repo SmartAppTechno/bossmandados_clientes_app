@@ -23,6 +23,7 @@ namespace BossMandados.Droid
         private MarkerOptions markerOpt1;
         private float latitud = 0.0f;
         private float longitud = 0.0f;
+        private bool cambio_mapa = false;
 
         protected override void OnCreate(Bundle savedInstanceState)
         {
@@ -71,7 +72,7 @@ namespace BossMandados.Droid
             string direccion_cliente = direccion.Text;
             string hash = generateHash(contrasenia_cliente);
             if (nombre_cliente.Length > 0 && correo_cliente.Length > 0 && contrasenia_cliente.Length > 0 && telefono_cliente.Length > 0 
-                && direccion_cliente.Length > 0 && latitud > 0.0f && longitud > 0.0f){
+                && direccion_cliente.Length > 0 && cambio_mapa){
                 //Crear cliente
                 Manboss_cliente cliente = await core_login.CreateUserPass(nombre_cliente, correo_cliente, "correo", contrasenia_cliente, hash);
                 //Actualizar cliente
@@ -123,6 +124,7 @@ namespace BossMandados.Droid
             //Obtener ubicación
             latitud = (float) e.Marker.Position.Latitude;
             longitud = (float)e.Marker.Position.Longitude;
+            cambio_mapa = true;
         }
     }
 }

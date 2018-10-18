@@ -19,7 +19,6 @@ namespace BossMandados.CoreLogic.ActivityCore {
                 Red_social = red_social
             };
             user = await data.RegistroRedSocial(user);
-            UserValues.SetUser(user);
             return user;
         }
         public async Task<Manboss_cliente> CreateUserPass(string name, string email, string red_social,string contrasenia,string hash)
@@ -33,7 +32,6 @@ namespace BossMandados.CoreLogic.ActivityCore {
                 Hash = hash
             };
             user = await data.RegistroCorreo(user);
-            UserValues.SetUser(user);
             return user;
         }
     }

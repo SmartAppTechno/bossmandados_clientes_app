@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    android:gravity="start">
+    <TextView
+        android:text="Nombre"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:id="@+id/txt_promocion_nombre"
+        android:textColor="@color/white"
+        android:gravity="center" />
+    <TextView
+        android:text="Descuento"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:textStyle="bold"
+        android:id="@+id/txt_promocion_descuento"
+        android:textColor="@color/white"
+        android:gravity="center" />
+    <TextView
+        android:text="Fecha de Inicio"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:id="@+id/txt_promocion_fecha_inicio"
+        android:textColor="@color/white"
+        android:gravity="center" />
+    <TextView
+        android:text="Fecha de Fin"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:id="@+id/txt_promocion_fecha_fin"
+        android:textColor="@color/white"
+        android:gravity="center" />
+</LinearLayout>
