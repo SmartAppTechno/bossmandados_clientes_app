@@ -2,13 +2,17 @@
   <MonoDevelop.Ide.Workbench ActiveDocument="Droid/Activities/MainActivity.cs">
     <Files>
       <File FileName="Droid/Resources/values/Strings.xml" Line="4" Column="52" />
-      <File FileName="Droid/Activities/MainActivity.cs" Line="212" Column="1" />
+      <File FileName="Droid/Activities/MainActivity.cs" Line="138" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.BossMandados.Droid AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.Android_Accelerated_x86" AndroidDesignerPreferredTheme="Theme.Light.NoTitleBar.Fullscreen" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/ricardo_espinosa/Documents/BossMandados/Droid/Activities/MainActivity.cs" relfile="Droid/Activities/MainActivity.cs" line="167" column="1" />
+      <Breakpoint file="/Users/ricardo_espinosa/Documents/BossMandados/Droid/Activities/MainActivity.cs" relfile="Droid/Activities/MainActivity.cs" line="76" column="1" />
+      <Breakpoint file="/Users/ricardo_espinosa/Documents/BossMandados/Droid/Activities/MainActivity.cs" relfile="Droid/Activities/MainActivity.cs" line="233" column="23" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches>
     <Watch file="../../../Droid/Activities/MisDireccionesActivity.cs" line="45" offsetX="755" offsetY="660" expression="direcciones" liveUpdate="False" />
