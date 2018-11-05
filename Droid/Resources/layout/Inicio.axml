@@ -16,6 +16,17 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
     <!-- Contenido -->
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:theme="@style/AppDrawerTheme">
+            <fragment
+                android:id="@+id/mapa_nuevomandado"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:name="com.google.android.gms.maps.MapFragment" />
+        </LinearLayout>
     <!-- Contenido -->
         <include
             layout="@layout/Drawer" />

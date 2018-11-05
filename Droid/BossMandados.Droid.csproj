@@ -168,6 +168,12 @@
     <Reference Include="Xamarin.Android.Support.Design">
       <HintPath>..\packages\Xamarin.Android.Support.Design.27.0.2.1\lib\MonoAndroid81\Xamarin.Android.Support.Design.dll</HintPath>
     </Reference>
+    <Reference Include="Google.Apis.Core">
+      <HintPath>..\packages\Google.Apis.Core.1.36.1\lib\netstandard2.0\Google.Apis.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.Apis">
+      <HintPath>..\packages\Google.Apis.1.36.1\lib\netstandard2.0\Google.Apis.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Resources\Resource.designer.cs" />
@@ -188,6 +194,9 @@
     <Compile Include="Activities\DireccionActivity.cs" />
     <Compile Include="Activities\HistorialMandadoActivity.cs" />
     <Compile Include="Adapters\HistorialMandadosAdapter.cs" />
+    <Compile Include="Activities\HistorialMapaActivity.cs" />
+    <Compile Include="Activities\MandadosProgresoActivity.cs" />
+    <Compile Include="Activities\MandadosProgresoMapaActivity.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
@@ -288,6 +297,9 @@
     <AndroidResource Include="Resources\layout\Direccion.axml" />
     <AndroidResource Include="Resources\layout\HistorialMandado.axml" />
     <AndroidResource Include="Resources\layout\Mandado_item.axml" />
+    <AndroidResource Include="Resources\layout\HistorialMapa.axml" />
+    <AndroidResource Include="Resources\layout\MandadosProgreso.axml" />
+    <AndroidResource Include="Resources\layout\MandadosProgresoMapa.axml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\drawable\" />

@@ -22,6 +22,7 @@ namespace BossMandados.Droid
         private float latitud = 0.0f;
         private float longitud = 0.0f;
         private bool cambio_mapa = false;
+        private Button registro;
 
         protected override void OnCreate(Bundle savedInstanceState)
         {
@@ -31,6 +32,12 @@ namespace BossMandados.Droid
             //Mapa
             _mapFragment = FragmentManager.FindFragmentById<MapFragment>(Resource.Id.mapa_registro);
             _mapFragment.GetMapAsync(this);
+            //Botón
+            registro = FindViewById<Button>(Resource.Id.registro);
+            registro.Click += delegate
+            {
+                Registro_cliente();
+            };
         }
 
         protected override void OnResume()
