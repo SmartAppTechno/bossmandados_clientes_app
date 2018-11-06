@@ -1,11 +1,87 @@
-/Users/ricardo_espinosa/Documents/BossMandados/iOS/bin/iPhoneSimulator/Debug/BossMandados.iOS.exe
-/Users/ricardo_espinosa/Documents/BossMandados/iOS/bin/iPhoneSimulator/Debug/BossMandados.iOS.pdb
-/Users/ricardo_espinosa/Documents/BossMandados/iOS/obj/iPhoneSimulator/Debug/ibtool/_BundleResourceWithLogicalName.items
-/Users/ricardo_espinosa/Documents/BossMandados/iOS/obj/iPhoneSimulator/Debug/actool/_PartialAppManifest.items
-/Users/ricardo_espinosa/Documents/BossMandados/iOS/obj/iPhoneSimulator/Debug/actool/_BundleResourceWithLogicalName.items
-/Users/ricardo_espinosa/Documents/BossMandados/iOS/obj/iPhoneSimulator/Debug/coremlc/_PartialAppManifest.items
-/Users/ricardo_espinosa/Documents/BossMandados/iOS/obj/iPhoneSimulator/Debug/coremlc/_BundleResourceWithLogicalName.items
-/Users/ricardo_espinosa/Documents/BossMandados/iOS/obj/iPhoneSimulator/Debug/optimized/
-/Users/ricardo_espinosa/Documents/BossMandados/iOS/obj/iPhoneSimulator/Debug/BossMandados.iOS.csproj.CoreCompileInputs.cache
-/Users/ricardo_espinosa/Documents/BossMandados/iOS/obj/iPhoneSimulator/Debug/BossMandados.iOS.exe
-/Users/ricardo_espinosa/Documents/BossMandados/iOS/obj/iPhoneSimulator/Debug/BossMandados.iOS.pdb
+/Users/jrojas/Documents/Work/SmartApp Tech/Boss/bossmandados_clientes_app/iOS/bin/iPhoneSimulator/Debug/BossMandados.iOS.exe
+/Users/jrojas/Documents/Work/SmartApp Tech/Boss/bossmandados_clientes_app/iOS/bin/iPhoneSimulator/Debug/BossMandados.iOS.pdb
+/Users/jrojas/Documents/Work/SmartApp Tech/Boss/bossmandados_clientes_app/iOS/bin/iPhoneSimulator/Debug/BossMandados.Common.dll
+/Users/jrojas/Documents/Work/SmartApp Tech/Boss/bossmandados_clientes_app/iOS/bin/iPhoneSimulator/Debug/BossMandados.CoreLogic.dll
+/Users/jrojas/Documents/Work/SmartApp Tech/Boss/bossmandados_clientes_app/iOS/bin/iPhoneSimulator/Debug/BossMandados.DataAccess.dll
+/Users/jrojas/Documents/Work/SmartApp Tech/Boss/bossmandados_clientes_app/iOS/bin/iPhoneSimulator/Debug/Facebook.CoreKit.dll
+/Users/jrojas/Documents/Work/SmartApp Tech/Boss/bossmandados_clientes_app/iOS/bin/iPhoneSimulator/Debug/Facebook.LoginKit.dll
+/Users/jrojas/Documents/Work/SmartApp Tech/Boss/bossmandados_clientes_app/iOS/bin/iPhoneSimulator/Debug/Facebook.MarketingKit.dll
+/Users/jrojas/Documents/Work/SmartApp Tech/Boss/bossmandados_clientes_app/iOS/bin/iPhoneSimulator/Debug/Facebook.MessengerShareKit.dll
+/Users/jrojas/Documents/Work/SmartApp Tech/Boss/bossmandados_clientes_app/iOS/bin/iPhoneSimulator/Debug/Facebook.PlacesKit.dll
+/Users/jrojas/Documents/Work/SmartApp Tech/Boss/bossmandados_clientes_app/iOS/bin/iPhoneSimulator/Debug/Facebook.ShareKit.dll
+/Users/jrojas/Documents/Work/SmartApp Tech/Boss/bossmandados_clientes_app/iOS/bin/iPhoneSimulator/Debug/Microsoft.Azure.Mobile.Client.dll
+/Users/jrojas/Documents/Work/SmartApp Tech/Boss/bossmandados_clientes_app/iOS/bin/iPhoneSimulator/Debug/Newtonsoft.Json.dll
+/Users/jrojas/Documents/Work/SmartApp Tech/Boss/bossmandados_clientes_app/iOS/bin/iPhoneSimulator/Debug/PCLCrypto.dll
+/Users/jrojas/Documents/Work/SmartApp Tech/Boss/bossmandados_clientes_app/iOS/bin/iPhoneSimulator/Debug/PInvoke.BCrypt.dll
+/Users/jrojas/Documents/Work/SmartApp Tech/Boss/bossmandados_clientes_app/iOS/bin/iPhoneSimulator/Debug/PInvoke.Kernel32.dll
+/Users/jrojas/Documents/Work/SmartApp Tech/Boss/bossmandados_clientes_app/iOS/bin/iPhoneSimulator/Debug/PInvoke.NCrypt.dll
+/Users/jrojas/Documents/Work/SmartApp Tech/Boss/bossmandados_clientes_app/iOS/bin/iPhoneSimulator/Debug/PInvoke.Windows.Core.dll
+/Users/jrojas/Documents/Work/SmartApp Tech/Boss/bossmandados_clientes_app/iOS/bin/iPhoneSimulator/Debug/Validation.dll
+/Users/jrojas/Documents/Work/SmartApp Tech/Boss/bossmandados_clientes_app/iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Core.dll
+/Users/jrojas/Documents/Work/SmartApp Tech/Boss/bossmandados_clientes_app/iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Platform.dll
+/Users/jrojas/Documents/Work/SmartApp Tech/Boss/bossmandados_clientes_app/iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Platform.iOS.dll
+/Users/jrojas/Documents/Work/SmartApp Tech/Boss/bossmandados_clientes_app/iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Xaml.dll
+/Users/jrojas/Documents/Work/SmartApp Tech/Boss/bossmandados_clientes_app/iOS/bin/iPhoneSimulator/Debug/BossMandados.Common.pdb
+/Users/jrojas/Documents/Work/SmartApp Tech/Boss/bossmandados_clientes_app/iOS/bin/iPhoneSimulator/Debug/BossMandados.CoreLogic.pdb
+/Users/jrojas/Documents/Work/SmartApp Tech/Boss/bossmandados_clientes_app/iOS/bin/iPhoneSimulator/Debug/BossMandados.CoreLogic.dll.config
+/Users/jrojas/Documents/Work/SmartApp Tech/Boss/bossmandados_clientes_app/iOS/bin/iPhoneSimulator/Debug/BossMandados.DataAccess.pdb
+/Users/jrojas/Documents/Work/SmartApp Tech/Boss/bossmandados_clientes_app/iOS/bin/iPhoneSimulator/Debug/BossMandados.DataAccess.dll.config
+/Users/jrojas/Documents/Work/SmartApp Tech/Boss/bossmandados_clientes_app/iOS/bin/iPhoneSimulator/Debug/PCLCrypto.xml
+/Users/jrojas/Documents/Work/SmartApp Tech/Boss/bossmandados_clientes_app/iOS/bin/iPhoneSimulator/Debug/Microsoft.Azure.Mobile.Client.xml
+/Users/jrojas/Documents/Work/SmartApp Tech/Boss/bossmandados_clientes_app/iOS/bin/iPhoneSimulator/Debug/Newtonsoft.Json.xml
+/Users/jrojas/Documents/Work/SmartApp Tech/Boss/bossmandados_clientes_app/iOS/bin/iPhoneSimulator/Debug/PInvoke.Windows.Core.xml
+/Users/jrojas/Documents/Work/SmartApp Tech/Boss/bossmandados_clientes_app/iOS/bin/iPhoneSimulator/Debug/PInvoke.Kernel32.xml
+/Users/jrojas/Documents/Work/SmartApp Tech/Boss/bossmandados_clientes_app/iOS/bin/iPhoneSimulator/Debug/PInvoke.BCrypt.xml
+/Users/jrojas/Documents/Work/SmartApp Tech/Boss/bossmandados_clientes_app/iOS/bin/iPhoneSimulator/Debug/PInvoke.NCrypt.xml
+/Users/jrojas/Documents/Work/SmartApp Tech/Boss/bossmandados_clientes_app/iOS/bin/iPhoneSimulator/Debug/Validation.xml
+/Users/jrojas/Documents/Work/SmartApp Tech/Boss/bossmandados_clientes_app/iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Core.pdb
+/Users/jrojas/Documents/Work/SmartApp Tech/Boss/bossmandados_clientes_app/iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Core.xml
+/Users/jrojas/Documents/Work/SmartApp Tech/Boss/bossmandados_clientes_app/iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Platform.iOS.pdb
+/Users/jrojas/Documents/Work/SmartApp Tech/Boss/bossmandados_clientes_app/iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Xaml.pdb
+/Users/jrojas/Documents/Work/SmartApp Tech/Boss/bossmandados_clientes_app/iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Xaml.xml
+/Users/jrojas/Documents/Work/SmartApp Tech/Boss/bossmandados_clientes_app/iOS/bin/iPhoneSimulator/Debug/ar/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/jrojas/Documents/Work/SmartApp Tech/Boss/bossmandados_clientes_app/iOS/bin/iPhoneSimulator/Debug/ca/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/jrojas/Documents/Work/SmartApp Tech/Boss/bossmandados_clientes_app/iOS/bin/iPhoneSimulator/Debug/cs/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/jrojas/Documents/Work/SmartApp Tech/Boss/bossmandados_clientes_app/iOS/bin/iPhoneSimulator/Debug/da/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/jrojas/Documents/Work/SmartApp Tech/Boss/bossmandados_clientes_app/iOS/bin/iPhoneSimulator/Debug/de/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/jrojas/Documents/Work/SmartApp Tech/Boss/bossmandados_clientes_app/iOS/bin/iPhoneSimulator/Debug/el/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/jrojas/Documents/Work/SmartApp Tech/Boss/bossmandados_clientes_app/iOS/bin/iPhoneSimulator/Debug/es/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/jrojas/Documents/Work/SmartApp Tech/Boss/bossmandados_clientes_app/iOS/bin/iPhoneSimulator/Debug/fi/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/jrojas/Documents/Work/SmartApp Tech/Boss/bossmandados_clientes_app/iOS/bin/iPhoneSimulator/Debug/fr/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/jrojas/Documents/Work/SmartApp Tech/Boss/bossmandados_clientes_app/iOS/bin/iPhoneSimulator/Debug/he/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/jrojas/Documents/Work/SmartApp Tech/Boss/bossmandados_clientes_app/iOS/bin/iPhoneSimulator/Debug/hi/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/jrojas/Documents/Work/SmartApp Tech/Boss/bossmandados_clientes_app/iOS/bin/iPhoneSimulator/Debug/hr/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/jrojas/Documents/Work/SmartApp Tech/Boss/bossmandados_clientes_app/iOS/bin/iPhoneSimulator/Debug/hu/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/jrojas/Documents/Work/SmartApp Tech/Boss/bossmandados_clientes_app/iOS/bin/iPhoneSimulator/Debug/id/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/jrojas/Documents/Work/SmartApp Tech/Boss/bossmandados_clientes_app/iOS/bin/iPhoneSimulator/Debug/it/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/jrojas/Documents/Work/SmartApp Tech/Boss/bossmandados_clientes_app/iOS/bin/iPhoneSimulator/Debug/ja/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/jrojas/Documents/Work/SmartApp Tech/Boss/bossmandados_clientes_app/iOS/bin/iPhoneSimulator/Debug/ko/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/jrojas/Documents/Work/SmartApp Tech/Boss/bossmandados_clientes_app/iOS/bin/iPhoneSimulator/Debug/ms/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/jrojas/Documents/Work/SmartApp Tech/Boss/bossmandados_clientes_app/iOS/bin/iPhoneSimulator/Debug/nb/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/jrojas/Documents/Work/SmartApp Tech/Boss/bossmandados_clientes_app/iOS/bin/iPhoneSimulator/Debug/nl/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/jrojas/Documents/Work/SmartApp Tech/Boss/bossmandados_clientes_app/iOS/bin/iPhoneSimulator/Debug/pl/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/jrojas/Documents/Work/SmartApp Tech/Boss/bossmandados_clientes_app/iOS/bin/iPhoneSimulator/Debug/pt/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/jrojas/Documents/Work/SmartApp Tech/Boss/bossmandados_clientes_app/iOS/bin/iPhoneSimulator/Debug/pt-BR/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/jrojas/Documents/Work/SmartApp Tech/Boss/bossmandados_clientes_app/iOS/bin/iPhoneSimulator/Debug/ro/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/jrojas/Documents/Work/SmartApp Tech/Boss/bossmandados_clientes_app/iOS/bin/iPhoneSimulator/Debug/ru/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/jrojas/Documents/Work/SmartApp Tech/Boss/bossmandados_clientes_app/iOS/bin/iPhoneSimulator/Debug/sk/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/jrojas/Documents/Work/SmartApp Tech/Boss/bossmandados_clientes_app/iOS/bin/iPhoneSimulator/Debug/sv/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/jrojas/Documents/Work/SmartApp Tech/Boss/bossmandados_clientes_app/iOS/bin/iPhoneSimulator/Debug/th/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/jrojas/Documents/Work/SmartApp Tech/Boss/bossmandados_clientes_app/iOS/bin/iPhoneSimulator/Debug/tr/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/jrojas/Documents/Work/SmartApp Tech/Boss/bossmandados_clientes_app/iOS/bin/iPhoneSimulator/Debug/uk/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/jrojas/Documents/Work/SmartApp Tech/Boss/bossmandados_clientes_app/iOS/bin/iPhoneSimulator/Debug/vi/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/jrojas/Documents/Work/SmartApp Tech/Boss/bossmandados_clientes_app/iOS/bin/iPhoneSimulator/Debug/zh-HK/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/jrojas/Documents/Work/SmartApp Tech/Boss/bossmandados_clientes_app/iOS/bin/iPhoneSimulator/Debug/zh-Hans/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/jrojas/Documents/Work/SmartApp Tech/Boss/bossmandados_clientes_app/iOS/bin/iPhoneSimulator/Debug/zh-Hant/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/jrojas/Documents/Work/SmartApp Tech/Boss/bossmandados_clientes_app/iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.4-12.1/ibtool/_BundleResourceWithLogicalName.items
+/Users/jrojas/Documents/Work/SmartApp Tech/Boss/bossmandados_clientes_app/iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.4-12.1/actool/_PartialAppManifest.items
+/Users/jrojas/Documents/Work/SmartApp Tech/Boss/bossmandados_clientes_app/iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.4-12.1/actool/_BundleResourceWithLogicalName.items
+/Users/jrojas/Documents/Work/SmartApp Tech/Boss/bossmandados_clientes_app/iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.4-12.1/coremlc/_PartialAppManifest.items
+/Users/jrojas/Documents/Work/SmartApp Tech/Boss/bossmandados_clientes_app/iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.4-12.1/coremlc/_BundleResourceWithLogicalName.items
+/Users/jrojas/Documents/Work/SmartApp Tech/Boss/bossmandados_clientes_app/iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.4-12.1/optimized/
+/Users/jrojas/Documents/Work/SmartApp Tech/Boss/bossmandados_clientes_app/iOS/obj/iPhoneSimulator/Debug/BossMandados.iOS.csprojAssemblyReference.cache
+/Users/jrojas/Documents/Work/SmartApp Tech/Boss/bossmandados_clientes_app/iOS/obj/iPhoneSimulator/Debug/BossMandados.iOS.csproj.CoreCompileInputs.cache
+/Users/jrojas/Documents/Work/SmartApp Tech/Boss/bossmandados_clientes_app/iOS/obj/iPhoneSimulator/Debug/XamlC.stamp
+/Users/jrojas/Documents/Work/SmartApp Tech/Boss/bossmandados_clientes_app/iOS/obj/iPhoneSimulator/Debug/BossMandados.iOS.csproj.CopyComplete
+/Users/jrojas/Documents/Work/SmartApp Tech/Boss/bossmandados_clientes_app/iOS/obj/iPhoneSimulator/Debug/BossMandados.iOS.exe
+/Users/jrojas/Documents/Work/SmartApp Tech/Boss/bossmandados_clientes_app/iOS/obj/iPhoneSimulator/Debug/BossMandados.iOS.pdb

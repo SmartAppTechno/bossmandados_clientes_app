@@ -18,7 +18,15 @@ namespace BossMandados.iOS
 
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
+        UIKit.UIButton facebookButton { get; set; }
+
+        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
         UIKit.UIButton logInButton { get; set; }
+
+        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
+        UIKit.UIView LogInViewController { get; set; }
 
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
@@ -30,9 +38,19 @@ namespace BossMandados.iOS
 
         void ReleaseDesignerOutlets ()
         {
+            if (facebookButton != null) {
+                facebookButton.Dispose ();
+                facebookButton = null;
+            }
+
             if (logInButton != null) {
                 logInButton.Dispose ();
                 logInButton = null;
+            }
+
+            if (LogInViewController != null) {
+                LogInViewController.Dispose ();
+                LogInViewController = null;
             }
 
             if (mailTextField != null) {
