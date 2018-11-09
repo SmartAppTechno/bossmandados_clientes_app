@@ -10,8 +10,11 @@ namespace BossMandados.CoreLogic.ActivityCore
     {
         private HistorialMandadoData data;
         public List<Manboss_mandado> mandados { get; set; }
+<<<<<<< HEAD
         public List<Manboss_mandados_ruta> rutas { get; set; }
         public List<Manboss_repartidores_ubicaciones> ubicaciones { get; set; }
+=======
+>>>>>>> 6d6c4008efd033ca653f54cc9f6f40609a02f61e
 
         public HistorialMandadoCore()
         {
@@ -23,6 +26,7 @@ namespace BossMandados.CoreLogic.ActivityCore
             mandados = await data.Mandados(clienteID);
             return mandados;
         }
+<<<<<<< HEAD
 
         public async Task<List<Manboss_mandado>> GetMandadosProgreso(int clienteID)
         {
@@ -41,5 +45,7 @@ namespace BossMandados.CoreLogic.ActivityCore
             ubicaciones = await data.Ubicaciones(mandadoID);
             return ubicaciones;
         }
+=======
+>>>>>>> 6d6c4008efd033ca653f54cc9f6f40609a02f61e
     }
 }

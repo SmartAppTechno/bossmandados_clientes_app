@@ -167,16 +167,22 @@
 /Users/ricardo_espinosa/Documents/BossMandados/Droid/obj/Debug/res/layout/promociones_item.xml
 /Users/ricardo_espinosa/Documents/BossMandados/Droid/obj/Debug/res/layout/promociones.xml
 /Users/ricardo_espinosa/Documents/BossMandados/Droid/obj/Debug/res/layout/micuenta.xml
+/Users/ricardo_espinosa/Documents/BossMandados/Droid/obj/Debug/R.cs.flag
+/Users/ricardo_espinosa/Documents/BossMandados/Droid/obj/Debug/R.txt
+/Users/ricardo_espinosa/Documents/BossMandados/Droid/obj/Debug/uploadflags.txt
 /Users/ricardo_espinosa/Documents/BossMandados/Droid/obj/Debug/res/layout/nuevadireccion.xml
 /Users/ricardo_espinosa/Documents/BossMandados/Droid/obj/Debug/res/layout/direccion.xml
 /Users/ricardo_espinosa/Documents/BossMandados/Droid/obj/Debug/res/layout/historialmandado.xml
 /Users/ricardo_espinosa/Documents/BossMandados/Droid/obj/Debug/res/layout/mandado_item.xml
+<<<<<<< HEAD
 /Users/ricardo_espinosa/Documents/BossMandados/Droid/obj/Debug/res/layout/historialmapa.xml
 /Users/ricardo_espinosa/Documents/BossMandados/Droid/obj/Debug/res/layout/mandadosprogreso.xml
 /Users/ricardo_espinosa/Documents/BossMandados/Droid/obj/Debug/res/layout/mandadosprogresomapa.xml
 /Users/ricardo_espinosa/Documents/BossMandados/Droid/obj/Debug/R.cs.flag
 /Users/ricardo_espinosa/Documents/BossMandados/Droid/obj/Debug/R.txt
 /Users/ricardo_espinosa/Documents/BossMandados/Droid/obj/Debug/uploadflags.txt
+=======
+>>>>>>> 6d6c4008efd033ca653f54cc9f6f40609a02f61e
 /Users/ricardo_espinosa/Documents/BossMandados/Droid/bin/Debug/Mono.Android.pdb
 /Users/ricardo_espinosa/Documents/BossMandados/Droid/obj/Debug/linksrc/BossMandados.Droid.pdb
 /Users/ricardo_espinosa/Documents/BossMandados/Droid/obj/Debug/linksrc/BossMandados.Common.pdb

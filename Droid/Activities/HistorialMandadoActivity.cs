@@ -50,9 +50,9 @@ namespace BossMandados.Droid.Activities
 
         public void VerMandado(int mandado_id)
         {
-            Intent intent = new Intent(this, typeof(HistorialMapaActivity));
-            intent.PutExtra("mandado_id", mandado_id);
-            StartActivity(intent);
+            //Intent intent = new Intent(this, typeof(DireccionActivity));
+            //intent.PutExtra("mandado_id", mandado_id);
+            //StartActivity(intent);
         }
     }
 }

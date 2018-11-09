@@ -1,0 +1,5 @@
+version: "Apple Swift version 4.2.1 (swiftlang-1000.11.42 clang-1000.11.45.1)"
+options: "8b83d7356a17d3108b8854e8307e47c0"
+build_time: [1541282826, 806915000]
+inputs:
+  "/Users/jrojas/Documents/Work/SmartApp Tech/Boss/bossmandados_clientes_app/iOS/obj/Xcode/2/CustomTextField.swift": [1541282825, 0]

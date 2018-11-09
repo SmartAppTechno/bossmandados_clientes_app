@@ -20,5 +20,9 @@ AndroidCreatePackagePerAbi=
 OS=Unix
 DesignTimeBuild=
 AndroidIncludeDebugSymbols=True
+<<<<<<< HEAD
 AdbTarget=-s ZY322LSZZF
+=======
+AdbTarget=-s ZY223BKC23
+>>>>>>> 6d6c4008efd033ca653f54cc9f6f40609a02f61e
 AdbOptions=
