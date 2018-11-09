@@ -11,6 +11,7 @@ namespace BossMandados.CoreLogic.ActivityCore
         private HistorialMandadoData data;
         public List<Manboss_mandado> mandados { get; set; }
         public List<Manboss_mandados_ruta> rutas { get; set; }
+        public List<Manboss_repartidores_ubicaciones> ubicaciones { get; set; }
 
         public HistorialMandadoCore()
         {
@@ -33,6 +34,12 @@ namespace BossMandados.CoreLogic.ActivityCore
         {
             rutas = await data.Rutas(mandadoID);
             return rutas;
+        }
+
+        public async Task<List<Manboss_repartidores_ubicaciones>> GetUbicaciones(int mandadoID)
+        {
+            ubicaciones = await data.Ubicaciones(mandadoID);
+            return ubicaciones;
         }
     }
 }

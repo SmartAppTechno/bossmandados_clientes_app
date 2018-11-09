@@ -2,6 +2,8 @@ Bolts.AppLinks
 Bolts.Tasks
 BossMandados.Common
 BossMandados.CoreLogic
+Google.Apis.Core
+Google.Apis
 Google.ZXing.Core
 Microsoft.Azure.Mobile.Client
 Newtonsoft.Json

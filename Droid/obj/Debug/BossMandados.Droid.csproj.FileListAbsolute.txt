@@ -6,6 +6,8 @@
 /Users/ricardo_espinosa/Documents/BossMandados/Droid/bin/Debug/Bolts.Tasks.dll
 /Users/ricardo_espinosa/Documents/BossMandados/Droid/bin/Debug/BossMandados.Common.dll
 /Users/ricardo_espinosa/Documents/BossMandados/Droid/bin/Debug/BossMandados.CoreLogic.dll
+/Users/ricardo_espinosa/Documents/BossMandados/Droid/bin/Debug/Google.Apis.Core.dll
+/Users/ricardo_espinosa/Documents/BossMandados/Droid/bin/Debug/Google.Apis.dll
 /Users/ricardo_espinosa/Documents/BossMandados/Droid/bin/Debug/Google.ZXing.Core.dll
 /Users/ricardo_espinosa/Documents/BossMandados/Droid/bin/Debug/Microsoft.Azure.Mobile.Client.dll
 /Users/ricardo_espinosa/Documents/BossMandados/Droid/bin/Debug/Newtonsoft.Json.dll
@@ -57,8 +59,13 @@
 /Users/ricardo_espinosa/Documents/BossMandados/Droid/bin/Debug/PInvoke.BCrypt.xml
 /Users/ricardo_espinosa/Documents/BossMandados/Droid/bin/Debug/PInvoke.NCrypt.xml
 /Users/ricardo_espinosa/Documents/BossMandados/Droid/bin/Debug/Validation.xml
+/Users/ricardo_espinosa/Documents/BossMandados/Droid/bin/Debug/Google.Apis.Core.pdb
+/Users/ricardo_espinosa/Documents/BossMandados/Droid/bin/Debug/Google.Apis.Core.xml
+/Users/ricardo_espinosa/Documents/BossMandados/Droid/bin/Debug/Google.Apis.pdb
+/Users/ricardo_espinosa/Documents/BossMandados/Droid/bin/Debug/Google.Apis.xml
 /Users/ricardo_espinosa/Documents/BossMandados/Droid/bin/Debug/BossMandados.DataAccess.pdb
 /Users/ricardo_espinosa/Documents/BossMandados/Droid/bin/Debug/BossMandados.DataAccess.dll.config
+/Users/ricardo_espinosa/Documents/BossMandados/Droid/obj/Debug/BossMandados.Droid.csprojResolveAssemblyReference.cache
 /Users/ricardo_espinosa/Documents/BossMandados/Droid/obj/Debug/XbdMerge/Xamarin.GooglePlayServices.Basement.dll.stamp
 /Users/ricardo_espinosa/Documents/BossMandados/Droid/obj/Debug/XbdMerge/Xamarin.GooglePlayServices.Tasks.dll.stamp
 /Users/ricardo_espinosa/Documents/BossMandados/Droid/obj/Debug/XbdMerge/Xamarin.GooglePlayServices.Base.dll.stamp
@@ -170,10 +177,11 @@
 /Users/ricardo_espinosa/Documents/BossMandados/Droid/obj/Debug/R.cs.flag
 /Users/ricardo_espinosa/Documents/BossMandados/Droid/obj/Debug/R.txt
 /Users/ricardo_espinosa/Documents/BossMandados/Droid/obj/Debug/uploadflags.txt
-/Users/ricardo_espinosa/Documents/BossMandados/Droid/obj/Debug/BossMandados.Droid.csprojResolveAssemblyReference.cache
 /Users/ricardo_espinosa/Documents/BossMandados/Droid/bin/Debug/Mono.Android.pdb
 /Users/ricardo_espinosa/Documents/BossMandados/Droid/obj/Debug/linksrc/BossMandados.Droid.pdb
 /Users/ricardo_espinosa/Documents/BossMandados/Droid/obj/Debug/linksrc/BossMandados.Common.pdb
 /Users/ricardo_espinosa/Documents/BossMandados/Droid/obj/Debug/linksrc/BossMandados.CoreLogic.pdb
+/Users/ricardo_espinosa/Documents/BossMandados/Droid/obj/Debug/linksrc/Google.Apis.Core.pdb
+/Users/ricardo_espinosa/Documents/BossMandados/Droid/obj/Debug/linksrc/Google.Apis.pdb
 /Users/ricardo_espinosa/Documents/BossMandados/Droid/obj/Debug/linksrc/Mono.Android.pdb
 /Users/ricardo_espinosa/Documents/BossMandados/Droid/obj/Debug/linksrc/BossMandados.DataAccess.pdb

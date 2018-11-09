@@ -193,10 +193,11 @@
     <Compile Include="Activities\NuevaDireccionActivity.cs" />
     <Compile Include="Activities\DireccionActivity.cs" />
     <Compile Include="Activities\HistorialMandadoActivity.cs" />
-    <Compile Include="Adapters\HistorialMandadosAdapter.cs" />
+    <Compile Include="Adapters\MandadosAdapter.cs" />
     <Compile Include="Activities\HistorialMapaActivity.cs" />
     <Compile Include="Activities\MandadosProgresoActivity.cs" />
     <Compile Include="Activities\MandadosProgresoMapaActivity.cs" />
+    <Compile Include="Adapters\MandadosProgresoAdapter.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />

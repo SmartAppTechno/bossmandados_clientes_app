@@ -26,7 +26,6 @@ namespace BossMandados.Droid.Activities
         private MapFragment _mapFragment;
         private GoogleMap _map;
         private MarkerOptions markerOpt1;
-        private List<LatLng> path;
 
         protected override void OnCreate(Bundle savedInstanceState)
         {
@@ -51,7 +50,6 @@ namespace BossMandados.Droid.Activities
                 markerOpt1 = new MarkerOptions();
                 LatLng lugar = new LatLng(ruta.Latitud, ruta.Longitud);
                 builder.Include(lugar);
-                path.Add(lugar);
                 markerOpt1.SetPosition(lugar);
                 _map.AddMarker(markerOpt1);
             }
@@ -60,67 +58,18 @@ namespace BossMandados.Droid.Activities
             CameraUpdate cameraUpdate = CameraUpdateFactory.NewLatLngBounds(bounds, 300);
             _map.MoveCamera(cameraUpdate);
             //Dibujar ruta
-            GeoApiContext context = new GeoApiContext.Builder().apiKey("AIzaSyBbYYC0GtGH_ueQx57jNyGECOtXEZhrdtk").build();
-            DirectionsApiRequest req = DirectionsApi.getDirections(context, path.First(), path.Last());
-            try
+            List<Manboss_repartidores_ubicaciones> ubicaciones = await core.GetUbicaciones(id_mandado);
+            var polylineOptions = new PolylineOptions();
+            polylineOptions.InvokeColor(0x6600FF00);
+            foreach (var position in rutas)
             {
-                DirectionsResult res = req.await();
-
-                //Loop through legs and steps to get encoded polylines of each step
-                if (res.routes != null && res.routes.length > 0)
-                {
-                    DirectionsRoute route = res.routes[0];
-
-                    if (route.legs != null)
-                    {
-                        for (int i = 0; i < route.legs.length; i++)
-                        {
-                            DirectionsLeg leg = route.legs[i];
-                            if (leg.steps != null)
-                            {
-                                for (int j = 0; j < leg.steps.length; j++)
-                                {
-                                    DirectionsStep step = leg.steps[j];
-                                    if (step.steps != null && step.steps.length > 0)
-                                    {
-                                        for (int k = 0; k < step.steps.length; k++)
-                                        {
-                                            DirectionsStep step1 = step.steps[k];
-                                            EncodedPolyline points1 = step1.polyline;
-                                            if (points1 != null)
-                                            {
-                                                //Decode polyline and add points to list of route coordinates
-                                                List<LatLng> coords1 = points1.decodePath();
-                                                foreach (LatLng coord1 in coords1)
-                                                {
-                                                    path.Add(new LatLng(coord1.Latitude, coord1.Longitude));
-                                                }
-                                            }
-                                        }
-                                    }
-                                    else
-                                    {
-                                        EncodedPolyline points = step.polyline;
-                                        if (points != null)
-                                        {
-                                            //Decode polyline and add points to list of route coordinates
-                                            List<LatLng> coords = points.decodePath();
-                                            foreach (LatLng coord in coords)
-                                            {
-                                                path.Add(new LatLng(coord.Latitude, coord.Longitude));
-                                            }
-                                        }
-                                    }
-                                }
-                            }
-                        }
-                    }
-                }
+                polylineOptions.Add(new LatLng(position.Latitud, position.Longitud));
             }
-            catch (Exception ex)
+            foreach (var position in ubicaciones)
             {
-                
+                polylineOptions.Add(new LatLng(position.latitud, position.longitud));
             }
+            _map.AddPolyline(polylineOptions);
         }
 
         public void OnMapReady(GoogleMap map)

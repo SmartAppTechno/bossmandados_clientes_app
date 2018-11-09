@@ -19,5 +19,8 @@ namespace BossMandados.Common.Model
 
         [JsonProperty(PropertyName = "hora")]
         public DateTime hora { get; set; }
+
+        [JsonProperty(PropertyName = "mandado")]
+        public int Mandado { get; set; }
     }
 }

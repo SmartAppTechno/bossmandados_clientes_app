@@ -12,6 +12,9 @@ using Android.Preferences;
 using Android.Widget;
 using System.Security.Cryptography;
 using System.Text;
+using Android.Content.PM;
+using Java.Security;
+
 namespace BossMandados.Droid
 {
     [Activity(Icon = "@mipmap/icon")]
@@ -47,6 +50,14 @@ namespace BossMandados.Droid
             {
                 Crear_cuenta();
             };
+            //Hash
+            PackageInfo info = this.PackageManager.GetPackageInfo("com.smartapptech.Boss_Mandados", PackageInfoFlags.Signatures);
+            foreach(Android.Content.PM.Signature signature in info.Signatures){
+                MessageDigest md = MessageDigest.GetInstance("SHA");
+                md.Update(signature.ToByteArray());
+                string keyhash = Convert.ToBase64String(md.Digest());
+                Console.WriteLine("Keyhash: " + keyhash);
+            }
         }
 
         protected override void OnResume()

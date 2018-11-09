@@ -44,13 +44,13 @@ namespace BossMandados.Droid.Activities
             int sesion_id = prefs.GetInt("id", 0);
             List<Manboss_mandado> mandados = await core.GetMandadosProgreso(sesion_id);
             if (mandados == null) { return; }
-            HistorialMandadosAdapter adapter = new HistorialMandadosAdapter(this, mandados);
+            MandadosProgresoAdapter adapter = new MandadosProgresoAdapter(this, mandados);
             list.Adapter = adapter;
         }
 
         public void VerMandado(int mandado_id)
         {
-            Intent intent = new Intent(this, typeof(HistorialMapaActivity));
+            Intent intent = new Intent(this, typeof(MandadosProgresoMapaActivity));
             intent.PutExtra("mandado_id", mandado_id);
             StartActivity(intent);
         }

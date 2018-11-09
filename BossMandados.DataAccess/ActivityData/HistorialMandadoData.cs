@@ -65,9 +65,31 @@ namespace BossMandados.DataAccess.ActivityData
             {
                 Dictionary<string, string> param = new Dictionary<string, string>
                 {
-                    { "MandadoID", mandadoID.ToString() }
+                    { "MandadoID", mandadoID.ToString() },
+                    { "ruta", "ruta" }
                 };
-                var current = await client.InvokeApiAsync<List<Manboss_mandados_ruta>>("MandadosActivos/Ruta", HttpMethod.Post, param);
+                var current = await client.InvokeApiAsync<List<Manboss_mandados_ruta>>("Mandados/Ruta", HttpMethod.Post, param);
+                ans = current;
+            }
+            catch (Exception e)
+            {
+                String error = e.ToString();
+                return null;
+            }
+            return ans;
+        }
+
+        public async Task<List<Manboss_repartidores_ubicaciones>> Ubicaciones(int mandadoID)
+        {
+            List<Manboss_repartidores_ubicaciones> ans = null;
+            try
+            {
+                Dictionary<string, string> param = new Dictionary<string, string>
+                {
+                    { "MandadoID", mandadoID.ToString() },
+                    { "ubicacion", "ubicacion" }
+                };
+                var current = await client.InvokeApiAsync<List<Manboss_repartidores_ubicaciones>>("Mandados/Ubicaciones", HttpMethod.Post, param);
                 ans = current;
             }
             catch (Exception e)

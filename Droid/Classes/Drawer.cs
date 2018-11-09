@@ -95,6 +95,10 @@ namespace BossMandados.Droid
                     Intent historial_mandados = new Intent(activity, typeof(HistorialMandadoActivity));
                     activity.StartActivity(historial_mandados);
                     break;
+                case DrawerPosition.MandadosEnProceso:
+                    Intent mandados_proceso = new Intent(activity, typeof(MandadosProgresoActivity));
+                    activity.StartActivity(mandados_proceso);
+                    break;
             }
 
         }

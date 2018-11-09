@@ -44,7 +44,7 @@ namespace BossMandados.Droid.Activities
             int sesion_id = prefs.GetInt("id", 0);
             List<Manboss_mandado> mandados = await core.GetMandados(sesion_id);
             if (mandados == null) { return; }
-            HistorialMandadosAdapter adapter = new HistorialMandadosAdapter(this, mandados);
+            MandadosAdapter adapter = new MandadosAdapter(this, mandados);
             list.Adapter = adapter;
         }
 

@@ -25,8 +25,7 @@ namespace BossMandados.Droid.Activities
         private HistorialMandadoCore core;
         private MapFragment _mapFragment;
         private GoogleMap _map;
-        private MarkerOptions markerOpt1;
-        private List<LatLng> puntos;
+        private MarkerOptions markerOpt1; 
 
         protected override void OnCreate(Bundle savedInstanceState)
         {
@@ -35,7 +34,7 @@ namespace BossMandados.Droid.Activities
             drawer = new Drawer(this);
             core = new HistorialMandadoCore();
             // Mapa
-            _mapFragment = FragmentManager.FindFragmentById<MapFragment>(Resource.Id.mapa_historial);
+            _mapFragment = FragmentManager.FindFragmentById<MapFragment>(Resource.Id.mapa_progreso);
             _mapFragment.GetMapAsync(this);
             //Obtener id
             int id_mandado = Intent.GetIntExtra("mandado_id", 0);
@@ -45,15 +44,32 @@ namespace BossMandados.Droid.Activities
         private async void GetRutas(int id_mandado)
         {
             List<Manboss_mandados_ruta> rutas = await core.GetRutas(id_mandado);
+            LatLngBounds.Builder builder = new LatLngBounds.Builder();
             foreach (Manboss_mandados_ruta ruta in rutas)
             {
                 markerOpt1 = new MarkerOptions();
                 LatLng lugar = new LatLng(ruta.Latitud, ruta.Longitud);
+                builder.Include(lugar);
                 markerOpt1.SetPosition(lugar);
-                puntos.Add(lugar);
-                markerOpt1.Draggable(true);
                 _map.AddMarker(markerOpt1);
             }
+            //Mover camera
+            LatLngBounds bounds = builder.Build();
+            CameraUpdate cameraUpdate = CameraUpdateFactory.NewLatLngBounds(bounds, 300);
+            _map.MoveCamera(cameraUpdate);
+            //Dibujar ruta
+            List<Manboss_repartidores_ubicaciones> ubicaciones = await core.GetUbicaciones(id_mandado);
+            var polylineOptions = new PolylineOptions();
+            polylineOptions.InvokeColor(0x6600FF00);
+            foreach (var position in rutas)
+            {
+                polylineOptions.Add(new LatLng(position.Latitud, position.Longitud));
+            }
+            foreach (var position in ubicaciones)
+            {
+                polylineOptions.Add(new LatLng(position.latitud, position.longitud));
+            }
+            _map.AddPolyline(polylineOptions);
         }
 
         public void OnMapReady(GoogleMap map)
