@@ -111,8 +111,6 @@ class MonoPackageManager_Resources {
 		"Bolts.Tasks.dll",
 		"BossMandados.Common.dll",
 		"BossMandados.CoreLogic.dll",
-		"Google.Apis.Core.dll",
-		"Google.Apis.dll",
 		"Google.ZXing.Core.dll",
 		"Microsoft.Azure.Mobile.Client.dll",
 		"Newtonsoft.Json.dll",

@@ -187,15 +187,11 @@
     <Compile Include="Activities\NuevaDireccionActivity.cs" />
     <Compile Include="Activities\DireccionActivity.cs" />
     <Compile Include="Activities\HistorialMandadoActivity.cs" />
-<<<<<<< HEAD
     <Compile Include="Adapters\MandadosAdapter.cs" />
     <Compile Include="Activities\HistorialMapaActivity.cs" />
     <Compile Include="Activities\MandadosProgresoActivity.cs" />
     <Compile Include="Activities\MandadosProgresoMapaActivity.cs" />
     <Compile Include="Adapters\MandadosProgresoAdapter.cs" />
-=======
-    <Compile Include="Adapters\HistorialMandadosAdapter.cs" />
->>>>>>> 6d6c4008efd033ca653f54cc9f6f40609a02f61e
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
@@ -296,6 +292,9 @@
     <AndroidResource Include="Resources\layout\Direccion.axml" />
     <AndroidResource Include="Resources\layout\HistorialMandado.axml" />
     <AndroidResource Include="Resources\layout\Mandado_item.axml" />
+    <AndroidResource Include="Resources\layout\HistorialMapa.axml" />
+    <AndroidResource Include="Resources\layout\MandadosProgreso.axml" />
+    <AndroidResource Include="Resources\layout\MandadosProgresoMapa.axml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\drawable\" />

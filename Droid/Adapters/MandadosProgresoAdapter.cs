@@ -9,7 +9,7 @@ using Java.Lang;
 
 namespace BossMandados.Droid.Adapters
 {
-    public class MandadosProgresoAdapter : BaseAdapter
+    public class MandadosProgresoAdapter: BaseAdapter
     {
         private List<Manboss_mandado> mandados;
         private Activity activity;
@@ -42,12 +42,9 @@ namespace BossMandados.Droid.Adapters
             {
                 view = convertView ?? activity.LayoutInflater.Inflate(Resource.Layout.Mandado_item, parent, false);
                 TextView txt_mandado = view.FindViewById<TextView>(Resource.Id.txt_mandado_id);
-                txt_mandado.Text = "#" + mandados[position].Id;
-                Button btn_ruta = view.FindViewById<Button>(Resource.Id.btn_ver_ruta);
-                btn_ruta.TransformationMethod = null;
-                btn_ruta.SetAllCaps(false);
-                btn_ruta.Tag = position;
-                btn_ruta.Click += MandadoClick;
+                txt_mandado.Text = "#" + mandados[position].Cliente.ToString();
+                view.Tag = position;
+                view.Click += MandadoClick;
                 return view;
             }
             else

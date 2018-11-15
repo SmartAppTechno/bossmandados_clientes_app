@@ -1,7 +1,7 @@
-package md59fe8a11bb890692d3b0cdee1e6fd1f05;
+package md529c2ddbd5d5eac5bf33fbf5eaadf7055;
 
 
-public class InicioActivity
+public class HistorialMapaActivity
 	extends android.support.v7.app.AppCompatActivity
 	implements
 		mono.android.IGCUserPeer,
@@ -14,15 +14,15 @@ public class InicioActivity
 			"n_onCreate:(Landroid/os/Bundle;)V:GetOnCreate_Landroid_os_Bundle_Handler\n" +
 			"n_onMapReady:(Lcom/google/android/gms/maps/GoogleMap;)V:GetOnMapReady_Lcom_google_android_gms_maps_GoogleMap_Handler:Android.Gms.Maps.IOnMapReadyCallbackInvoker, Xamarin.GooglePlayServices.Maps\n" +
 			"";
-		mono.android.Runtime.register ("BossMandados.Droid.InicioActivity, BossMandados.Droid", InicioActivity.class, __md_methods);
+		mono.android.Runtime.register ("BossMandados.Droid.Activities.HistorialMapaActivity, BossMandados.Droid", HistorialMapaActivity.class, __md_methods);
 	}
 
 
-	public InicioActivity ()
+	public HistorialMapaActivity ()
 	{
 		super ();
-		if (getClass () == InicioActivity.class)
-			mono.android.TypeManager.Activate ("BossMandados.Droid.InicioActivity, BossMandados.Droid", "", this, new java.lang.Object[] {  });
+		if (getClass () == HistorialMapaActivity.class)
+			mono.android.TypeManager.Activate ("BossMandados.Droid.Activities.HistorialMapaActivity, BossMandados.Droid", "", this, new java.lang.Object[] {  });
 	}
 
 

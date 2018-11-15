@@ -22,7 +22,7 @@
             android:layout_height="match_parent"
             android:theme="@style/AppDrawerTheme">
             <fragment
-                android:id="@+id/mapa_nuevomandado"
+                android:id="@+id/mapa_historial"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:name="com.google.android.gms.maps.MapFragment" />

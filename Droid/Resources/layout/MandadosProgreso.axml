@@ -21,11 +21,26 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:theme="@style/AppDrawerTheme">
-            <fragment
-                android:id="@+id/mapa_nuevomandado"
+            <TextView
+                android:textAppearance="?android:attr/textAppearanceLarge"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:name="com.google.android.gms.maps.MapFragment" />
+                android:layout_height="wrap_content"
+                android:id="@+id/txt_Name"
+                android:text="Mandados en Progreso"
+                android:textAlignment="textStart"
+                android:textStyle="bold"
+                android:textColor="@color/green3"
+                android:textSize="35dp"
+                android:gravity="start"
+                android:layout_marginBottom="10dp"
+                android:layout_marginStart="5dp"
+                android:paddingStart="5dp" />
+            <ListView
+                android:id="@+id/MandadosProgresoListView"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:divider="@color/green2"
+                android:dividerHeight="2px" />
         </LinearLayout>
     <!-- Contenido -->
         <include
