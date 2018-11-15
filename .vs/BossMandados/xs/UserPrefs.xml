@@ -1,31 +1,10 @@
-﻿<Properties StartupConfiguration="{D9C3D6FE-0CBD-4DC5-8700-C6C1C42F07C4}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Droid/Activities/MainActivity.cs">
-    <Files>
-<<<<<<< HEAD
-      <File FileName="Droid/Activities/HistorialMapaActivity.cs" Line="47" Column="33" />
-    </Files>
-  </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.BossMandados.Droid AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.ZY322LSZZF" AndroidDesignerPreferredTheme="Theme.DeviceDefault" />
-=======
-      <File FileName="Droid/Resources/values/Strings.xml" Line="4" Column="52" />
-      <File FileName="Droid/Activities/MainActivity.cs" Line="138" Column="1" />
-    </Files>
-  </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.BossMandados.Droid AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.Android_Accelerated_x86" AndroidDesignerPreferredTheme="Theme.Light.NoTitleBar.Fullscreen" />
->>>>>>> 6d6c4008efd033ca653f54cc9f6f40609a02f61e
+﻿<Properties StartupConfiguration="{4FDCC378-D8CC-4EB9-A83B-DDB9384ECDC3}|Default">
+  <MonoDevelop.Ide.Workbench />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <Breakpoint file="/Users/ricardo_espinosa/Documents/BossMandados/Droid/Activities/MainActivity.cs" relfile="Droid/Activities/MainActivity.cs" line="167" column="1" />
-      <Breakpoint file="/Users/ricardo_espinosa/Documents/BossMandados/Droid/Activities/MainActivity.cs" relfile="Droid/Activities/MainActivity.cs" line="76" column="1" />
-      <Breakpoint file="/Users/ricardo_espinosa/Documents/BossMandados/Droid/Activities/MainActivity.cs" relfile="Droid/Activities/MainActivity.cs" line="233" column="23" />
-    </BreakpointStore>
+    <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches>
-    <Watch file="../../../Droid/Activities/MisDireccionesActivity.cs" line="45" offsetX="755" offsetY="660" expression="direcciones" liveUpdate="False" />
-  </MonoDevelop.Ide.DebuggingService.PinnedWatches>
-  <MonoDevelop.Ide.ItemProperties.BossMandados.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.3DEB21BC-035B-4994-81C0-1B3EB67EA869">
-    <MonoDevelop.MacDev.AppleDevelopmentTeam />
-  </MonoDevelop.Ide.ItemProperties.BossMandados.iOS>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.BossMandados.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.5C14346B-19A3-45EA-B5A7-D143626EC52B" />
   <MultiItemStartupConfigurations />
 </Properties>
