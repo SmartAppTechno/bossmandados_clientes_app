@@ -1,10 +1,10 @@
 ﻿<Properties StartupConfiguration="{D9C3D6FE-0CBD-4DC5-8700-C6C1C42F07C4}|Default">
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Droid/Activities/InicioActivity.cs">
     <Files>
-      <File FileName="Droid/Activities/InicioActivity.cs" Line="14" Column="10" />
+      <File FileName="Droid/Activities/InicioActivity.cs" Line="68" Column="10" />
     </Files>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.BossMandados.Droid AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.Android_Accelerated_x86" AndroidDesignerPreferredTheme="Theme.DeviceDefault" />
+  <MonoDevelop.Ide.ItemProperties.BossMandados.Droid AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.ZY322LSZZF" AndroidDesignerPreferredTheme="Theme.Light.NoTitleBar.Fullscreen" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />

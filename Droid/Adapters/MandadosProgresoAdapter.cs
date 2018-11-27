@@ -42,9 +42,10 @@ namespace BossMandados.Droid.Adapters
             {
                 view = convertView ?? activity.LayoutInflater.Inflate(Resource.Layout.Mandado_item, parent, false);
                 TextView txt_mandado = view.FindViewById<TextView>(Resource.Id.txt_mandado_id);
-                txt_mandado.Text = "#" + mandados[position].Cliente.ToString();
+                txt_mandado.Text = "#" + mandados[position].Id.ToString();
                 view.Tag = position;
-                view.Click += MandadoClick;
+                Button boton = view.FindViewById<Button>(Resource.Id.btn_ver_ruta);
+                boton.Click += MandadoClick;
                 return view;
             }
             else

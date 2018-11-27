@@ -23,9 +23,9 @@ namespace BossMandados.DataAccess.ActivityData
             {
                 Dictionary<string, string> param = new Dictionary<string, string>
                 {
-                    { "clienteID", clienteID.ToString() }
+                    { "clienteID", clienteID.ToString() },
+                    { "estado", "4" }
                 };
-<<<<<<< HEAD
                 var current = await client.InvokeApiAsync<List<Manboss_mandado>>("MandadosActivos/Mandados_cliente", HttpMethod.Post, param);
                 ans = current;
             }
@@ -90,9 +90,6 @@ namespace BossMandados.DataAccess.ActivityData
                     { "ubicacion", "ubicacion" }
                 };
                 var current = await client.InvokeApiAsync<List<Manboss_repartidores_ubicaciones>>("Mandados/Ubicaciones", HttpMethod.Post, param);
-=======
-                var current = await client.InvokeApiAsync<List<Manboss_mandado>>("Mandados/Mandados_cliente", HttpMethod.Post, param);
->>>>>>> 6d6c4008efd033ca653f54cc9f6f40609a02f61e
                 ans = current;
             }
             catch (Exception e)

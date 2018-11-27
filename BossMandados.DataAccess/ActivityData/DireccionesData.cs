@@ -65,7 +65,7 @@ namespace BossMandados.DataAccess.ActivityData
             {
                 Dictionary<string, string> param = new Dictionary<string, string>
                 {
-                    { "id", direccionID.ToString() },
+                    { "direccionID", direccionID.ToString() },
                     { "nuevo", "nuevo" }
                 };
                 direccion = await client.InvokeApiAsync<Manboss_clientes_direccion>("Direcciones/GetDireccion", HttpMethod.Post, param);
