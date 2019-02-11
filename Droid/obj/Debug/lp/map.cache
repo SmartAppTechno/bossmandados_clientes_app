@@ -2,8 +2,6 @@ Bolts.AppLinks
 Bolts.Tasks
 BossMandados.Common
 BossMandados.CoreLogic
-Google.Apis.Core
-Google.Apis
 Google.ZXing.Core
 Microsoft.Azure.Mobile.Client
 Newtonsoft.Json
@@ -42,6 +40,8 @@ Xamarin.Facebook.Places.Android
 Xamarin.Facebook.Share.Android
 Xamarin.GooglePlayServices.Base
 Xamarin.GooglePlayServices.Basement
+Xamarin.GooglePlayServices.Location
 Xamarin.GooglePlayServices.Maps
+Xamarin.GooglePlayServices.Places
 Xamarin.GooglePlayServices.Tasks
 BossMandados.DataAccess

@@ -22,7 +22,7 @@ namespace BossMandados.CoreLogic.ActivityCore
             return Direcciones;
         }
 
-        public async Task<Manboss_clientes_direccion> CrearDireccion(int cliente, string direccion, float latitud, float longitud)
+        public async Task<Manboss_clientes_direccion> CrearDireccion(int cliente, string direccion, double latitud, double longitud)
         {
             Manboss_clientes_direccion nueva_direccion = new Manboss_clientes_direccion
             {

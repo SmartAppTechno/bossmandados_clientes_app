@@ -24,6 +24,7 @@ namespace BossMandados.Droid
         private float latitud = 0.0f;
         private float longitud = 0.0f;
         private bool cambio_mapa = false;
+        private Button btn_crear_cuenta;
 
         protected override void OnCreate(Bundle savedInstanceState)
         {
@@ -34,6 +35,12 @@ namespace BossMandados.Droid
             //Mapa
             _mapFragment = FragmentManager.FindFragmentById<MapFragment>(Resource.Id.mapa_crear);
             _mapFragment.GetMapAsync(this);
+            //Crear Cuenta
+            btn_crear_cuenta = FindViewById<Button>(Resource.Id.crear_cuenta);
+            btn_crear_cuenta.Click += delegate
+            {
+                Crear_cuenta();
+            };
         }
 
         protected override void OnResume()

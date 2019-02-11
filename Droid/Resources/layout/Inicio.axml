@@ -16,7 +16,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
     <!-- Contenido -->
-        <LinearLayout
+        <RelativeLayout
             android:orientation="vertical"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -26,7 +26,38 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:name="com.google.android.gms.maps.MapFragment" />
-        </LinearLayout>
+        </RelativeLayout>
+        <RelativeLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:theme="@style/AppDrawerTheme"
+            android:gravity="bottom"
+            android:paddingBottom="20dp">
+            <Button
+                android:id="@+id/agregar_punto_mandado"
+                android:text="Agregar Lugar"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:backgroundTint="@color/green3"
+                android:textSize="11dp"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="40dp"
+                android:padding="10dp" />
+            <Button
+                android:id="@+id/pagar_mandado"
+                android:text="Enviar Mandado"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:backgroundTint="@color/orange"
+                android:textSize="11dp"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_toRightOf="@+id/agregar_punto_mandado"
+                android:padding="10dp" />
+        </RelativeLayout>
     <!-- Contenido -->
         <include
             layout="@layout/Drawer" />

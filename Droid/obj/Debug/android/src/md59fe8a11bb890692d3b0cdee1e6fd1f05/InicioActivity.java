@@ -13,8 +13,6 @@ public class InicioActivity
 	static {
 		__md_methods = 
 			"n_onCreate:(Landroid/os/Bundle;)V:GetOnCreate_Landroid_os_Bundle_Handler\n" +
-			"n_onResume:()V:GetOnResumeHandler\n" +
-			"n_onPause:()V:GetOnPauseHandler\n" +
 			"n_onMapReady:(Lcom/google/android/gms/maps/GoogleMap;)V:GetOnMapReady_Lcom_google_android_gms_maps_GoogleMap_Handler:Android.Gms.Maps.IOnMapReadyCallbackInvoker, Xamarin.GooglePlayServices.Maps\n" +
 			"n_onLocationChanged:(Landroid/location/Location;)V:GetOnLocationChanged_Landroid_location_Location_Handler:Android.Locations.ILocationListenerInvoker, Mono.Android, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null\n" +
 			"n_onProviderDisabled:(Ljava/lang/String;)V:GetOnProviderDisabled_Ljava_lang_String_Handler:Android.Locations.ILocationListenerInvoker, Mono.Android, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null\n" +
@@ -39,22 +37,6 @@ public class InicioActivity
 	}
 
 	private native void n_onCreate (android.os.Bundle p0);
-
-
-	public void onResume ()
-	{
-		n_onResume ();
-	}
-
-	private native void n_onResume ();
-
-
-	public void onPause ()
-	{
-		n_onPause ();
-	}
-
-	private native void n_onPause ();
 
 
 	public void onMapReady (com.google.android.gms.maps.GoogleMap p0)

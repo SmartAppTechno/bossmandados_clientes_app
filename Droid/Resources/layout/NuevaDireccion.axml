@@ -35,19 +35,11 @@
                 android:layout_marginBottom="10dp"
                 android:layout_marginStart="5dp"
                 android:paddingStart="5dp" />
-            <EditText
-                android:hint="Dirección"
-                android:inputType="textMultiLine"
-                android:layout_width="320dp"
-                android:layout_height="50dp"
-                android:gravity="center"
-                android:layout_gravity="center"
-                android:layout_marginTop="20dp"
-                android:background="@color/gray1"
-                android:textColor="#ffffff"
-                android:textColorHint="#ffffff"
-                android:textSize="11dp"
-                android:id="@+id/crear_campo_direccion" />
+            <fragment
+                android:id="@+id/buscar_direccion"
+                android:name="com.google.android.gms.location.places.ui.PlaceAutocompleteFragment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
             <fragment
                 android:id="@+id/mapa_direccion"
                 class="com.google.android.gms.maps.MapFragment"

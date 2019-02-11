@@ -16,6 +16,8 @@
     <activity android:label="RegistroActivity" android:name="md59fe8a11bb890692d3b0cdee1e6fd1f05.RegistroActivity" />
     <activity android:theme="@style/Theme.BossMandados" android:name="md59fe8a11bb890692d3b0cdee1e6fd1f05.InicioActivity" />
     <activity android:label="CrearCuentaActivity" android:name="md59fe8a11bb890692d3b0cdee1e6fd1f05.CrearCuentaActivity" />
+    <activity android:theme="@style/Theme.BossMandados" android:name="md59fe8a11bb890692d3b0cdee1e6fd1f05.ServiciosActivity" />
+    <activity android:theme="@style/Theme.BossMandados" android:name="md59fe8a11bb890692d3b0cdee1e6fd1f05.PagarMandadoActivity" />
     <activity android:icon="@mipmap/icon" android:label="Boss Mandados" android:name="md529c2ddbd5d5eac5bf33fbf5eaadf7055.SplashActivity">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />

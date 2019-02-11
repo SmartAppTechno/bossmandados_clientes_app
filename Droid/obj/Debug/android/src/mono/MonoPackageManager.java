@@ -148,7 +148,9 @@ class MonoPackageManager_Resources {
 		"Xamarin.Facebook.Share.Android.dll",
 		"Xamarin.GooglePlayServices.Base.dll",
 		"Xamarin.GooglePlayServices.Basement.dll",
+		"Xamarin.GooglePlayServices.Location.dll",
 		"Xamarin.GooglePlayServices.Maps.dll",
+		"Xamarin.GooglePlayServices.Places.dll",
 		"Xamarin.GooglePlayServices.Tasks.dll",
 		"BossMandados.DataAccess.dll",
 	};

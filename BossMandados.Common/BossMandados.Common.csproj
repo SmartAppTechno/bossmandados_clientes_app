@@ -46,6 +46,7 @@
     <Compile Include="Model\Manboss_repartidores_calificaciones.cs" />
     <Compile Include="Classes\DrawerElement.cs" />
     <Compile Include="Model\Manboss_promociones.cs" />
+    <Compile Include="Lugares.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

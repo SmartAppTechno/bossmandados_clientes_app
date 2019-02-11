@@ -5,7 +5,8 @@ public class NuevaDireccionActivity
 	extends android.support.v7.app.AppCompatActivity
 	implements
 		mono.android.IGCUserPeer,
-		com.google.android.gms.maps.OnMapReadyCallback
+		com.google.android.gms.maps.OnMapReadyCallback,
+		com.google.android.gms.location.places.ui.PlaceSelectionListener
 {
 /** @hide */
 	public static final String __md_methods;
@@ -13,6 +14,8 @@ public class NuevaDireccionActivity
 		__md_methods = 
 			"n_onCreate:(Landroid/os/Bundle;)V:GetOnCreate_Landroid_os_Bundle_Handler\n" +
 			"n_onMapReady:(Lcom/google/android/gms/maps/GoogleMap;)V:GetOnMapReady_Lcom_google_android_gms_maps_GoogleMap_Handler:Android.Gms.Maps.IOnMapReadyCallbackInvoker, Xamarin.GooglePlayServices.Maps\n" +
+			"n_onError:(Lcom/google/android/gms/common/api/Status;)V:GetOnError_Lcom_google_android_gms_common_api_Status_Handler:Android.Gms.Location.Places.UI.IPlaceSelectionListenerInvoker, Xamarin.GooglePlayServices.Places\n" +
+			"n_onPlaceSelected:(Lcom/google/android/gms/location/places/Place;)V:GetOnPlaceSelected_Lcom_google_android_gms_location_places_Place_Handler:Android.Gms.Location.Places.UI.IPlaceSelectionListenerInvoker, Xamarin.GooglePlayServices.Places\n" +
 			"";
 		mono.android.Runtime.register ("BossMandados.Droid.Activities.NuevaDireccionActivity, BossMandados.Droid", NuevaDireccionActivity.class, __md_methods);
 	}
@@ -40,6 +43,22 @@ public class NuevaDireccionActivity
 	}
 
 	private native void n_onMapReady (com.google.android.gms.maps.GoogleMap p0);
+
+
+	public void onError (com.google.android.gms.common.api.Status p0)
+	{
+		n_onError (p0);
+	}
+
+	private native void n_onError (com.google.android.gms.common.api.Status p0);
+
+
+	public void onPlaceSelected (com.google.android.gms.location.places.Place p0)
+	{
+		n_onPlaceSelected (p0);
+	}
+
+	private native void n_onPlaceSelected (com.google.android.gms.location.places.Place p0);
 
 	private java.util.ArrayList refList;
 	public void monodroidAddReference (java.lang.Object obj)

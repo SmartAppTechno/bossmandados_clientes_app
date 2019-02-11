@@ -16,20 +16,24 @@ using Android.Gms.Maps.Model;
 using Android.Preferences;
 using BossMandados.Common.Model;
 using BossMandados.CoreLogic.ActivityCore;
+using Android.Gms.Location.Places.UI;
+using Android.Gms.Location.Places;
+using Android.Gms.Common.Apis;
 
 namespace BossMandados.Droid.Activities
 {
     [Activity(Theme = "@style/Theme.BossMandados")]
-    public class NuevaDireccionActivity : AppCompatActivity,IOnMapReadyCallback
+    public class NuevaDireccionActivity : AppCompatActivity,IOnMapReadyCallback,IPlaceSelectionListener
     {
         private Drawer drawer;
         private MapFragment _mapFragment;
         private GoogleMap _map;
         private MarkerOptions markerOpt1;
-        private float latitud = 0.0f;
-        private float longitud = 0.0f;
-        private bool cambio_mapa = false;
+        private double latitud = 0.0;
+        private double longitud = 0.0;
+        private string direccion = "";
         private Button crear;
+        private TextView mensaje;
         private DireccionesCore core;
 
         protected override void OnCreate(Bundle savedInstanceState)
@@ -41,6 +45,7 @@ namespace BossMandados.Droid.Activities
             //Mapa
             _mapFragment = FragmentManager.FindFragmentById<MapFragment>(Resource.Id.mapa_direccion);
             _mapFragment.GetMapAsync(this);
+            SetResources();
             //Botón
             crear = FindViewById<Button>(Resource.Id.btn_crear_direccion);
             crear.Click += delegate
@@ -49,34 +54,40 @@ namespace BossMandados.Droid.Activities
             };
         }
 
+        private void SetResources(){
+            PlaceAutocompleteFragment campo_direccion = (PlaceAutocompleteFragment)FragmentManager.FindFragmentById(Resource.Id.buscar_direccion);
+            campo_direccion.SetOnPlaceSelectedListener(this);
+            campo_direccion.SetHint("Escribe la dirección...");
+            mensaje = FindViewById<TextView>(Resource.Id.mensaje_direccion);
+        }
+
         private async void Crear_direccion(){
-            TextView direccion = FindViewById<TextView>(Resource.Id.crear_campo_direccion);
-            string direccion_cliente = direccion.Text;
-            if (direccion_cliente.Length > 0 && cambio_mapa)
-            {
+            if(direccion != ""){
                 //Obtener id del cliente
                 Context mContext = Application.Context;
                 ISharedPreferences prefs = PreferenceManager.GetDefaultSharedPreferences(mContext);
                 int cliente = prefs.GetInt("id", 0);
                 //Actualizar cliente
-                await core.CrearDireccion(cliente,direccion_cliente,latitud,longitud);
+                await core.CrearDireccion(cliente, direccion, latitud, longitud);
                 //Ir a direcciones
                 Intent direcciones = new Intent(this, typeof(MisDireccionesActivity));
                 StartActivity(direcciones);
-            }
-            else
-            {
-                TextView mensaje = FindViewById<TextView>(Resource.Id.mensaje_direccion);
-                mensaje.Visibility = ViewStates.Visible;
+            }else{
+                mensaje.Visibility = ViewStates.Visible;   
             }
         }
 
-        public void OnMapReady(GoogleMap map)
+        public void OnError(Statuses status) { }
+
+        public void OnPlaceSelected(IPlace place)
         {
-            _map = map;
-            _map.MarkerDragEnd += MarkerDragEnd;
+            IPlace lugar = place;
+            direccion = place.AddressFormatted.ToString();
+            latitud = place.LatLng.Latitude;
+            longitud = place.LatLng.Longitude;
+            //Mapa
             //Coordenadas del centro de Aguascalientes
-            LatLng location = new LatLng(21.880636, -102.297108);
+            LatLng location = new LatLng(latitud, longitud);
             CameraPosition.Builder builder = CameraPosition.InvokeBuilder();
             builder.Target(location);
             builder.Zoom(18);
@@ -86,17 +97,24 @@ namespace BossMandados.Droid.Activities
             _map.MoveCamera(cameraUpdate);
             //Agregar marcador
             markerOpt1 = new MarkerOptions();
-            markerOpt1.SetPosition(new LatLng(21.880636, -102.297108));
+            markerOpt1.SetPosition(location);
             markerOpt1.Draggable(true);
             _map.AddMarker(markerOpt1);
         }
 
-        public void MarkerDragEnd(object sender, GoogleMap.MarkerDragEndEventArgs e)
+        public void OnMapReady(GoogleMap map)
         {
-            //Obtener ubicación
-            latitud = (float)e.Marker.Position.Latitude;
-            longitud = (float)e.Marker.Position.Longitude;
-            cambio_mapa = true;
+            _map = map;
+            //Coordenadas del centro de Aguascalientes
+            LatLng location = new LatLng(21.880636, -102.297108);
+            CameraPosition.Builder builder = CameraPosition.InvokeBuilder();
+            builder.Target(location);
+            builder.Zoom(18);
+            CameraPosition cameraPosition = builder.Build();
+            CameraUpdate cameraUpdate = CameraUpdateFactory.NewCameraPosition(cameraPosition);
+            //Mover la posición de la cámara
+            _map.MoveCamera(cameraUpdate);
         }
+
     }
 }
