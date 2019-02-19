@@ -1,18 +1,14 @@
 ﻿<Properties StartupConfiguration="{D9C3D6FE-0CBD-4DC5-8700-C6C1C42F07C4}|Default">
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Droid/Activities/ServiciosActivity.cs">
     <Files>
-      <File FileName="Droid/Activities/ServiciosActivity.cs" Line="66" Column="33" />
-      <File FileName="Droid/Activities/InicioActivity.cs" Line="76" Column="44" />
-      <File FileName="BossMandados.Common/GlobalValues.cs" Line="11" Column="23" />
+      <File FileName="Droid/Activities/ServiciosActivity.cs" Line="85" Column="29" />
+      <File FileName="Droid/Activities/InicioActivity.cs" Line="65" Column="43" />
     </Files>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.BossMandados.Droid AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.ZY322LSZZF" AndroidDesignerPreferredTheme="Theme.DeviceDefault" />
+  <MonoDevelop.Ide.ItemProperties.BossMandados.Droid AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.Android_Accelerated_x86" AndroidDesignerPreferredTheme="Theme.DeviceDefault" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <Breakpoint file="/Users/ricardo_espinosa/Documents/BossMandados/BossMandados.Common/GlobalValues.cs" relfile="BossMandados.Common/GlobalValues.cs" line="11" column="10" />
-      <Breakpoint file="/Users/ricardo_espinosa/Documents/BossMandados/Droid/Activities/InicioActivity.cs" relfile="Droid/Activities/InicioActivity.cs" line="69" column="1" />
-    </BreakpointStore>
+    <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.BossMandados.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.5C14346B-19A3-45EA-B5A7-D143626EC52B" />

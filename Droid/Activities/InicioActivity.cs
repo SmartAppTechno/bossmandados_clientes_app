@@ -23,8 +23,10 @@ namespace BossMandados.Droid
         private GoogleMap _map;
         private LocationManager _locationManager;
         private Button btn_nuevo_punto;
+        private Button btn_eliminar_punto;
         private Button btn_pagar_mandado;
         private List<Lugares> arreglo = new List<Lugares>();
+        private int minimo;
 
         protected override void OnCreate(Bundle savedInstanceState)
         {
@@ -35,17 +37,6 @@ namespace BossMandados.Droid
             _mapFragment = FragmentManager.FindFragmentById<MapFragment>(Resource.Id.mapa_nuevomandado);
             _mapFragment.GetMapAsync(this);
             SetResources();
-            //Agregar_marcadores
-            //Agregar_marcadores();
-            /*
-            if(Intent.HasExtra("latitud")){
-                Lugares aux = new Lugares();
-                aux.Latitud = Intent.GetDoubleExtra("latitud",0);
-                aux.Longitud = Intent.GetDoubleExtra("longitud",0);
-                aux.Direccion = Intent.GetStringExtra("direccion");
-                aux.Comentarios = Intent.GetStringExtra("comentarios");
-                arreglo.Add(aux);
-            }*/
         }
 
         private void SetResources(){
@@ -55,6 +46,12 @@ namespace BossMandados.Droid
             {
                 Intent nueva_form = new Intent(this, typeof(ServiciosActivity));
                 StartActivity(nueva_form);
+            };
+            //Botón de eliminar punto
+            btn_eliminar_punto = FindViewById<Button>(Resource.Id.eliminar_punto_mandado);
+            btn_eliminar_punto.Click += delegate
+            {
+                eliminar_marcador();
             };
             //Botón de pagar mandado
             btn_pagar_mandado = FindViewById<Button>(Resource.Id.pagar_mandado);
@@ -83,9 +80,18 @@ namespace BossMandados.Droid
             }
         }
 
+        private void eliminar_marcador(){
+            int pos = GlobalValues.arr_lugares.Count - 1;
+            GlobalValues.arr_lugares.RemoveAt(pos);
+            //Refrescar marcadores
+            _map.Clear();
+            Agregar_marcadores();
+        }
+
         public void OnMapReady(GoogleMap map)
         {
             _map = map;
+            _map.MyLocationEnabled = true;
             ultima_ubicacion();
             Agregar_marcadores();
         }
@@ -93,9 +99,12 @@ namespace BossMandados.Droid
         public void ultima_ubicacion(){
             _locationManager = (LocationManager)GetSystemService(LocationService);
             Location last_location = _locationManager.GetLastKnownLocation(LocationManager.GpsProvider);
-            LatLng lugar = new LatLng(last_location.Latitude, last_location.Longitude);
-            CameraUpdate cameraUpdate = CameraUpdateFactory.NewLatLngZoom(lugar, 16);
-            _map.MoveCamera(cameraUpdate);
+            if (last_location != null)
+            {
+                LatLng lugar = new LatLng(last_location.Latitude, last_location.Longitude);
+                CameraUpdate cameraUpdate = CameraUpdateFactory.NewLatLngZoom(lugar, 16);
+                _map.MoveCamera(cameraUpdate);
+            }
         }
 
         public void OnProviderDisabled(string provider)

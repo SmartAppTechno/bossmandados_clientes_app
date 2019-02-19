@@ -47,6 +47,7 @@
     <Compile Include="Classes\DrawerElement.cs" />
     <Compile Include="Model\Manboss_promociones.cs" />
     <Compile Include="Lugares.cs" />
+    <Compile Include="Model\Manboss_servicios.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
