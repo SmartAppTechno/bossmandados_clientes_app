@@ -16,19 +16,24 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
     <!-- Contenido -->
-        <LinearLayout
+        <RelativeLayout
             android:orientation="vertical"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:theme="@style/AppDrawerTheme"
-            android:minWidth="25px"
-            android:minHeight="25px">
-            <TextView
-                android:text="Pagar"
-                android:textAppearance="?android:attr/textAppearanceMedium"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
-        </LinearLayout>
+            android:theme="@style/AppDrawerTheme">
+            <Button
+                android:id="@+id/pago_crear_mandado"
+                android:text="Crear Mandado"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:backgroundTint="@color/green3"
+                android:textSize="11dp"
+                android:layout_width="120dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:padding="10dp" />
+        </RelativeLayout>
     <!-- Contenido -->
         <include
             layout="@layout/Drawer" />

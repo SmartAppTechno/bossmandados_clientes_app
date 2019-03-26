@@ -46,6 +46,7 @@
     <Compile Include="ActivityData\MiCuentaData.cs" />
     <Compile Include="ActivityData\HistorialMandadoData.cs" />
     <Compile Include="ActivityData\ServiciosData.cs" />
+    <Compile Include="ActivityData\NuevoMandadoData.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\BossMandados.Common\BossMandados.Common.csproj">

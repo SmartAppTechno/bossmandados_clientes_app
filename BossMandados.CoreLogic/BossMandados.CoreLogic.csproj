@@ -52,6 +52,7 @@
     <Compile Include="ActivityCore\MiCuentaCore.cs" />
     <Compile Include="ActivityCore\HistorialMandadoCore.cs" />
     <Compile Include="ActivityCore\ServiciosCore.cs" />
+    <Compile Include="ActivityCore\NuevoMandadoCore.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />

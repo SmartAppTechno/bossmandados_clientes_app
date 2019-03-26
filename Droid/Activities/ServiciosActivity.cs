@@ -37,6 +37,7 @@ namespace BossMandados.Droid
         private string direccion = "";
         private List<Lugares> arr = new List<Lugares>();
         private ServiciosCore core;
+        private List<Manboss_servicios> servicios;
 
         protected override void OnCreate(Bundle savedInstanceState)
         {
@@ -47,7 +48,7 @@ namespace BossMandados.Droid
             SetResources();
         }
 
-        private async void SetResources()
+        private void SetResources()
         {
             buscador = (PlaceAutocompleteFragment)FragmentManager.FindFragmentById(Resource.Id.buscador_google);
             buscador.SetOnPlaceSelectedListener(this);
@@ -62,25 +63,44 @@ namespace BossMandados.Droid
                 Agregar_lugar();
             };
             //Select
-            List<Manboss_servicios> servicios = await core.GetServicios();
+            int marcadores = GlobalValues.arr_lugares.Count;
+            spinner_servicio = FindViewById<Spinner>(Resource.Id.mandado_servicio);
+            if(marcadores == 0){
+                populate_servicios();
+                spinner_servicio.Visibility = ViewStates.Visible;
+            }else{
+                spinner_servicio.Visibility = ViewStates.Invisible;  
+            }
+        }
+
+        private async void populate_servicios(){
+            servicios = await core.GetServicios();
             List<String> servicios_arr = new List<String>();
-            foreach(Manboss_servicios aux in  servicios){
+            foreach (Manboss_servicios aux in servicios)
+            {
                 servicios_arr.Add(aux.Nombre);
             }
-            spinner_servicio = FindViewById<Spinner>(Resource.Id.mandado_servicio);
             ArrayAdapter adapter = new ArrayAdapter(this, Android.Resource.Layout.SimpleSpinnerDropDownItem, servicios_arr);
             spinner_servicio.Adapter = adapter;
         }
                   
         private void Agregar_lugar(){
+            string select = spinner_servicio.SelectedItem.ToString();
+            int servicio_id = 0;
             Lugares a = new Lugares();
+            foreach (Manboss_servicios aux in servicios){
+                if(aux.Nombre.Equals(select)){
+                    servicio_id = aux.Id;
+                    a.Min = Int32.Parse(aux.Ubicaciones);
+                }
+            }
+            a.Servicio = servicio_id;
             a.Latitud = latitud;
             a.Longitud = longitud;
-            a.Direccion = direccion;
-            a.Comentarios = comentarios.Text;
-            a.Servicio = spinner_servicio.SelectedItem.ToString();
             a.Calle = calle.Text;
             a.Numero = Int32.Parse(numero.Text);
+            a.Comentarios = comentarios.Text;
+            a.Terminado = 0;
             GlobalValues.addLugar(a);
             //Volver al Mapa
             Intent nueva_form = new Intent(this, typeof(InicioActivity));

@@ -10,8 +10,11 @@ using Android.Locations;
 using Android.OS;
 using Android.Runtime;
 using Android.Support.V7.App;
+using Android.Views;
 using Android.Widget;
 using BossMandados.Common;
+using BossMandados.Common.Model;
+using BossMandados.CoreLogic.ActivityCore;
 
 namespace BossMandados.Droid
 {
@@ -25,8 +28,6 @@ namespace BossMandados.Droid
         private Button btn_nuevo_punto;
         private Button btn_eliminar_punto;
         private Button btn_pagar_mandado;
-        private List<Lugares> arreglo = new List<Lugares>();
-        private int minimo;
 
         protected override void OnCreate(Bundle savedInstanceState)
         {
@@ -77,6 +78,11 @@ namespace BossMandados.Droid
                 LatLngBounds bounds = builder.Build();
                 CameraUpdate cameraUpdate = CameraUpdateFactory.NewLatLngBounds(bounds, 300);
                 _map.MoveCamera(cameraUpdate);
+                //Revisar mínimo de ubicaciones
+                Lugares primero = GlobalValues.arr_lugares.First();
+                if(GlobalValues.arr_lugares.Count > primero.Min){
+                    btn_pagar_mandado.Visibility = ViewStates.Visible;
+                }
             }
         }
 
