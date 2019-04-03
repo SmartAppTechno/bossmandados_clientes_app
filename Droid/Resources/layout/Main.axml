@@ -27,7 +27,6 @@
         android:textColor="#ffffff"
         android:textColorHint="#ffffff"
         android:textSize="11dp"
-        android:password="true"
         android:id="@+id/correo_login" />
     <EditText
         android:hint="Contraseña"
