@@ -25,6 +25,7 @@ namespace BossMandados.Droid
         private LoginButton BtnFBLogin;
         private LoginCore core;
         private Button crear_cuenta;
+        private Button iniciar_sesion;
 
         protected override void OnCreate(Bundle savedInstanceState)
         {
@@ -49,6 +50,12 @@ namespace BossMandados.Droid
             crear_cuenta.Click += delegate
             {
                 Crear_cuenta();
+            };
+            //iniciar sesion
+            iniciar_sesion = FindViewById<Button>(Resource.Id.iniciar_sesion);
+            iniciar_sesion.Click += delegate
+            {
+                Iniciar_sesion();
             };
             //Hash
             PackageInfo info = this.PackageManager.GetPackageInfo("com.smartapptech.Boss_Mandados", PackageInfoFlags.Signatures);
