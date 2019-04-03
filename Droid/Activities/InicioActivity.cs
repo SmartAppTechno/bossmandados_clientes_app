@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Threading.Tasks;
 using Android.App;
 using Android.Content;
 
@@ -22,18 +23,21 @@ namespace BossMandados.Droid
     public class InicioActivity : AppCompatActivity, IOnMapReadyCallback, ILocationListener
     {
         private Drawer drawer;
+        private GoogleDirections core;
         private MapFragment _mapFragment;
         private GoogleMap _map;
         private LocationManager _locationManager;
         private Button btn_nuevo_punto;
         private Button btn_eliminar_punto;
         private Button btn_pagar_mandado;
+        private string directions_response = "";
 
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
             SetContentView(Resource.Layout.Inicio);
             drawer = new Drawer(this);
+            core = new GoogleDirections();
             // Mapa
             _mapFragment = FragmentManager.FindFragmentById<MapFragment>(Resource.Id.mapa_nuevomandado);
             _mapFragment.GetMapAsync(this);
@@ -63,9 +67,10 @@ namespace BossMandados.Droid
             };
         }
 
-        private void Agregar_marcadores(){
+        private async Task Agregar_marcadores(){
             if(GlobalValues.arr_lugares.Count > 0){
                 LatLngBounds.Builder builder = new LatLngBounds.Builder();
+                List<Manboss_mandados_ruta> puntos = new List<Manboss_mandados_ruta>();
                 foreach (Lugares aux in GlobalValues.arr_lugares)
                 {
                     MarkerOptions markerOpt1 = new MarkerOptions();
@@ -73,19 +78,98 @@ namespace BossMandados.Droid
                     builder.Include(lugar);
                     markerOpt1.SetPosition(lugar);
                     _map.AddMarker(markerOpt1);
+                    Manboss_mandados_ruta posicion = new Manboss_mandados_ruta();
+                    posicion.Latitud = aux.Latitud;
+                    posicion.Longitud = aux.Longitud;
+                    puntos.Add(posicion);
                 }
+                //polyline
+                await Obtener_direcciones(puntos);
                 //Mover camera
                 LatLngBounds bounds = builder.Build();
                 CameraUpdate cameraUpdate = CameraUpdateFactory.NewLatLngBounds(bounds, 300);
                 _map.MoveCamera(cameraUpdate);
                 //Revisar mínimo de ubicaciones
                 Lugares primero = GlobalValues.arr_lugares.First();
-                if(GlobalValues.arr_lugares.Count > primero.Min){
+                if(GlobalValues.arr_lugares.Count >= primero.Min){
                     btn_pagar_mandado.Visibility = ViewStates.Visible;
                 }
             }
         }
 
+        private async Task<Polyline> Obtener_direcciones(List<Manboss_mandados_ruta> ubicaciones){
+            directions_response = await core.GetDirecciones(ubicaciones);
+            List<LatLng> points = new List<LatLng>(DecodePolyline(directions_response));
+            PolylineOptions options = new PolylineOptions();
+            foreach (LatLng coor in points)
+            {
+                options.Add(coor);
+            }
+            Polyline res = _map.AddPolyline(options);
+            return res;
+        }
+
+        public List<LatLng> DecodePolyline(string serial)
+        {
+            if (string.IsNullOrWhiteSpace(serial))
+            {
+                return null;
+            }
+
+            int index = 0;
+            var polylineChars = serial.ToCharArray();
+            var poly = new List<LatLng>();
+            int currentLat = 0;
+            int currentLng = 0;
+            int next5Bits;
+
+            while (index < polylineChars.Length)
+            {
+                // calculate next latitude
+                int sum = 0;
+                int shifter = 0;
+
+                do
+                {
+                    next5Bits = polylineChars[index++] - 63;
+                    sum |= (next5Bits & 31) << shifter;
+                    shifter += 5;
+                }
+                while (next5Bits >= 32 && index < polylineChars.Length);
+
+                if (index >= polylineChars.Length)
+                {
+                    break;
+                }
+
+                currentLat += (sum & 1) == 1 ? ~(sum >> 1) : (sum >> 1);
+
+                // calculate next longitude
+                sum = 0;
+                shifter = 0;
+
+                do
+                {
+                    next5Bits = polylineChars[index++] - 63;
+                    sum |= (next5Bits & 31) << shifter;
+                    shifter += 5;
+                }
+                while (next5Bits >= 32 && index < polylineChars.Length);
+
+                if (index >= polylineChars.Length && next5Bits >= 32)
+                {
+                    break;
+                }
+
+                currentLng += (sum & 1) == 1 ? ~(sum >> 1) : (sum >> 1);
+
+                var mLatLng = new LatLng(Convert.ToDouble(currentLat) / 100000.0, Convert.ToDouble(currentLng) / 100000.0);
+                poly.Add(mLatLng);
+            }
+
+            return poly;
+        }
+    
         private void eliminar_marcador(){
             int pos = GlobalValues.arr_lugares.Count - 1;
             GlobalValues.arr_lugares.RemoveAt(pos);
