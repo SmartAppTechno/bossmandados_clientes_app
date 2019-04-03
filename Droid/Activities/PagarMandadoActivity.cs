@@ -36,7 +36,7 @@ namespace BossMandados.Droid
         private void SetResources()
         {
             //Botón de crear mandado
-            btn_crear_mandado = FindViewById<Button>(Resource.Id.eliminar_punto_mandado);
+            btn_crear_mandado = FindViewById<Button>(Resource.Id.pago_crear_mandado);
             btn_crear_mandado.Click += delegate
             {
                 crear_mandado();
@@ -45,7 +45,7 @@ namespace BossMandados.Droid
 
         private async void crear_mandado(){
             //Crear arreglo de rutas
-            List<Manboss_mandados_ruta> rutas = new List<Manboss_mandados_ruta>;
+            List<Manboss_mandados_ruta> rutas = new List<Manboss_mandados_ruta>();
             foreach (Lugares lugar in GlobalValues.arr_lugares){
                 Manboss_mandados_ruta aux = new Manboss_mandados_ruta();
                 aux.Servicio = lugar.Servicio;
