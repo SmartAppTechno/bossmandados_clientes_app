@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using BossMandados.Common;
 using BossMandados.Common.Model;
 using Microsoft.WindowsAzure.MobileServices;
+using Newtonsoft.Json;
 
 namespace BossMandados.DataAccess.ActivityData
 {
@@ -21,10 +22,12 @@ namespace BossMandados.DataAccess.ActivityData
             Manboss_mandado ans = null;
             try
             {
+                var rutas_aux = JsonConvert.SerializeObject(rutas);
+                var mandado_aux = JsonConvert.SerializeObject(mandado);
                 Dictionary<string, string> param = new Dictionary<string, string>
                 {
-                    { "ruta", rutas },
-                    { "mandado", mandado }
+                    { "ruta", rutas_aux },
+                    { "mandado", mandado_aux }
                 };
                 var current = await client.InvokeApiAsync<Manboss_mandado>("NuevoMandado/CrearMandado", HttpMethod.Post, param);
                 ans = current;
