@@ -53,6 +53,9 @@ namespace BossMandados.Droid
             buscador = (PlaceAutocompleteFragment)FragmentManager.FindFragmentById(Resource.Id.buscador_google);
             buscador.SetOnPlaceSelectedListener(this);
             buscador.SetHint("Escribe la dirección...");
+            AutocompleteFilter filtro = new AutocompleteFilter.Builder().SetTypeFilter(Place.TypeCountry).SetCountry("MX").Build();
+
+            buscador.SetFilter(filtro);
             comentarios = FindViewById<TextView>(Resource.Id.mandado_comentarios);
             calle = FindViewById<TextView>(Resource.Id.mandado_calle);
             numero = FindViewById<TextView>(Resource.Id.mandado_numero);
@@ -65,12 +68,7 @@ namespace BossMandados.Droid
             //Select
             int marcadores = GlobalValues.arr_lugares.Count;
             spinner_servicio = FindViewById<Spinner>(Resource.Id.mandado_servicio);
-            if(marcadores == 0){
-                populate_servicios();
-                spinner_servicio.Visibility = ViewStates.Visible;
-            }else{
-                spinner_servicio.Visibility = ViewStates.Invisible;  
-            }
+            populate_servicios();
         }
 
         private async void populate_servicios(){
@@ -85,6 +83,7 @@ namespace BossMandados.Droid
         }
                   
         private void Agregar_lugar(){
+            bool validar = true;
             string select = spinner_servicio.SelectedItem.ToString();
             int servicio_id = 0;
             Lugares a = new Lugares();
@@ -94,17 +93,27 @@ namespace BossMandados.Droid
                     a.Min = Int32.Parse(aux.Ubicaciones);
                 }
             }
-            a.Servicio = servicio_id;
-            a.Latitud = latitud;
-            a.Longitud = longitud;
-            a.Calle = calle.Text;
-            a.Numero = Int32.Parse(numero.Text);
-            a.Comentarios = comentarios.Text;
-            a.Terminado = 0;
-            GlobalValues.addLugar(a);
-            //Volver al Mapa
-            Intent nueva_form = new Intent(this, typeof(InicioActivity));
-            StartActivity(nueva_form);
+            if(servicio_id == 0 || latitud.Equals(Double.NaN) || longitud.Equals(Double.NaN) || calle.Text == "" || numero.Text == "" || comentarios.Text == ""){
+                validar = false;
+            }
+            TextView mensaje = FindViewById<TextView>(Resource.Id.mensaje_agregar_lugar);
+            if(validar){
+                a.Servicio = servicio_id;
+                a.Latitud = latitud;
+                a.Longitud = longitud;
+                a.Calle = calle.Text;
+                a.Numero = Int32.Parse(numero.Text);
+                a.Comentarios = comentarios.Text;
+                a.Terminado = 0;
+                a.Direccion = direccion;
+                GlobalValues.addLugar(a);
+                mensaje.Visibility = ViewStates.Invisible;
+                //Volver al Mapa
+                Intent nueva_form = new Intent(this, typeof(InicioActivity));
+                StartActivity(nueva_form);
+            }else{
+                mensaje.Visibility = ViewStates.Visible;
+            }
         }
 
         public void OnError(Statuses status){}
