@@ -1,12 +1,11 @@
 ﻿<Properties StartupConfiguration="{D9C3D6FE-0CBD-4DC5-8700-C6C1C42F07C4}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Droid/Activities/PagarMandadoActivity.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Droid/Activities/InicioActivity.cs">
     <Files>
-      <File FileName="Droid/Activities/PagarMandadoActivity.cs" Line="25" Column="18" />
-      <File FileName="BossMandados.CoreLogic/ActivityCore/NuevoMandadoCore.cs" Line="20" Column="24" />
-      <File FileName="BossMandados.DataAccess/ActivityData/NuevoMandadoData.cs" Line="19" Column="56" />
+      <File FileName="Droid/Activities/InicioActivity.cs" Line="96" Column="18" />
+      <File FileName="Droid/Activities/ServiciosActivity.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.BossMandados.Droid AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.ZY322LSZZF" AndroidDesignerPreferredTheme="Theme.DeviceDefault" />
+  <MonoDevelop.Ide.ItemProperties.BossMandados.Droid AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.Android_Accelerated_x86" AndroidDesignerPreferredTheme="Theme.DeviceDefault" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />

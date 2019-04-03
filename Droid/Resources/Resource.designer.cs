@@ -3093,8 +3093,8 @@ namespace BossMandados.Droid
 			// aapt resource value: 0x7f0c0032
 			public const int box_count = 2131492914;
 			
-			// aapt resource value: 0x7f0c011a
-			public const int btn_agregar_lugar = 2131493146;
+			// aapt resource value: 0x7f0c011b
+			public const int btn_agregar_lugar = 2131493147;
 			
 			// aapt resource value: 0x7f0c00e8
 			public const int btn_cerrar_sesion = 2131493096;
@@ -3108,8 +3108,8 @@ namespace BossMandados.Droid
 			// aapt resource value: 0x7f0c00e1
 			public const int btn_ver_ruta = 2131493089;
 			
-			// aapt resource value: 0x7f0c0115
-			public const int buscador_google = 2131493141;
+			// aapt resource value: 0x7f0c0116
+			public const int buscador_google = 2131493142;
 			
 			// aapt resource value: 0x7f0c00fe
 			public const int buscar_direccion = 2131493118;
@@ -3201,8 +3201,8 @@ namespace BossMandados.Droid
 			// aapt resource value: 0x7f0c00de
 			public const int crear_cuenta = 2131493086;
 			
-			// aapt resource value: 0x7f0c0124
-			public const int cuenta = 2131493156;
+			// aapt resource value: 0x7f0c0125
+			public const int cuenta = 2131493157;
 			
 			// aapt resource value: 0x7f0c0082
 			public const int custom = 2131492994;
@@ -3234,8 +3234,8 @@ namespace BossMandados.Droid
 			// aapt resource value: 0x7f0c00c0
 			public const int design_navigation_view = 2131493056;
 			
-			// aapt resource value: 0x7f0c0123
-			public const int direcciones = 2131493155;
+			// aapt resource value: 0x7f0c0124
+			public const int direcciones = 2131493156;
 			
 			// aapt resource value: 0x7f0c003c
 			public const int disableHome = 2131492924;
@@ -3300,8 +3300,8 @@ namespace BossMandados.Droid
 			// aapt resource value: 0x7f0c000a
 			public const int ghost_view = 2131492874;
 			
-			// aapt resource value: 0x7f0c0122
-			public const int historial_mandados = 2131493154;
+			// aapt resource value: 0x7f0c0123
+			public const int historial_mandados = 2131493155;
 			
 			// aapt resource value: 0x7f0c0005
 			public const int home = 2131492869;
@@ -3378,20 +3378,20 @@ namespace BossMandados.Droid
 			// aapt resource value: 0x7f0c00d8
 			public const int logo_login = 2131493080;
 			
-			// aapt resource value: 0x7f0c0117
-			public const int mandado_calle = 2131493143;
+			// aapt resource value: 0x7f0c0118
+			public const int mandado_calle = 2131493144;
+			
+			// aapt resource value: 0x7f0c011a
+			public const int mandado_comentarios = 2131493146;
 			
 			// aapt resource value: 0x7f0c0119
-			public const int mandado_comentarios = 2131493145;
+			public const int mandado_numero = 2131493145;
 			
-			// aapt resource value: 0x7f0c0118
-			public const int mandado_numero = 2131493144;
+			// aapt resource value: 0x7f0c0117
+			public const int mandado_servicio = 2131493143;
 			
-			// aapt resource value: 0x7f0c0116
-			public const int mandado_servicio = 2131493142;
-			
-			// aapt resource value: 0x7f0c0121
-			public const int mandados_proceso = 2131493153;
+			// aapt resource value: 0x7f0c0122
+			public const int mandados_proceso = 2131493154;
 			
 			// aapt resource value: 0x7f0c00b4
 			public const int mapa_crear = 2131493044;
@@ -3414,14 +3414,14 @@ namespace BossMandados.Droid
 			// aapt resource value: 0x7f0c00c8
 			public const int mapa_ver_direccion = 2131493064;
 			
-			// aapt resource value: 0x7f0c011f
-			public const int masked = 2131493151;
+			// aapt resource value: 0x7f0c0120
+			public const int masked = 2131493152;
 			
 			// aapt resource value: 0x7f0c00f1
 			public const int media_actions = 2131493105;
 			
-			// aapt resource value: 0x7f0c011b
-			public const int mensaje_agregar_lugar = 2131493147;
+			// aapt resource value: 0x7f0c011c
+			public const int mensaje_agregar_lugar = 2131493148;
 			
 			// aapt resource value: 0x7f0c00dc
 			public const int mensaje_contrasenia = 2131493084;
@@ -3435,8 +3435,8 @@ namespace BossMandados.Droid
 			// aapt resource value: 0x7f0c0114
 			public const int mensaje_registro = 2131493140;
 			
-			// aapt resource value: 0x7f0c011d
-			public const int message = 2131493149;
+			// aapt resource value: 0x7f0c011e
+			public const int message = 2131493150;
 			
 			// aapt resource value: 0x7f0c00e4
 			public const int messenger_send_button = 2131493092;
@@ -3447,8 +3447,8 @@ namespace BossMandados.Droid
 			// aapt resource value: 0x7f0c0068
 			public const int mini = 2131492968;
 			
-			// aapt resource value: 0x7f0c011c
-			public const int moto_login = 2131493148;
+			// aapt resource value: 0x7f0c011d
+			public const int moto_login = 2131493149;
 			
 			// aapt resource value: 0x7f0c0043
 			public const int multiply = 2131492931;
@@ -3477,8 +3477,8 @@ namespace BossMandados.Droid
 			// aapt resource value: 0x7f0c00f3
 			public const int notification_main_column_container = 2131493107;
 			
-			// aapt resource value: 0x7f0c0120
-			public const int nuevo_mandado = 2131493152;
+			// aapt resource value: 0x7f0c0121
+			public const int nuevo_mandado = 2131493153;
 			
 			// aapt resource value: 0x7f0c002f
 			public const int open_graph = 2131492911;
@@ -3489,8 +3489,8 @@ namespace BossMandados.Droid
 			// aapt resource value: 0x7f0c0030
 			public const int page = 2131492912;
 			
-			// aapt resource value: 0x7f0c0125
-			public const int pago = 2131493157;
+			// aapt resource value: 0x7f0c0126
+			public const int pago = 2131493158;
 			
 			// aapt resource value: 0x7f0c0102
 			public const int pago_crear_mandado = 2131493122;
@@ -3540,8 +3540,8 @@ namespace BossMandados.Droid
 			// aapt resource value: 0x7f0c0007
 			public const int progress_horizontal = 2131492871;
 			
-			// aapt resource value: 0x7f0c0126
-			public const int promociones = 2131493158;
+			// aapt resource value: 0x7f0c0127
+			public const int promociones = 2131493159;
 			
 			// aapt resource value: 0x7f0c008a
 			public const int radio = 2131493002;
@@ -3747,6 +3747,9 @@ namespace BossMandados.Droid
 			// aapt resource value: 0x7f0c00ae
 			public const int titulo_crear = 2131493038;
 			
+			// aapt resource value: 0x7f0c0115
+			public const int titulo_nueva_ruta = 2131493141;
+			
 			// aapt resource value: 0x7f0c0110
 			public const int titulo_registro = 2131493136;
 			
@@ -3831,8 +3834,8 @@ namespace BossMandados.Droid
 			// aapt resource value: 0x7f0c0016
 			public const int view_offset_helper = 2131492886;
 			
-			// aapt resource value: 0x7f0c011e
-			public const int visible = 2131493150;
+			// aapt resource value: 0x7f0c011f
+			public const int visible = 2131493151;
 			
 			// aapt resource value: 0x7f0c00a0
 			public const int webview = 2131493024;
