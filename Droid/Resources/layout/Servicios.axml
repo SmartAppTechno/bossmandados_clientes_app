@@ -21,11 +21,26 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:theme="@style/AppDrawerTheme">
+            <TextView
+                android:text="Nuevo Mandado"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:layout_gravity="left"
+                android:layout_marginLeft="15dp"
+                android:layout_marginBottom="20dp"
+                android:textColor="@color/titulo"
+                android:textStyle="bold"
+                android:textSize="35dp"
+                android:id="@+id/titulo_nueva_ruta" />
             <fragment
                 android:id="@+id/buscador_google"
                 android:name="com.google.android.gms.location.places.ui.PlaceAutocompleteFragment"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp" />
             <Spinner
                 android:background="@color/orders_text2"
                 android:layout_width="320dp"
@@ -59,6 +74,7 @@
                 android:textColorHint="#ffffff"
                 android:textSize="11dp"
                 android:layout_marginTop="20dp"
+                android:inputType="number"
                 android:id="@+id/mandado_numero" />
             <EditText
                 android:hint="Comentarios"
