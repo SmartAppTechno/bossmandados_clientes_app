@@ -361,6 +361,16 @@
             <param name="value">The value that must be defined in <typeparamref name="T"/>.</param>
             <param name="parameterName">The name of the parameter that supplied the <paramref name="value"/>.</param>
         </member>
+        <member name="M:Validation.Requires.NotDefault``1(``0,System.String)">
+            <summary>
+            Throws an <see cref="T:System.ArgumentException"/> if the specified parameter's value is equal to the 
+            default value of the <see cref="T:System.Type"/> <typeparamref name="T"/>.
+            </summary>
+            <typeparam name="T">The type of the parameter.</typeparam>
+            <param name="value">The value of the argument.</param>
+            <param name="parameterName">The name of the parameter to include in any thrown exception.</param>
+            <exception cref="T:System.ArgumentException">Thrown if <paramref name="value"/> is <c>null</c> or empty.</exception>
+        </member>
         <member name="M:Validation.Requires.Argument(System.Boolean,System.String,System.String)">
             <summary>
             Throws an ArgumentException if a condition does not evaluate to true.
@@ -455,6 +465,11 @@
         <member name="P:Validation.Strings.Argument_NullElement">
             <summary>
               Looks up a localized string similar to &apos;{0}&apos; cannot contain a null (Nothing in Visual Basic) element..
+            </summary>
+        </member>
+        <member name="P:Validation.Strings.Argument_StructIsDefault">
+            <summary>
+              Looks up a localized string similar to &apos;{0}&apos; cannot be the default value defined by &apos;{1}&apos;..
             </summary>
         </member>
         <member name="P:Validation.Strings.Argument_Whitespace">

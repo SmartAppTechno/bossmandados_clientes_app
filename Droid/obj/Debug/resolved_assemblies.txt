@@ -16,7 +16,11 @@
 /Users/ricardo_espinosa/Documents/BossMandados/Droid/obj/Debug/android/assets/PInvoke.Windows.Core.dll
 /Users/ricardo_espinosa/Documents/BossMandados/Droid/obj/Debug/android/assets/System.Core.dll
 /Users/ricardo_espinosa/Documents/BossMandados/Droid/obj/Debug/android/assets/System.dll
+/Users/ricardo_espinosa/Documents/BossMandados/Droid/obj/Debug/android/assets/System.IdentityModel.dll
+/Users/ricardo_espinosa/Documents/BossMandados/Droid/obj/Debug/android/assets/System.Net.Http.dll
+/Users/ricardo_espinosa/Documents/BossMandados/Droid/obj/Debug/android/assets/System.Runtime.Serialization.dll
 /Users/ricardo_espinosa/Documents/BossMandados/Droid/obj/Debug/android/assets/System.Xml.dll
+/Users/ricardo_espinosa/Documents/BossMandados/Droid/obj/Debug/android/assets/System.Xml.Linq.dll
 /Users/ricardo_espinosa/Documents/BossMandados/Droid/obj/Debug/android/assets/Validation.dll
 /Users/ricardo_espinosa/Documents/BossMandados/Droid/obj/Debug/android/assets/Xamarin.Android.Arch.Core.Common.dll
 /Users/ricardo_espinosa/Documents/BossMandados/Droid/obj/Debug/android/assets/Xamarin.Android.Arch.Lifecycle.Common.dll
@@ -57,7 +61,6 @@
 /Users/ricardo_espinosa/Documents/BossMandados/Droid/obj/Debug/android/assets/System.Diagnostics.Debug.dll
 /Users/ricardo_espinosa/Documents/BossMandados/Droid/obj/Debug/android/assets/BossMandados.DataAccess.dll
 /Users/ricardo_espinosa/Documents/BossMandados/Droid/obj/Debug/android/assets/System.Threading.Tasks.dll
-/Users/ricardo_espinosa/Documents/BossMandados/Droid/obj/Debug/android/assets/System.Net.Http.dll
 /Users/ricardo_espinosa/Documents/BossMandados/Droid/obj/Debug/android/assets/System.Threading.dll
 /Users/ricardo_espinosa/Documents/BossMandados/Droid/obj/Debug/android/assets/System.Collections.Concurrent.dll
 /Users/ricardo_espinosa/Documents/BossMandados/Droid/obj/Debug/android/assets/System.Reflection.dll
@@ -69,8 +72,6 @@
 /Users/ricardo_espinosa/Documents/BossMandados/Droid/obj/Debug/android/assets/System.Runtime.InteropServices.dll
 /Users/ricardo_espinosa/Documents/BossMandados/Droid/obj/Debug/android/assets/System.Runtime.Extensions.dll
 /Users/ricardo_espinosa/Documents/BossMandados/Droid/obj/Debug/android/assets/System.Reflection.Extensions.dll
-/Users/ricardo_espinosa/Documents/BossMandados/Droid/obj/Debug/android/assets/System.Runtime.Serialization.dll
-/Users/ricardo_espinosa/Documents/BossMandados/Droid/obj/Debug/android/assets/System.ServiceModel.Internals.dll
 /Users/ricardo_espinosa/Documents/BossMandados/Droid/obj/Debug/android/assets/netstandard.dll
 /Users/ricardo_espinosa/Documents/BossMandados/Droid/obj/Debug/android/assets/System.Data.dll
 /Users/ricardo_espinosa/Documents/BossMandados/Droid/obj/Debug/android/assets/System.Numerics.dll
@@ -84,8 +85,8 @@
 /Users/ricardo_espinosa/Documents/BossMandados/Droid/obj/Debug/android/assets/System.Security.Cryptography.Algorithms.dll
 /Users/ricardo_espinosa/Documents/BossMandados/Droid/obj/Debug/android/assets/System.Security.SecureString.dll
 /Users/ricardo_espinosa/Documents/BossMandados/Droid/obj/Debug/android/assets/System.Web.Services.dll
-/Users/ricardo_espinosa/Documents/BossMandados/Droid/obj/Debug/android/assets/System.Xml.Linq.dll
 /Users/ricardo_espinosa/Documents/BossMandados/Droid/obj/Debug/android/assets/System.Xml.XPath.XDocument.dll
 /Users/ricardo_espinosa/Documents/BossMandados/Droid/obj/Debug/android/assets/Mono.Security.dll
+/Users/ricardo_espinosa/Documents/BossMandados/Droid/obj/Debug/android/assets/System.ServiceModel.Internals.dll
 /Users/ricardo_espinosa/Documents/BossMandados/Droid/obj/Debug/android/assets/System.Diagnostics.Tools.dll
 /Users/ricardo_espinosa/Documents/BossMandados/Droid/obj/Debug/android/assets/System.Globalization.dll

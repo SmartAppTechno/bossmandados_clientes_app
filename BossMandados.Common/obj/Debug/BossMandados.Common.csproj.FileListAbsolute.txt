@@ -16,3 +16,4 @@
 /Users/ricardo_espinosa/Documents/BossMandados/BossMandados.Common/obj/Debug/BossMandados.Common.dll
 /Users/ricardo_espinosa/Documents/BossMandados/BossMandados.Common/obj/Debug/BossMandados.Common.pdb
 /Users/ricardo_espinosa/Documents/BossMandados/BossMandados.Common/obj/Debug/BossMandados.Common.csprojResolveAssemblyReference.cache
+/Users/ricardo_espinosa/Documents/BossMandados/BossMandados.Common/bin/Debug/Newtonsoft.Json.pdb

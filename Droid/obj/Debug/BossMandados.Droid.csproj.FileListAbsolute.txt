@@ -189,9 +189,11 @@
 /Users/ricardo_espinosa/Documents/BossMandados/Droid/obj/Debug/R.cs.flag
 /Users/ricardo_espinosa/Documents/BossMandados/Droid/obj/Debug/R.txt
 /Users/ricardo_espinosa/Documents/BossMandados/Droid/obj/Debug/uploadflags.txt
+/Users/ricardo_espinosa/Documents/BossMandados/Droid/bin/Debug/Newtonsoft.Json.pdb
 /Users/ricardo_espinosa/Documents/BossMandados/Droid/bin/Debug/Mono.Android.pdb
 /Users/ricardo_espinosa/Documents/BossMandados/Droid/obj/Debug/linksrc/BossMandados.Droid.pdb
 /Users/ricardo_espinosa/Documents/BossMandados/Droid/obj/Debug/linksrc/BossMandados.Common.pdb
 /Users/ricardo_espinosa/Documents/BossMandados/Droid/obj/Debug/linksrc/BossMandados.CoreLogic.pdb
 /Users/ricardo_espinosa/Documents/BossMandados/Droid/obj/Debug/linksrc/Mono.Android.pdb
+/Users/ricardo_espinosa/Documents/BossMandados/Droid/obj/Debug/linksrc/Newtonsoft.Json.pdb
 /Users/ricardo_espinosa/Documents/BossMandados/Droid/obj/Debug/linksrc/BossMandados.DataAccess.pdb

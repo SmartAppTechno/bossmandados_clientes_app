@@ -64,3 +64,4 @@
 /Users/ricardo_espinosa/Documents/BossMandados/BossMandados.CoreLogic/obj/Debug/BossMandados.CoreLogic.csproj.CoreCompileInputs.cache
 /Users/ricardo_espinosa/Documents/BossMandados/BossMandados.CoreLogic/obj/Debug/BossMandados.CoreLogic.dll
 /Users/ricardo_espinosa/Documents/BossMandados/BossMandados.CoreLogic/obj/Debug/BossMandados.CoreLogic.pdb
+/Users/ricardo_espinosa/Documents/BossMandados/BossMandados.CoreLogic/bin/Debug/Newtonsoft.Json.pdb
