@@ -319,6 +319,11 @@
     <AndroidResource Include="Resources\mipmap-xxhdpi\btn_recoleccion.png" />
     <AndroidResource Include="Resources\mipmap-xxxhdpi\btn_entrega.png" />
     <AndroidResource Include="Resources\mipmap-xxxhdpi\btn_recoleccion.png" />
+    <AndroidResource Include="Resources\mipmap-hdpi\mandado.png" />
+    <AndroidResource Include="Resources\mipmap-mdpi\mandado.png" />
+    <AndroidResource Include="Resources\mipmap-xhdpi\mandado.png" />
+    <AndroidResource Include="Resources\mipmap-xxhdpi\mandado.png" />
+    <AndroidResource Include="Resources\mipmap-xxxhdpi\mandado.png" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\drawable\" />

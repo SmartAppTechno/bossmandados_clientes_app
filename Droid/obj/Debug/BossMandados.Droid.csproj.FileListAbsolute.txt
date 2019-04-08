@@ -51,14 +51,15 @@
 /Users/ricardo_espinosa/Documents/BossMandados/Droid/bin/Debug/BossMandados.Common.pdb
 /Users/ricardo_espinosa/Documents/BossMandados/Droid/bin/Debug/BossMandados.CoreLogic.pdb
 /Users/ricardo_espinosa/Documents/BossMandados/Droid/bin/Debug/BossMandados.CoreLogic.dll.config
-/Users/ricardo_espinosa/Documents/BossMandados/Droid/bin/Debug/Newtonsoft.Json.xml
 /Users/ricardo_espinosa/Documents/BossMandados/Droid/bin/Debug/PCLCrypto.xml
-/Users/ricardo_espinosa/Documents/BossMandados/Droid/bin/Debug/Microsoft.Azure.Mobile.Client.xml
+/Users/ricardo_espinosa/Documents/BossMandados/Droid/bin/Debug/Newtonsoft.Json.pdb
+/Users/ricardo_espinosa/Documents/BossMandados/Droid/bin/Debug/Newtonsoft.Json.xml
 /Users/ricardo_espinosa/Documents/BossMandados/Droid/bin/Debug/PInvoke.Windows.Core.xml
 /Users/ricardo_espinosa/Documents/BossMandados/Droid/bin/Debug/PInvoke.Kernel32.xml
 /Users/ricardo_espinosa/Documents/BossMandados/Droid/bin/Debug/PInvoke.BCrypt.xml
 /Users/ricardo_espinosa/Documents/BossMandados/Droid/bin/Debug/PInvoke.NCrypt.xml
 /Users/ricardo_espinosa/Documents/BossMandados/Droid/bin/Debug/Validation.xml
+/Users/ricardo_espinosa/Documents/BossMandados/Droid/bin/Debug/Microsoft.Azure.Mobile.Client.xml
 /Users/ricardo_espinosa/Documents/BossMandados/Droid/bin/Debug/BossMandados.DataAccess.pdb
 /Users/ricardo_espinosa/Documents/BossMandados/Droid/bin/Debug/BossMandados.DataAccess.dll.config
 /Users/ricardo_espinosa/Documents/BossMandados/Droid/obj/Debug/BossMandados.Droid.csprojResolveAssemblyReference.cache
@@ -189,7 +190,6 @@
 /Users/ricardo_espinosa/Documents/BossMandados/Droid/obj/Debug/R.cs.flag
 /Users/ricardo_espinosa/Documents/BossMandados/Droid/obj/Debug/R.txt
 /Users/ricardo_espinosa/Documents/BossMandados/Droid/obj/Debug/uploadflags.txt
-/Users/ricardo_espinosa/Documents/BossMandados/Droid/bin/Debug/Newtonsoft.Json.pdb
 /Users/ricardo_espinosa/Documents/BossMandados/Droid/bin/Debug/Mono.Android.pdb
 /Users/ricardo_espinosa/Documents/BossMandados/Droid/obj/Debug/linksrc/BossMandados.Droid.pdb
 /Users/ricardo_espinosa/Documents/BossMandados/Droid/obj/Debug/linksrc/BossMandados.Common.pdb

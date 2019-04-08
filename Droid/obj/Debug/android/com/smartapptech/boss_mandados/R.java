@@ -4009,9 +4009,10 @@ containing a value of this type.
         public static final int icono_pago=0x7f03000a;
         public static final int icono_promociones=0x7f03000b;
         public static final int logo_login=0x7f03000c;
-        public static final int menu=0x7f03000d;
-        public static final int moto=0x7f03000e;
-        public static final int moto_login=0x7f03000f;
+        public static final int mandado=0x7f03000d;
+        public static final int menu=0x7f03000e;
+        public static final int moto=0x7f03000f;
+        public static final int moto_login=0x7f030010;
     }
     public static final class string {
         public static final int ApplicationName=0x7f090053;

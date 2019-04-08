@@ -4271,13 +4271,16 @@ namespace BossMandados.Droid
 			public const int logo_login = 2130903052;
 			
 			// aapt resource value: 0x7f03000d
-			public const int menu = 2130903053;
+			public const int mandado = 2130903053;
 			
 			// aapt resource value: 0x7f03000e
-			public const int moto = 2130903054;
+			public const int menu = 2130903054;
 			
 			// aapt resource value: 0x7f03000f
-			public const int moto_login = 2130903055;
+			public const int moto = 2130903055;
+			
+			// aapt resource value: 0x7f030010
+			public const int moto_login = 2130903056;
 			
 			static Mipmap()
 			{

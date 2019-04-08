@@ -1360,9 +1360,10 @@ int mipmap icono_nuevo 0x7f030009
 int mipmap icono_pago 0x7f03000a
 int mipmap icono_promociones 0x7f03000b
 int mipmap logo_login 0x7f03000c
-int mipmap menu 0x7f03000d
-int mipmap moto 0x7f03000e
-int mipmap moto_login 0x7f03000f
+int mipmap mandado 0x7f03000d
+int mipmap menu 0x7f03000e
+int mipmap moto 0x7f03000f
+int mipmap moto_login 0x7f030010
 int string ApplicationName 0x7f090053
 int string Hello 0x7f090052
 int string abc_action_bar_home_description 0x7f09002b

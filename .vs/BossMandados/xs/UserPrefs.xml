@@ -1,7 +1,7 @@
 ﻿<Properties StartupConfiguration="{D9C3D6FE-0CBD-4DC5-8700-C6C1C42F07C4}|Default">
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Droid/Activities/PagarMandadoActivity.cs">
     <Files>
-      <File FileName="Droid/Activities/PagarMandadoActivity.cs" Line="52" Column="28" />
+      <File FileName="Droid/Activities/PagarMandadoActivity.cs" Line="63" Column="28" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.BossMandados.Droid AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.ZY322LSZZF" AndroidDesignerPreferredTheme="Theme.DeviceDefault" />
