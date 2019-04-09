@@ -77,6 +77,7 @@ namespace BossMandados.Droid
                     LatLng lugar = new LatLng(aux.Latitud, aux.Longitud);
                     builder.Include(lugar);
                     markerOpt1.SetPosition(lugar);
+                    markerOpt1.SetIcon(BitmapDescriptorFactory.FromResource(Resource.Drawable.mandado));
                     _map.AddMarker(markerOpt1);
                     Manboss_mandados_ruta posicion = new Manboss_mandados_ruta();
                     posicion.Latitud = aux.Latitud;
@@ -101,6 +102,7 @@ namespace BossMandados.Droid
             directions_response = await core.GetDirecciones(ubicaciones);
             List<LatLng> points = new List<LatLng>(DecodePolyline(directions_response));
             PolylineOptions options = new PolylineOptions();
+            options.InvokeColor(0x6604B7FF);
             foreach (LatLng coor in points)
             {
                 options.Add(coor);

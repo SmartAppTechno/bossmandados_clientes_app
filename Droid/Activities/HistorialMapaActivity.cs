@@ -51,6 +51,7 @@ namespace BossMandados.Droid.Activities
                 LatLng lugar = new LatLng(ruta.Latitud, ruta.Longitud);
                 builder.Include(lugar);
                 markerOpt1.SetPosition(lugar);
+                markerOpt1.SetIcon(BitmapDescriptorFactory.FromResource(Resource.Drawable.mandado));
                 _map.AddMarker(markerOpt1);
             }
             //Mover camera
@@ -60,7 +61,7 @@ namespace BossMandados.Droid.Activities
             //Dibujar ruta
             List<Manboss_repartidores_ubicaciones> ubicaciones = await core.GetUbicaciones(id_mandado);
             var polylineOptions = new PolylineOptions();
-            polylineOptions.InvokeColor(0x6600FF00);
+            polylineOptions.InvokeColor(0x6604B7FF);
             foreach (var position in rutas)
             {
                 polylineOptions.Add(new LatLng(position.Latitud, position.Longitud));

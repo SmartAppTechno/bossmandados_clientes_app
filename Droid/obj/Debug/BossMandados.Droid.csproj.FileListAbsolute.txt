@@ -190,6 +190,12 @@
 /Users/ricardo_espinosa/Documents/BossMandados/Droid/obj/Debug/R.cs.flag
 /Users/ricardo_espinosa/Documents/BossMandados/Droid/obj/Debug/R.txt
 /Users/ricardo_espinosa/Documents/BossMandados/Droid/obj/Debug/uploadflags.txt
+/Users/ricardo_espinosa/Documents/BossMandados/Droid/obj/Debug/res/mipmap-hdpi/mandado.png
+/Users/ricardo_espinosa/Documents/BossMandados/Droid/obj/Debug/res/mipmap-mdpi/mandado.png
+/Users/ricardo_espinosa/Documents/BossMandados/Droid/obj/Debug/res/mipmap-xhdpi/mandado.png
+/Users/ricardo_espinosa/Documents/BossMandados/Droid/obj/Debug/res/mipmap-xxhdpi/mandado.png
+/Users/ricardo_espinosa/Documents/BossMandados/Droid/obj/Debug/res/mipmap-xxxhdpi/mandado.png
+/Users/ricardo_espinosa/Documents/BossMandados/Droid/obj/Debug/res/drawable/mandado.png
 /Users/ricardo_espinosa/Documents/BossMandados/Droid/bin/Debug/Mono.Android.pdb
 /Users/ricardo_espinosa/Documents/BossMandados/Droid/obj/Debug/linksrc/BossMandados.Droid.pdb
 /Users/ricardo_espinosa/Documents/BossMandados/Droid/obj/Debug/linksrc/BossMandados.Common.pdb

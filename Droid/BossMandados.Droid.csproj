@@ -324,6 +324,7 @@
     <AndroidResource Include="Resources\mipmap-xhdpi\mandado.png" />
     <AndroidResource Include="Resources\mipmap-xxhdpi\mandado.png" />
     <AndroidResource Include="Resources\mipmap-xxxhdpi\mandado.png" />
+    <AndroidResource Include="Resources\drawable\mandado.png" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\drawable\" />

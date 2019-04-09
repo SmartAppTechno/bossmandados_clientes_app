@@ -56,6 +56,7 @@ namespace BossMandados.Droid.Activities
             //Agregar marcador
             markerOpt1 = new MarkerOptions();
             markerOpt1.SetPosition(new LatLng(direccion.Latitud,direccion.Longitud));
+            markerOpt1.SetIcon(BitmapDescriptorFactory.FromResource(Resource.Drawable.mandado));
             markerOpt1.Draggable(true);
             _map.AddMarker(markerOpt1);
         }

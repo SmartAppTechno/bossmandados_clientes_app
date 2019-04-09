@@ -14,6 +14,8 @@ using System.Security.Cryptography;
 using System.Text;
 using Android.Content.PM;
 using Java.Security;
+using System.Threading.Tasks;
+using Org.Json;
 
 namespace BossMandados.Droid
 {
@@ -180,7 +182,7 @@ namespace BossMandados.Droid
             StartActivity(intent);
         }
 
-        private async void Revisar_login(string email, string name, string red_social)
+        private async Task Revisar_login(string email, string name, string red_social)
         {
             Manboss_cliente client = await core.Login(email);
             if (client == null)
@@ -244,13 +246,15 @@ namespace BossMandados.Droid
             request.ExecuteAsync();
         }
 
-        public void OnCompleted(Org.Json.JSONObject json, GraphResponse response)
+        public async void OnCompleted(JSONObject json, GraphResponse response)
         {
             String correo = json.GetString("email");
             String nombre = json.GetString("name");
-            Revisar_login(correo, nombre, "facebook");
+            await Revisar_login(correo, nombre, "facebook");
         }
+
     }
+
     public class MyProfileTracker : ProfileTracker
     {
         public event EventHandler<OnProfileChangedEventArgs> mOnProfileChanged;
