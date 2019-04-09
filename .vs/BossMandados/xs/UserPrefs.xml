@@ -5,7 +5,7 @@
       <File FileName="Droid/Activities/MainActivity.cs" Line="187" Column="1" />
       <File FileName="Droid/Activities/InicioActivity.cs" Line="103" Column="52" />
       <File FileName="BossMandados.CoreLogic/ActivityCore/LoginCore.cs" Line="12" Column="1" />
-      <File FileName="BossMandados.DataAccess/ActivityData/LoginData.cs" Line="24" Column="1" />
+      <File FileName="BossMandados.DataAccess/ActivityData/LoginData.cs" Line="28" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.BossMandados.Droid AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.ZY322LSZZF" AndroidDesignerPreferredTheme="Theme.DeviceDefault" />
