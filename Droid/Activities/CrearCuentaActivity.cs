@@ -72,18 +72,20 @@ namespace BossMandados.Droid
             TextView contrasenia = FindViewById<TextView>(Resource.Id.registro_contrasenia);
             TextView telefono = FindViewById<TextView>(Resource.Id.registro_telefono);
             TextView direccion = FindViewById<TextView>(Resource.Id.registro_direccion);
+            TextView alias = FindViewById<TextView>(Resource.Id.registro_alias);
             string nombre_cliente = nombre.Text;
             string correo_cliente = correo.Text;
             string contrasenia_cliente = contrasenia.Text;
             string telefono_cliente = telefono.Text;
             string direccion_cliente = direccion.Text;
+            string alias_cliente = alias.Text;
             string hash = generateHash(contrasenia_cliente);
             if (nombre_cliente.Length > 0 && correo_cliente.Length > 0 && contrasenia_cliente.Length > 0 && telefono_cliente.Length > 0 
-                && direccion_cliente.Length > 0 && cambio_mapa){
+                && direccion_cliente.Length > 0 && alias_cliente.Length > 0 && cambio_mapa){
                 //Crear cliente
                 Manboss_cliente cliente = await core_login.CreateUserPass(nombre_cliente, correo_cliente, "correo", contrasenia_cliente, hash);
                 //Actualizar cliente
-                await core_registro.RegisterUser(cliente.Id, telefono_cliente, direccion_cliente, latitud, longitud);
+                await core_registro.RegisterUser(cliente.Id, telefono_cliente, alias_cliente, direccion_cliente, latitud, longitud);
                 //Ir al inicio
                 Ir_inicio(cliente);
             }else{

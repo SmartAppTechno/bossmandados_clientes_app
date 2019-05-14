@@ -1,20 +1,16 @@
 ﻿<Properties StartupConfiguration="{D9C3D6FE-0CBD-4DC5-8700-C6C1C42F07C4}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="BossMandados.DataAccess/ActivityData/LoginData.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="BossMandados.DataAccess/ActivityData/DireccionesData.cs">
     <Files>
-      <File FileName="Droid/Activities/PagarMandadoActivity.cs" Line="71" Column="37" />
-      <File FileName="Droid/Activities/MainActivity.cs" Line="187" Column="1" />
-      <File FileName="Droid/Activities/InicioActivity.cs" Line="103" Column="52" />
-      <File FileName="BossMandados.CoreLogic/ActivityCore/LoginCore.cs" Line="12" Column="1" />
-      <File FileName="BossMandados.DataAccess/ActivityData/LoginData.cs" Line="28" Column="1" />
+      <File FileName="Droid/Adapters/DireccionesAdapter.cs" Line="49" Column="37" />
+      <File FileName="Droid/Activities/MisDireccionesActivity.cs" Line="46" Column="76" />
+      <File FileName="BossMandados.CoreLogic/ActivityCore/DireccionesCore.cs" Line="21" Column="42" />
+      <File FileName="BossMandados.DataAccess/ActivityData/DireccionesData.cs" Line="18" Column="61" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.BossMandados.Droid AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.ZY322LSZZF" AndroidDesignerPreferredTheme="Theme.DeviceDefault" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <Breakpoint file="/Users/ricardo_espinosa/Documents/BossMandados/Droid/Activities/MainActivity.cs" relfile="Droid/Activities/MainActivity.cs" line="187" column="1" />
-      <Breakpoint file="/Users/ricardo_espinosa/Documents/BossMandados/Droid/Activities/MainActivity.cs" relfile="Droid/Activities/MainActivity.cs" line="188" column="32" />
-    </BreakpointStore>
+    <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.BossMandados.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.5C14346B-19A3-45EA-B5A7-D143626EC52B" />

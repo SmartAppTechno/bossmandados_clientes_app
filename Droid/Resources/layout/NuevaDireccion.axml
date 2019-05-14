@@ -40,6 +40,21 @@
                 android:name="com.google.android.gms.location.places.ui.PlaceAutocompleteFragment"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
+            <EditText
+                android:hint="Alias"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:background="@drawable/border_bottom"
+                android:textColor="#ffffff"
+                android:textColorHint="#ffffff"
+                android:textSize="11dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:id="@+id/direccion_alias" />
             <fragment
                 android:id="@+id/mapa_direccion"
                 class="com.google.android.gms.maps.MapFragment"

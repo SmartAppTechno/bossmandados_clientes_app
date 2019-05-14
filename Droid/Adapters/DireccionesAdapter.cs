@@ -44,6 +44,8 @@ namespace BossMandados.Droid.Adapters
                 view = convertView ?? activity.LayoutInflater.Inflate(Resource.Layout.Direcciones_item, parent, false);
                 TextView txt_direccion = view.FindViewById<TextView>(Resource.Id.txt_item_direccion);
                 txt_direccion.Text = direcciones[position].Direccion;
+                TextView txt_alias = view.FindViewById<TextView>(Resource.Id.txt_item_alias);
+                txt_alias.Text = direcciones[position].Alias;
                 view.Tag = position;
                 view.Click += DireccionClick;
                 return view;

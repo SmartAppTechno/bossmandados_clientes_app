@@ -47,16 +47,18 @@ namespace BossMandados.Droid
         private async void Registro_cliente(){
             TextView telefono = FindViewById<TextView>(Resource.Id.register_telefono);
             TextView direccion = FindViewById<TextView>(Resource.Id.register_direccion);
+            TextView alias = FindViewById<TextView>(Resource.Id.register_alias);
             string telefono_cliente = telefono.Text;
             string direccion_cliente = direccion.Text;
-            if (telefono_cliente.Length > 0 && direccion_cliente.Length > 0 && cambio_mapa){
+            string alias_cliente = alias.Text;
+            if (telefono_cliente.Length > 0 && direccion_cliente.Length > 0 && alias_cliente.Length > 0 && cambio_mapa){
                 //Obtener id del cliente
                 Context mContext = Application.Context;
                 ISharedPreferences prefs = PreferenceManager.GetDefaultSharedPreferences(mContext);
                 int sesion_id = prefs.GetInt("id", 0);
                 Manboss_cliente cliente = await core_registro.Get_Cliente(sesion_id);
                 //Actualizar cliente
-                await core_registro.RegisterUser(cliente.Id, telefono_cliente, direccion_cliente, latitud, longitud);
+                await core_registro.RegisterUser(cliente.Id, telefono_cliente, alias_cliente, direccion_cliente, latitud, longitud);
                 //Ir al inicio
                 Ir_inicio(cliente);
             }else{

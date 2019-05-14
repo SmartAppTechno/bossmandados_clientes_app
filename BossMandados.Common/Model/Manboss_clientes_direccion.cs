@@ -9,6 +9,9 @@ namespace BossMandados.Common.Model {
         [JsonProperty(PropertyName = "cliente")]
         public int Cliente { get; set; }
 
+        [JsonProperty(PropertyName = "alias")]
+        public string Alias { get; set; }
+
         [JsonProperty(PropertyName = "direccion")]
         public string Direccion { get; set; }
 

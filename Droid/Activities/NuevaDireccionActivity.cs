@@ -32,6 +32,7 @@ namespace BossMandados.Droid.Activities
         private double latitud = 0.0;
         private double longitud = 0.0;
         private string direccion = "";
+        private string alias = "";
         private Button crear;
         private TextView mensaje;
         private DireccionesCore core;
@@ -63,12 +64,14 @@ namespace BossMandados.Droid.Activities
 
         private async void Crear_direccion(){
             if(direccion != ""){
+                TextView campo_alias = FindViewById<TextView>(Resource.Id.direccion_alias);
+                alias = campo_alias.Text;
                 //Obtener id del cliente
                 Context mContext = Application.Context;
                 ISharedPreferences prefs = PreferenceManager.GetDefaultSharedPreferences(mContext);
                 int cliente = prefs.GetInt("id", 0);
                 //Actualizar cliente
-                await core.CrearDireccion(cliente, direccion, latitud, longitud);
+                await core.CrearDireccion(cliente, alias,direccion, latitud, longitud);
                 //Ir a direcciones
                 Intent direcciones = new Intent(this, typeof(MisDireccionesActivity));
                 StartActivity(direcciones);

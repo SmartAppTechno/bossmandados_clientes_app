@@ -7,6 +7,16 @@
     android:gravity="start"
     android:background="?android:selectableItemBackground">
     <TextView
+        android:text="Alias"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"
+        android:padding="25dp"
+        android:id="@+id/txt_item_alias"
+        android:textColor="@color/orders_text"
+        android:gravity="center" />
+    <TextView
         android:text="Dirección"
         android:textAppearance="?android:attr/textAppearanceSmall"
         android:layout_width="match_parent"

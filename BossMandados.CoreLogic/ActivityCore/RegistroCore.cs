@@ -11,12 +11,13 @@ namespace BossMandados.CoreLogic.ActivityCore
         {
             data = new RegistroData();
         }
-        public async Task<Manboss_cliente> RegisterUser(int id,string telefono,string direccion,float latitud,float longitud)
+        public async Task<Manboss_cliente> RegisterUser(int id,string telefono,string alias, string direccion,float latitud,float longitud)
         {
             Manboss_cliente user = new Manboss_cliente
             {
                 Id = id,
                 Telefono = telefono,
+                Alias = alias,
                 Direccion = direccion,
                 Latitud = latitud,
                 Longitud = longitud

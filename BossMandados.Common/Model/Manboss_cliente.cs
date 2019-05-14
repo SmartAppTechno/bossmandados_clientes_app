@@ -19,6 +19,9 @@ namespace BossMandados.Common.Model {
         [JsonProperty(PropertyName = "red_social")]
         public string Red_social { get; set; }
 
+        [JsonProperty(PropertyName = "alias")]
+        public string Alias { get; set; }
+
         [JsonProperty(PropertyName = "direccion")]
         public string Direccion { get; set; }
 

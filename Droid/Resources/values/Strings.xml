@@ -2,7 +2,7 @@
 <resources>
     <string name="app_name">Boss Mandados</string>
     <string name="facebook_app_id">1977066872590551</string>
-    <string name="google_maps">AIzaSyBbYYC0GtGH_ueQx57jNyGECOtXEZhrdtk</string>
+    <string name="google_maps">AIzaSyAyJW7bo9O7guiFiJYyQGzRxi51g8PtbTA</string>
     <string name="menuItem1">Nuevo Mandado</string>  
     <string name="menuItem2">Mandados en Proceso</string>  
     <string name="menuItem3">Historial de Mandados</string>
